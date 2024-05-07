@@ -1,0 +1,10 @@
+name = "The Enclave - Aux"
+prefix = "enc"
+author = "The Enclave"
+mainprefix = "z"
+
+[version]
+git_hash = 0
+
+[hemtt.release]
+archive = true
