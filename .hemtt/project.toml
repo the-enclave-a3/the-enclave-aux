@@ -8,3 +8,29 @@ git_hash = 0
 
 [hemtt.release]
 archive = true
+
+[hemtt.launch.default]
+workshop = [
+    "450814997",  # CBA
+    "1940589429", # JLTS
+    "2332457910", # JLTS TFAR Compat
+    "2058554822", # 3AS
+    "2215872933", # 3AS Terrains
+    "463939057",  # ACE
+    "935654483",  # LAGO Biken
+    "2320596778", # Legion Battlefields
+    "2162749089", # Legion Base
+    "894678801",  # TFAR Beta
+    "2369477168", # Adv Dev Tools
+    "1779063631", # ZEN
+    "2018593688", # ZEN ACE Compat
+    "1224892496", # GRAD Trenches
+    "2853193856", # MTI Core
+    "3203512867", # TGF
+]
+mission = "testbed.Stratis"
+parameters = [
+    "-noPause",
+    "-window",
+]
+

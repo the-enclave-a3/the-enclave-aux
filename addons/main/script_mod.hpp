@@ -17,6 +17,7 @@
 #define REQUIRED_CBA_VERSION {3,15,6}
 #define REQUIRED_ACE_VERSION {3,14,0,63}
 #define REQUIRED_MTI_VERSION {1,7,4,0}
+#define REQUIRED_TGF_VERSION {1,3,0,0}
 
 #include "script_debug.hpp"
 
