@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=38;
+		nextID=40;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1908.3947,28.352304,5868.6226};
-		dir[]={-0.51346886,-0.47916576,-0.71187204};
-		up[]={-0.28031081,0.87772256,-0.38862213};
-		aside[]={-0.81104064,-7.9075107e-008,0.58499873};
+		pos[]={1884.5648,32.44957,5866.6372};
+		dir[]={-0.25761449,-0.66130042,-0.7045061};
+		up[]={-0.22710824,0.75012034,-0.62107861};
+		aside[]={-0.93918443,-3.0267984e-008,0.34342888};
 	};
 };
 binarizationWanted=0;
@@ -27,13 +27,14 @@ sourceName="testbed";
 addons[]=
 {
 	"A3_Modules_F_Curator_Curator",
-	"A3_Characters_F"
+	"A3_Characters_F",
+	"enc_arsenal"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -47,6 +48,13 @@ class AddonsMetaData
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="enc_arsenal";
+			name="The Enclave - Arsenal";
+			author="The Enclave";
+			url="https://discord.gg/4MNdYYUvwK/";
 		};
 	};
 };
@@ -157,7 +165,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=3;
+		items=5;
 		class Item0
 		{
 			dataType="Logic";
@@ -294,6 +302,36 @@ class Mission
 			{
 			};
 			id=36;
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1880.4871,6.2601233,5841.4307};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=38;
+			type="enc_arsenal_common";
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1878.9525,6.2601233,5841.3584};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=39;
+			type="enc_arsenal_recon";
 		};
 	};
 	class Connections

@@ -15,3 +15,6 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgFactionClasses.hpp"
+#include "CfgEditorSubcategories.hpp"
+#include "CfgEditorCategories.hpp"

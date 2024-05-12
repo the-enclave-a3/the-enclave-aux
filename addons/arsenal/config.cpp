@@ -15,3 +15,6 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"
+#include "MTI_Arsenal_Whitelists.hpp"
+#include "ace_arsenal_actions.hpp"
