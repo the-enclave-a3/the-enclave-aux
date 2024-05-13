@@ -70,9 +70,6 @@ private _newMagsArray = "";
 } forEach _weaponMags;
 _newMagsArray = _newMagsArray select [0,(count _newMagsArray) - 1];
 
-// magwell stuff
-private _newMagWell = format [QGMAGWELL(%1),_newClassName];
-
 // build CfgWeapons entry
 private _cfgWeaponsEntry = format [
     "class %1;%8class %2: %1 {%8%9class WeaponSlotsInfo;%8};%8class GWEAPON(%3): %2 {%8%9scope = 2;%8%9baseWeapon = QGWEAPON(%3);%8%9author = AUTHOR;%8%9displayName = ""%7"";%8%8%9magazines[] = {%4};%8%9%10//modes[] = {%5};%8%9//muzzles[] = {%6};%8%8%9class WeaponSlotsInfo: WeaponSlotsInfo {%8%9%9class CowsSlot {%8%9%9%9//compatibleItems[] = {};%8%9%9};%8%9%9class PointerSlot {%8%9%9%9//compatibleItems[] = { RAILATTACHMENT_LIST };%8%9%9};%8%9};%8};%8",
@@ -85,7 +82,7 @@ private _cfgWeaponsEntry = format [
     _newDisplayName,
     toString[13,10],    // %8: CRLF
     toString[9],        // %9: HT
-    [format ["magazineWell[] = {QGMAGWELL(%1)};%2%3",_newMagWell,toString[13,10],toString[9]], ""] select _isMelee
+    [format ["magazineWell[] = {QGMAGWELL(%1)};%2%3",_newClassName,toString[13,10],toString[9]], ""] select _isMelee
 ];
 
 if (_isMelee) exitWith { [_cfgWeaponsEntry, "", "", [format [QGWEAPON(%1),_newClassName], []]] };
@@ -110,10 +107,10 @@ private _cfgMagazinesEntry = "";
 
 // build CfgMagazineWells entry
 private _cfgMagazineWellsEntry = format [
-    "class %3 {%1%2%4[] = {%5};%1};",
+    "class GMAGWELL(%3) {%1%2%4[] = {%5};%1};",
     toString[13,10],    // %1: CRLF
     toString[9],        // %2: HT
-    _newMagWell,
+    _newClassName,
     QUOTE(PREFIX),
     _newMagsArray
 ];
