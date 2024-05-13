@@ -5,6 +5,5 @@ class GMAGAZINE(rskf44): MTI_RSKF44_mag {
 	displayName = "[ENC] RSKF-44 8rnd Magazine";
 	count = 8;
 	//ammo = "MTI_RSKF44_ammo";
-	ammo = QGAMMO(pistol);
 };
 

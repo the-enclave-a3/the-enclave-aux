@@ -9,7 +9,7 @@ class GWEAPON(heavy_sword): LST_Heavy_Sword {
 	displayName = "[ENC] Heavy Sword";
 
 	magazines[] = {};
-	magazineWell[] = {QGMAGWELL(enc_heavy_sword_magwell)};
+	magazineWell[] = {};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this"};
 

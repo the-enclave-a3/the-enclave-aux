@@ -9,7 +9,7 @@ class GWEAPON(guard_shock_pike): LFP_Guard_Shock_Pike {
 	displayName = "[ENC] Guard Shock Pike";
 
 	magazines[] = {};
-	magazineWell[] = {QGMAGWELL(enc_guard_shock_pike_magwell)};
+	magazineWell[] = {};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this"};
 

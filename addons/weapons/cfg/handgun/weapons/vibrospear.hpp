@@ -9,7 +9,7 @@ class GWEAPON(vibrospear): LST_Spear {
 	displayName = "[ENC] Vibrospear";
 
 	magazines[] = {};
-	magazineWell[] = {QGMAGWELL(enc_vibrospear_magwell)};
+	magazineWell[] = {};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this"};
 

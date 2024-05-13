@@ -8,8 +8,8 @@ class GWEAPON(electrostaff): ls_weapon_electrostaff_melee {
 	author = AUTHOR;
 	displayName = "[ENC] Electrostaff";
 
-	magazines[] = {QGMAGAZINE(electrostaff)};
-	magazineWell[] = {QGMAGWELL(enc_electrostaff_magwell)};
+	magazines[] = {};
+	magazineWell[] = {};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this"};
 

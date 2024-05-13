@@ -21,5 +21,7 @@ class GWEAPON(dc17s_dual): MTI_DC17s_dual {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};
+
+	class XtdGearInfo {};
 };
 
