@@ -1,0 +1,10 @@
+class SFA_Base_mag;
+class GMAGAZINE(boltblaster_rifle): SFA_Base_mag {
+	scope = 2;
+	author = AUTHOR;
+	displayName = "[ENC] Boltblaster Mk2 Rifle 60rnd Magazine";
+	count = 60;
+	//ammo = "SFA_bullet_carbine_blue";
+	ammo = QGAMMO(rifle);
+};
+

@@ -22,7 +22,8 @@
 #include "script_debug.hpp"
 
 #ifndef RELEASE_BUILD
-//    #define DEBUG_ENABLED_COMMON
+//    #define DEBUG_ENABLED_ARSENAL
+    #define DEBUG_ENABLED_COMMON
 #endif
 
 #ifdef COMPONENT_BEAUTIFIED
