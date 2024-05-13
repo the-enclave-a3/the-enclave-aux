@@ -9,7 +9,7 @@ class GWEAPON(boltblaster_carbine): SFA_Boltblaster_Carbine2 {
 	displayName = "[ENC] Boltblaster Mk2 Carbine";
 
 	magazines[] = {QGMAGAZINE(boltblaster_carbine)};
-	magazineWell[] = {QGMAGWELL(enc_boltblaster_carbine_magwell)};
+	magazineWell[] = {QGMAGWELL(boltblaster_carbine)};
 	//modes[] = {"Single","FullAuto","close","short","medium"};
 	muzzles[] = {"this","Stun"};
 

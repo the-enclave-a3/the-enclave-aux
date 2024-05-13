@@ -9,7 +9,7 @@ class GWEAPON(t20_pistol): SFA_T20_p {
 	displayName = "[ENC] T-20 Pistol";
 
 	magazines[] = {QGMAGAZINE(t20_pistol)};
-	magazineWell[] = {QGMAGWELL(enc_t20_pistol_magwell)};
+	magazineWell[] = {QGMAGWELL(t20_pistol)};
 	//modes[] = {"Single","close","short","medium"};
 	muzzles[] = {"this","Stun"};
 

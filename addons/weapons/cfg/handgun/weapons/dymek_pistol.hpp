@@ -9,7 +9,7 @@ class GWEAPON(dymek_pistol): DymekBlasterPistol_F {
 	displayName = "[ENC] Dymek Pistol";
 
 	magazines[] = {QGMAGAZINE(dymek_pistol)};
-	magazineWell[] = {QGMAGWELL(enc_dymek_pistol_magwell)};
+	magazineWell[] = {QGMAGWELL(dymek_pistol)};
 	//modes[] = {"Single"};
 	muzzles[] = {"this","Stun"};
 

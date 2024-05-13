@@ -9,7 +9,7 @@ class GWEAPON(boltblaster_rifle): SFA_Boltblaster_rifle {
 	displayName = "[ENC] Boltblaster Mk2 Rifle";
 
 	magazines[] = {QGMAGAZINE(boltblaster_rifle)};
-	magazineWell[] = {QGMAGWELL(enc_boltblaster_rifle_magwell)};
+	magazineWell[] = {QGMAGWELL(boltblaster_rifle)};
 	//modes[] = {"Single","Burst","close","short","medium"};
 	muzzles[] = {"this","Stun"};
 

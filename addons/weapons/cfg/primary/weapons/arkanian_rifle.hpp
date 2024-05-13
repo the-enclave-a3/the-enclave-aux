@@ -9,7 +9,7 @@ class GWEAPON(arkanian_rifle): SFA_KOTOR_Arkanian_rifle {
 	displayName = "[ENC] Arkanian Rifle";
 
 	magazines[] = {QGMAGAZINE(arkanian_rifle)};
-	magazineWell[] = {QGMAGWELL(enc_arkanian_rifle_magwell)};
+	magazineWell[] = {QGMAGWELL(arkanian_rifle)};
 	//modes[] = {"Single","Burst","close","short","medium"};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {

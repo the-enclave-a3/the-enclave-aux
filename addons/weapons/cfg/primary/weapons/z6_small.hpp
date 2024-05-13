@@ -9,7 +9,7 @@ class GWEAPON(z6_small): MTI_Z6_Small {
 	displayName = "[ENC] Z-6";
 
 	magazines[] = {QGMAGAZINE(z6_small)};
-	magazineWell[] = {QGMAGWELL(enc_z6_small_magwell)};
+	magazineWell[] = {QGMAGWELL(z6_small)};
 	//modes[] = {"manual","close","short","medium","far_optic1","far_optic2"};
 	//muzzles[] = {"this"};
 

@@ -9,7 +9,7 @@ class GWEAPON(e11_stock): 3AS_E11Stock {
 	displayName = "[ENC] E-11 (Stock)";
 
 	magazines[] = {QGMAGAZINE(e11_stock)};
-	magazineWell[] = {QGMAGWELL(enc_e11_stock_magwell)};
+	magazineWell[] = {QGMAGWELL(e11_stock)};
 	//modes[] = {"Single","Burst","FullAuto"};
 	muzzles[] = {"this","Stun"};
 

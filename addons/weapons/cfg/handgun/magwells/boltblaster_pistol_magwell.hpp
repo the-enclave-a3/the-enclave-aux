@@ -1,3 +1,3 @@
-class enc_boltblaster_pistol_magwell {
+class GMAGWELL(boltblaster_pistol) {
 	enc[] = {QGMAGAZINE(boltblaster_pistol)};
 };

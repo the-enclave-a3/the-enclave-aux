@@ -9,7 +9,7 @@ class GWEAPON(dla13c_nostock): SFA_DLA13_C2 {
 	displayName = "[ENC] DLA-13C (No Stock)";
 
 	magazines[] = {QGMAGAZINE(dla13c_nostock)};
-	magazineWell[] = {QGMAGWELL(enc_dla13c_nostock_magwell)};
+	magazineWell[] = {QGMAGWELL(dla13c_nostock)};
 	//modes[] = {"Single","FullAuto","close","short","medium"};
 	muzzles[] = {"this","Stun"};
 

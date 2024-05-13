@@ -9,7 +9,7 @@ class GWEAPON(rps6_hp): MTI_RPS6_HP {
 	displayName = "[ENC] RPS-6 Heavy Projectile";
 
 	magazines[] = {QGMAGAZINE(rps6_hp_at),QGMAGAZINE(rps6_hp_aa)};
-	magazineWell[] = {QGMAGWELL(enc_rps6_hp_magwell)};
+	magazineWell[] = {QGMAGWELL(rps6_hp)};
 	//modes[] = {"Single","Overfly"};
 	//muzzles[] = {"this"};
 

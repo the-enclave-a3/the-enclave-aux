@@ -1,3 +1,3 @@
-class enc_dymek_pistol_magwell {
+class GMAGWELL(dymek_pistol) {
 	enc[] = {QGMAGAZINE(dymek_pistol)};
 };

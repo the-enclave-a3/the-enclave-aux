@@ -1,3 +1,3 @@
-class enc_arkanian_rifle_magwell {
+class GMAGWELL(arkanian_rifle) {
 	enc[] = {QGMAGAZINE(arkanian_rifle)};
 };

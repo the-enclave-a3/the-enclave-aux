@@ -9,7 +9,7 @@ class GWEAPON(boltblaster_sniper): SFA_Boltblaster_Sniper {
 	displayName = "[ENC] Boltblaster Mk2 Sniper";
 
 	magazines[] = {QGMAGAZINE(boltblaster_sniper)};
-	magazineWell[] = {QGMAGWELL(enc_boltblaster_sniper_magwell)};
+	magazineWell[] = {QGMAGWELL(boltblaster_sniper)};
 	//modes[] = {"Single"};
 	muzzles[] = {"this","Stun"};
 

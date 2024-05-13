@@ -11,7 +11,7 @@ class GWEAPON(dc17s_dual): MTI_DC17s_dual {
 	displayName = "[ENC] DC-17s (Dual)";
 
 	magazines[] = {QGMAGAZINE(dc17s_dual)};
-	magazineWell[] = {QGMAGWELL(enc_dc17s_dual_magwell)};
+	magazineWell[] = {QGMAGWELL(dc17s_dual)};
 	//modes[] = {"Single","close","short","medium"};
 	//muzzles[] = {"mti_weapons_core_Right","mti_weapons_core_Left"};
 
