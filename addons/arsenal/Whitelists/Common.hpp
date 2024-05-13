@@ -125,7 +125,9 @@ class Items {
 };
 
 class Magazines {
+    // Throwables
     MACRO_WHITELIST(MTI_EmergencyFlare);
+    MACRO_WHITELIST(MTI_HuntIRHandheld);
     MACRO_WHITELIST(MTI_SmokeWhite_impact);
     MACRO_WHITELIST(MTI_SmokeGreen);
     MACRO_WHITELIST(MTI_ThermalDetonator);
@@ -161,14 +163,181 @@ class Magazines {
     MACRO_WHITELIST(MTI_SmokeBlue_impact);
     MACRO_WHITELIST(MTI_SmokeOrange_impact);
 
+    // Explosives
     MACRO_WHITELIST(MTI_DetPack);
     MACRO_WHITELIST(MTI_EC01);
     MACRO_WHITELIST(APERSMineDispenser_Mag);
     MACRO_WHITELIST(ClaymoreDirectionalMine_Remote_Mag);
+
+    // 40mm UGLs
+    MACRO_WHITELIST(UGL_FlareWhite_F);
+    MACRO_WHITELIST(UGL_FlareGreen_F);
+    MACRO_WHITELIST(UGL_FlareRed_F);
+    MACRO_WHITELIST(UGL_FlareYellow_F);
+    MACRO_WHITELIST(MTI_UGL_EmergencyFlare);
+    MACRO_WHITELIST(UGL_FlareCIR_F);
+    MACRO_WHITELIST(MTI_40mm_mag_Smoke);
+    MACRO_WHITELIST(MTI_40mm_mag_Smoke_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeRed);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeRed_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeGreen);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeGreen_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeYellow);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeYellow_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokePurple);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokePurple_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeBlue);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeBlue_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeOrange);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeOrange_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_Smoke_impact);
+    MACRO_WHITELIST(MTI_40mm_mag_Smoke_impact_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeRed_impact);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeRed_impact_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeGreen_impact);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeGreen_impact_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeYellow_impact);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeYellow_impact_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokePurple_impact);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokePurple_impact_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeBlue_impact);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeBlue_impact_3rnd);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeOrange_impact);
+    MACRO_WHITELIST(MTI_40mm_mag_SmokeOrange_impact_3rnd);
+    MACRO_WHITELIST(ACE_HuntIR_M203);
+    MACRO_WHITELIST(MTI_40mm_mag_HE);
+    MACRO_WHITELIST(MTI_40mm_mag_mine);
+    MACRO_WHITELIST(MTI_40mm_mag_groundmarker_green);
+    MACRO_WHITELIST(MTI_40mm_mag_groundmarker_red);
+    MACRO_WHITELIST(MTI_40mm_mag_groundmarker_yellow);
+    MACRO_WHITELIST(MTI_40mm_mag_groundmarker_ir);
+    MACRO_WHITELIST(MTI_40mm_mag_cluster);
+    MACRO_WHITELIST(MTI_40mm_mag_cluster_airburst);
+    MACRO_WHITELIST(MTI_40mm_mag_canister);
+    MACRO_WHITELIST(MTI_40mm_mag_canister_white);
+    MACRO_WHITELIST(MTI_40mm_mag_shrapnel);
+    MACRO_WHITELIST(MTI_MED_UGL_Mag);
+
+    // Primary
+    MACRO_WHITELIST(GMAGAZINE(arkanian_rifle_mag));
+    MACRO_WHITELIST(GMAGAZINE(boltblaster_rifle_mag));
+    MACRO_WHITELIST(GMAGAZINE(causality_mag));
+    MACRO_WHITELIST(GMAGAZINE(zh73_mag));
+    MACRO_WHITELIST(GMAGAZINE(westar35s_mag));
+    MACRO_WHITELIST(GMAGAZINE(a280_mag));
+    MACRO_WHITELIST(GMAGAZINE(dla13_mag));
+    MACRO_WHITELIST(GMAGAZINE(t20_rifle_mag));
+    MACRO_WHITELIST(GMAGAZINE(dc15a_mag));
+    MACRO_WHITELIST(GMAGAZINE(dc15a_gl_mag));
+    MACRO_WHITELIST(GMAGAZINE(ee2_mag));
+    MACRO_WHITELIST(GMAGAZINE(e11_mag));
+    MACRO_WHITELIST(GMAGAZINE(e11_stock_mag));
+    MACRO_WHITELIST(GMAGAZINE(e11_gl_mag));
+    MACRO_WHITELIST(GMAGAZINE(arkanian_carbine_mag));
+    MACRO_WHITELIST(GMAGAZINE(boltblaster_carbine_mag));
+    MACRO_WHITELIST(GMAGAZINE(dla13c_mag));
+    MACRO_WHITELIST(GMAGAZINE(dla13c_nostock_mag));
+    MACRO_WHITELIST(GMAGAZINE(acpr_mag));
+    MACRO_WHITELIST(GMAGAZINE(westar35c_mag));
+    MACRO_WHITELIST(GMAGAZINE(dc15s_mag));
+    MACRO_WHITELIST(GMAGAZINE(boltblaster_sniper_mag));
+    MACRO_WHITELIST(GMAGAZINE(cd35_mag));
+    MACRO_WHITELIST(GMAGAZINE(x300_mag));
+    MACRO_WHITELIST(GMAGAZINE(dc15le_mag));
+    MACRO_WHITELIST(GMAGAZINE(dw32s_mag));
+    MACRO_WHITELIST(GMAGAZINE(valken38x_mag));
+    MACRO_WHITELIST(GMAGAZINE(acpa_mag));
+    MACRO_WHITELIST(GMAGAZINE(dp23_mag));
+    MACRO_WHITELIST(GMAGAZINE(dlt19_mag));
+    MACRO_WHITELIST(GMAGAZINE(t21_mag));
+    MACRO_WHITELIST(GMAGAZINE(dc15l_mag));
+    MACRO_WHITELIST(GMAGAZINE(z6_small_mag));
+    MACRO_WHITELIST(GMAGAZINE(dh17_mag));
+
+    // Handgun
+    MACRO_WHITELIST(GMAGAZINE(dc17s));
+    MACRO_WHITELIST(GMAGAZINE(se14r));
+    MACRO_WHITELIST(GMAGAZINE(westar35sa));
+    MACRO_WHITELIST(GMAGAZINE(ec17));
+    MACRO_WHITELIST(GMAGAZINE(se14c));
+    MACRO_WHITELIST(GMAGAZINE(dc17s_dual));
+    MACRO_WHITELIST(GMAGAZINE(rskf44));
+    MACRO_WHITELIST(GMAGAZINE(dc15sa));
+    MACRO_WHITELIST(GMAGAZINE(s5));
+    MACRO_WHITELIST(GMAGAZINE(t20_pistol));
+    MACRO_WHITELIST(GMAGAZINE(rk3));
+    MACRO_WHITELIST(GMAGAZINE(boltblaster_pistol));
+    MACRO_WHITELIST(GMAGAZINE(d200));
+    MACRO_WHITELIST(GMAGAZINE(dymek_pistol));
 };
 
 class Uniforms {};
 
 class Vests {};
 
-class Weapons {};
+class Weapons {
+    // Primary
+    MACRO_WHITELIST(GWEAPON(arkanian_rifle));
+    MACRO_WHITELIST(GWEAPON(boltblaster_rifle));
+    MACRO_WHITELIST(GWEAPON(causality));
+    MACRO_WHITELIST(GWEAPON(zh73));
+    MACRO_WHITELIST(GWEAPON(westar35s));
+    MACRO_WHITELIST(GWEAPON(a280));
+    MACRO_WHITELIST(GWEAPON(dla13));
+    MACRO_WHITELIST(GWEAPON(t20_rifle));
+    MACRO_WHITELIST(GWEAPON(dc15a));
+    MACRO_WHITELIST(GWEAPON(dc15a_gl));
+    MACRO_WHITELIST(GWEAPON(ee2));
+    MACRO_WHITELIST(GWEAPON(e11));
+    MACRO_WHITELIST(GWEAPON(e11_stock));
+    MACRO_WHITELIST(GWEAPON(e11_gl));
+    MACRO_WHITELIST(GWEAPON(arkanian_carbine));
+    MACRO_WHITELIST(GWEAPON(boltblaster_carbine));
+    MACRO_WHITELIST(GWEAPON(dla13c));
+    MACRO_WHITELIST(GWEAPON(dla13c_nostock));
+    MACRO_WHITELIST(GWEAPON(acpr));
+    MACRO_WHITELIST(GWEAPON(westar35c));
+    MACRO_WHITELIST(GWEAPON(dc15s));
+    MACRO_WHITELIST(GWEAPON(boltblaster_sniper));
+    MACRO_WHITELIST(GWEAPON(cd35));
+    MACRO_WHITELIST(GWEAPON(x300));
+    MACRO_WHITELIST(GWEAPON(dc15le));
+    MACRO_WHITELIST(GWEAPON(dw32s));
+    MACRO_WHITELIST(GWEAPON(valken38x));
+    MACRO_WHITELIST(GWEAPON(acpa));
+    MACRO_WHITELIST(GWEAPON(dp23));
+    MACRO_WHITELIST(GWEAPON(dlt19));
+    MACRO_WHITELIST(GWEAPON(t21));
+    MACRO_WHITELIST(GWEAPON(dc15l));
+    MACRO_WHITELIST(GWEAPON(z6_small));
+    MACRO_WHITELIST(GWEAPON(dh17));
+
+    // Handgun
+    MACRO_WHITELIST(GWEAPON(dc17s));
+    MACRO_WHITELIST(GWEAPON(vibrospear));
+    MACRO_WHITELIST(GWEAPON(electrostaff));
+    MACRO_WHITELIST(GWEAPON(guard_shock_pike));
+    MACRO_WHITELIST(GWEAPON(vibroblade_1));
+    MACRO_WHITELIST(GWEAPON(se14r));
+    MACRO_WHITELIST(GWEAPON(westar35sa));
+    MACRO_WHITELIST(GWEAPON(skirata_knife));
+    MACRO_WHITELIST(GWEAPON(ec17));
+    MACRO_WHITELIST(GWEAPON(se14c));
+    MACRO_WHITELIST(GWEAPON(vibroblade_2));
+    MACRO_WHITELIST(GWEAPON(vibroblade_3));
+    MACRO_WHITELIST(GWEAPON(dc17s_dual));
+    MACRO_WHITELIST(GWEAPON(clone_knife));
+    MACRO_WHITELIST(GWEAPON(rskf44));
+    MACRO_WHITELIST(GWEAPON(vibroblade_4));
+    MACRO_WHITELIST(GWEAPON(heavy_sword));
+    MACRO_WHITELIST(GWEAPON(dc15sa));
+    MACRO_WHITELIST(GWEAPON(s5));
+    MACRO_WHITELIST(GWEAPON(t20_pistol));
+    MACRO_WHITELIST(GWEAPON(vibroblade_5));
+    MACRO_WHITELIST(GWEAPON(rk3));
+    MACRO_WHITELIST(GWEAPON(vibroblade_6));
+    MACRO_WHITELIST(GWEAPON(boltblaster_pistol));
+    MACRO_WHITELIST(GWEAPON(d200));
+    MACRO_WHITELIST(GWEAPON(vibroblade_7));
+    MACRO_WHITELIST(GWEAPON(dymek_pistol));
+};
