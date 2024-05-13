@@ -1,5 +1,5 @@
-class SWLW_LS150_mag;
-class GMAGAZINE(ls150): SWLW_LS150_mag {
+class MTI_LS150_mag;
+class GMAGAZINE(ls150): MTI_LS150_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] LS-150 500rnd Magazine";

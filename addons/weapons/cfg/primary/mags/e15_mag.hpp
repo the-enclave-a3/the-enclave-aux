@@ -1,5 +1,5 @@
-class SFA_Base_mag;
-class GMAGAZINE(e15): SFA_Base_mag {
+class SFA_Heavy_mag;
+class GMAGAZINE(e15): SFA_Heavy_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] E-15 300rnd Magazine";

@@ -1,5 +1,5 @@
-class SFA_Base_mag;
-class GMAGAZINE(el34): SFA_Base_mag {
+class SFA_EL34_mag;
+class GMAGAZINE(el34): SFA_EL34_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] EL-34 300rnd Magazine";
