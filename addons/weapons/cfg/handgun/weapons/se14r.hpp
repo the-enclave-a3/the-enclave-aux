@@ -15,12 +15,12 @@ class GWEAPON(se14r): 3AS_SE14R {
 
 	class Stun: MTI_Stun_Muzzle {};
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-		class CowsSlot {
+//		class CowsSlot {
 			//compatibleItems[] = {};
-		};
-		class PointerSlot {
+//		};
+//		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
-		};
+//		};
 	};
 };
 

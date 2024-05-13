@@ -13,12 +13,12 @@ class GWEAPON(vibroblade_5): WBK_SciFi_Sword_1 {
 	//muzzles[] = {"this"};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-		class CowsSlot {
+//		class CowsSlot {
 			//compatibleItems[] = {};
-		};
-		class PointerSlot {
+//		};
+//		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
-		};
+//		};
 	};
 };
 

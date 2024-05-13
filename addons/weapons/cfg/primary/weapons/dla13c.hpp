@@ -16,12 +16,12 @@ class GWEAPON(dla13c): SFA_DLA13_C {
 	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-		class CowsSlot {
+//		class CowsSlot {
 			//compatibleItems[] = {};
-		};
-		class PointerSlot {
+//		};
+//		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
-		};
+//		};
 	};
 };
 

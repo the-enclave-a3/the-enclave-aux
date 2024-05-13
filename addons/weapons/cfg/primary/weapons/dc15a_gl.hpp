@@ -20,12 +20,12 @@ class GWEAPON(dc15a_gl): MTI_DC15A_GL {
 	};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-		class CowsSlot {
+//		class CowsSlot {
 			//compatibleItems[] = {};
-		};
-		class PointerSlot {
+//		};
+//		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
-		};
+//		};
 	};
 };
 

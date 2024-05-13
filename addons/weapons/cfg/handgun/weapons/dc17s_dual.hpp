@@ -14,12 +14,12 @@ class GWEAPON(dc17s_dual): MTI_DC17s_dual {
 	//muzzles[] = {"mti_weapons_core_Right","mti_weapons_core_Left"};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-		class CowsSlot {
+//		class CowsSlot {
 			//compatibleItems[] = {};
-		};
-		class PointerSlot {
+//		};
+//		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
-		};
+//		};
 	};
 
 	class XtdGearInfo {};
