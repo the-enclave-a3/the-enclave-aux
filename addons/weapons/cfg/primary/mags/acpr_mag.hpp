@@ -1,5 +1,5 @@
-class SWLW_acpr_Mag;
-class GMAGAZINE(acpr): SWLW_acpr_Mag {
+class MTI_ACPR_mag;
+class GMAGAZINE(acpr): MTI_ACPR_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] ACP-R 60rnd Magazine";

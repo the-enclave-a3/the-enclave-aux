@@ -1,5 +1,5 @@
-class SFA_Base_mag;
-class GMAGAZINE(causality): SFA_Base_mag {
+class SFA_Causality_mag;
+class GMAGAZINE(causality): SFA_Causality_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] Causality 60rnd Magazine";

@@ -7,7 +7,7 @@ class GWEAPON(dp23): MTI_DP23 {
 	author = AUTHOR;
 	displayName = "[ENC] DP-23";
 
-	magazines[] = {QGMAGAZINE(dp23_0),QGMAGAZINE(dp23_1)};
+	magazines[] = {QGMAGAZINE(dp23)};
 	magazineWell[] = {QGMAGWELL(enc_dp23_magwell)};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this","Stun"};

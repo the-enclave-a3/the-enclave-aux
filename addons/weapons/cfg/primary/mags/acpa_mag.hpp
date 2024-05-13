@@ -1,5 +1,5 @@
-class SWLW_acpa_Mag;
-class GMAGAZINE(acpa): SWLW_acpa_Mag {
+class MTI_ACPA_mag;
+class GMAGAZINE(acpa): MTI_ACPA_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] ACP-A 13rnd Magazine";

@@ -28,7 +28,6 @@ class Magazines: Magazines {
     MACRO_WHITELIST(GMAGAZINE(verpine_ai_latheniol));
     MACRO_WHITELIST(GMAGAZINE(verpine_tracking));
     MACRO_WHITELIST(GMAGAZINE(verpine_acid));
-    MACRO_WHITELIST(GMAGAZINE(verpine_improv));
     MACRO_WHITELIST(GMAGAZINE(dlt19x));
     MACRO_WHITELIST(GMAGAZINE(dc15x));
     MACRO_WHITELIST(GMAGAZINE(dc15x_stun));

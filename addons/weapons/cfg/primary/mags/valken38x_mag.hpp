@@ -1,5 +1,5 @@
-class 3AS_10Rnd_EC80_Mag;
-class GMAGAZINE(valken38x): 3AS_10Rnd_EC80_Mag {
+class MTI_Valken38X_mag;
+class GMAGAZINE(valken38x): MTI_Valken38X_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] Valken 38X 10rnd Magazine";

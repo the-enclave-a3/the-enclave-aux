@@ -1,5 +1,5 @@
-class SFA_Sniper_base_mag;
-class GMAGAZINE(cd35): SFA_Sniper_base_mag {
+class SFA_Boltblaster_Sniper_mag;
+class GMAGAZINE(cd35): SFA_Boltblaster_Sniper_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] CD-35 15rnd Magazine";

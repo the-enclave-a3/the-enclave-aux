@@ -1,5 +1,5 @@
-class 30Rnd_65x39_caseless_mag;
-class GMAGAZINE(a280): 30Rnd_65x39_caseless_mag {
+class WM_A280_mag;
+class GMAGAZINE(a280): WM_A280_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] A-280 60rnd Magazine";

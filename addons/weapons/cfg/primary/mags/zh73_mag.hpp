@@ -1,5 +1,5 @@
-class SWLW_ZH73_Mag;
-class GMAGAZINE(zh73): SWLW_ZH73_Mag {
+class MTI_ZH73_mag;
+class GMAGAZINE(zh73): MTI_ZH73_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] ZH-73 60rnd Magazine";

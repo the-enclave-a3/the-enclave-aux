@@ -1,5 +1,5 @@
-class SFA_Base_mag;
-class GMAGAZINE(boltblaster_carbine): SFA_Base_mag {
+class SFA_Boltblaster_mag;
+class GMAGAZINE(boltblaster_carbine): SFA_Boltblaster_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] Boltblaster Mk2 Carbine 60rnd Magazine";

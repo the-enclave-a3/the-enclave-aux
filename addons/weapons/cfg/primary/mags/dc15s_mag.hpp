@@ -1,5 +1,5 @@
-class JLTS_DC15S_mag;
-class GMAGAZINE(dc15s): JLTS_DC15S_mag {
+class MTI_DC15S_mag;
+class GMAGAZINE(dc15s): MTI_DC15S_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] DC-15S 80rnd Magazine";

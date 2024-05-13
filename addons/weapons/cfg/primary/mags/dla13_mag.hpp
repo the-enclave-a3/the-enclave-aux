@@ -1,5 +1,5 @@
-class SFA_Base_mag;
-class GMAGAZINE(dla13): SFA_Base_mag {
+class SFA_DLA13_mag;
+class GMAGAZINE(dla13): SFA_DLA13_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] DLA-13 60rnd Magazine";

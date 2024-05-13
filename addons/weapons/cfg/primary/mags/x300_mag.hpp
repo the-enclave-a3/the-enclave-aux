@@ -1,5 +1,5 @@
-class SFA_Sniper_base_mag;
-class GMAGAZINE(x300): SFA_Sniper_base_mag {
+class SFA_X300_Sniper_mag;
+class GMAGAZINE(x300): SFA_X300_Sniper_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] X-300 15rnd Magazine";

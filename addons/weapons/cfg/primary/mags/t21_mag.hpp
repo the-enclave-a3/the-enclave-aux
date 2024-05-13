@@ -1,5 +1,5 @@
-class 30Rnd_65x39_caseless_mag;
-class GMAGAZINE(t21): 30Rnd_65x39_caseless_mag {
+class WM_T21_mag;
+class GMAGAZINE(t21): WM_T21_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] T-21 250rnd Magazine";

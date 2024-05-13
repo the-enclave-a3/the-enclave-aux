@@ -1,5 +1,5 @@
-class SWLW_mag_base;
-class GMAGAZINE(westar35c): SWLW_mag_base {
+class SWLW_westar35c_Mag;
+class GMAGAZINE(westar35c): SWLW_westar35c_Mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] Westar-35C 35rnd Magazine";

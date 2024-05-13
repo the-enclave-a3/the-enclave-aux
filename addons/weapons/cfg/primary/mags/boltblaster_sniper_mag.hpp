@@ -1,5 +1,5 @@
-class SFA_Sniper_base_mag;
-class GMAGAZINE(boltblaster_sniper): SFA_Sniper_base_mag {
+class SFA_Boltblaster_Sniper_mag;
+class GMAGAZINE(boltblaster_sniper): SFA_Boltblaster_Sniper_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] Boltblaster Mk2 Sniper 15rnd Magazine";

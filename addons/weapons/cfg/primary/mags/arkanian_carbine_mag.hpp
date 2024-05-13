@@ -1,5 +1,5 @@
-class SFA_Base_mag;
-class GMAGAZINE(arkanian_carbine): SFA_Base_mag {
+class SFA_Arkanian_mag_C;
+class GMAGAZINE(arkanian_carbine): SFA_Arkanian_mag_C {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] Arkanian Carbine 60rnd Magazine";
