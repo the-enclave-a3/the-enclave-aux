@@ -8,7 +8,7 @@ class GWEAPON(s7): SFA_Guided_Onslaught_Launcher {
 	displayName = "[ENC] S-7";
 
 	magazines[] = {QGMAGAZINE(s7)};
-	magazineWell[] = {QGMAGWELL(enc_s7_magwell)};
+	magazineWell[] = {QGMAGWELL(s7)};
 	//modes[] = {"Single","TopDown"};
 	//muzzles[] = {"this"};
 

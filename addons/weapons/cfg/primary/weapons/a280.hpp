@@ -9,9 +9,11 @@ class GWEAPON(a280): WM_A280 {
 	displayName = "[ENC] A-280";
 
 	magazines[] = {QGMAGAZINE(a280)};
-	magazineWell[] = {QGMAGWELL(enc_a280_magwell)};
+	magazineWell[] = {QGMAGWELL(a280)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

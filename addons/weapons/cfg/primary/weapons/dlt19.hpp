@@ -9,9 +9,11 @@ class GWEAPON(dlt19): 3AS_DLT19 {
 	displayName = "[ENC] DLT-19";
 
 	magazines[] = {QGMAGAZINE(dlt19)};
-	magazineWell[] = {QGMAGWELL(enc_dlt19_magwell)};
+	magazineWell[] = {QGMAGWELL(dlt19)};
 	//modes[] = {"Single","FullAuto"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

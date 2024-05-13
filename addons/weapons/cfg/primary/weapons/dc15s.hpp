@@ -9,7 +9,7 @@ class GWEAPON(dc15s): MTI_DC15S {
 	displayName = "[ENC] DC-15S";
 
 	magazines[] = {QGMAGAZINE(dc15s)};
-	magazineWell[] = {QGMAGWELL(enc_dc15s_magwell)};
+	magazineWell[] = {QGMAGWELL(dc15s)};
 	//modes[] = {"Single","FullAuto","fullauto_medium","single_medium_optics1","single_far_optics2","ACE_Burst_far"};
 	//muzzles[] = {"this","Stun"};
 

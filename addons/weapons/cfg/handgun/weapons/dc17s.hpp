@@ -9,7 +9,7 @@ class GWEAPON(dc17s): MTI_DC17s {
 	displayName = "[ENC] DC-17s";
 
 	magazines[] = {QGMAGAZINE(dc17s)};
-	magazineWell[] = {QGMAGWELL(enc_dc17s_magwell)};
+	magazineWell[] = {QGMAGWELL(dc17s)};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this","Stun"};
 

@@ -9,10 +9,11 @@ class GWEAPON(s5): 3AS_S5_f {
 	displayName = "[ENC] S-5";
 
 	magazines[] = {QGMAGAZINE(s5)};
-	magazineWell[] = {QGMAGWELL(enc_s5_magwell)};
+	magazineWell[] = {QGMAGWELL(s5)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
 
+	class Stun: MTI_Stun_Muzzle {};
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {
 			//compatibleItems[] = {};

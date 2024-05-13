@@ -1,3 +1,3 @@
-class enc_rskf44_magwell {
+class GMAGWELL(rskf44) {
 	enc[] = {QGMAGAZINE(rskf44)};
 };

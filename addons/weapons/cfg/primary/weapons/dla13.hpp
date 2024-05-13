@@ -9,9 +9,11 @@ class GWEAPON(dla13): SFA_DLA13 {
 	displayName = "[ENC] DLA-13";
 
 	magazines[] = {QGMAGAZINE(dla13)};
-	magazineWell[] = {QGMAGWELL(enc_dla13_magwell)};
+	magazineWell[] = {QGMAGWELL(dla13)};
 	//modes[] = {"Single","Burst","close","short","medium"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

@@ -11,7 +11,9 @@ class GWEAPON(boltblaster_carbine): SFA_Boltblaster_Carbine2 {
 	magazines[] = {QGMAGAZINE(boltblaster_carbine)};
 	magazineWell[] = {QGMAGWELL(enc_boltblaster_carbine_magwell)};
 	//modes[] = {"Single","FullAuto","close","short","medium"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

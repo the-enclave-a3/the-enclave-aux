@@ -9,7 +9,7 @@ class GWEAPON(dlt19x): 3AS_DLT19X {
 	displayName = "[ENC] DLT-19X";
 
 	magazines[] = {QGMAGAZINE(dlt19x)};
-	magazineWell[] = {QGMAGWELL(enc_dlt19x_magwell)};
+	magazineWell[] = {QGMAGWELL(dlt19x)};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this"};
 

@@ -8,7 +8,7 @@ class GWEAPON(z6): MTI_Z6 {
 	displayName = "[ENC] Z-6";
 
 	magazines[] = {QGMAGAZINE(z6)};
-	magazineWell[] = {QGMAGWELL(enc_z6_magwell)};
+	magazineWell[] = {QGMAGWELL(z6)};
 	//modes[] = {"FullAuto"};
 	//muzzles[] = {"this"};
 

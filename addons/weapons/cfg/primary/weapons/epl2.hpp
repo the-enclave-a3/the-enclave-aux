@@ -8,7 +8,7 @@ class GWEAPON(epl2): MTI_EPL2 {
 	displayName = "[ENC] EPL-2";
 
 	magazines[] = {QGMAGAZINE(epl2)};
-	magazineWell[] = {QGMAGWELL(enc_epl2_magwell)};
+	magazineWell[] = {QGMAGWELL(epl2)};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this"};
 

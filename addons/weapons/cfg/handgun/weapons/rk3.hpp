@@ -9,10 +9,11 @@ class GWEAPON(rk3): 3AS_RK3 {
 	displayName = "[ENC] RK-3";
 
 	magazines[] = {QGMAGAZINE(rk3)};
-	magazineWell[] = {QGMAGWELL(enc_rk3_magwell)};
+	magazineWell[] = {QGMAGWELL(rk3)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
 
+	class Stun: MTI_Stun_Muzzle {};
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {
 			//compatibleItems[] = {};

@@ -8,7 +8,7 @@ class GWEAPON(plx1): MTI_PLX1 {
 	displayName = "[ENC] PLX-1";
 
 	magazines[] = {QGMAGAZINE(plx1_at),QGMAGAZINE(plx1_aa)};
-	magazineWell[] = {QGMAGWELL(enc_plx1_magwell)};
+	magazineWell[] = {QGMAGWELL(plx1)};
 	//modes[] = {"Single","TopDown"};
 	//muzzles[] = {"this"};
 

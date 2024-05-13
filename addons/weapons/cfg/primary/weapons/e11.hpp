@@ -9,9 +9,11 @@ class GWEAPON(e11): 3AS_E11 {
 	displayName = "[ENC] E-11";
 
 	magazines[] = {QGMAGAZINE(e11)};
-	magazineWell[] = {QGMAGWELL(enc_e11_magwell)};
+	magazineWell[] = {QGMAGWELL(e11)};
 	//modes[] = {"Single","Burst","FullAuto"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

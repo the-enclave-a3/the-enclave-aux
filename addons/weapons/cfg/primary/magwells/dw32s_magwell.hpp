@@ -1,3 +1,3 @@
-class enc_dw32s_magwell {
+class GMAGWELL(dw32s) {
 	enc[] = {QGMAGAZINE(dw32s)};
 };

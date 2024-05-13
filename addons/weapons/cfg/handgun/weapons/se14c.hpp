@@ -9,10 +9,11 @@ class GWEAPON(se14c): WM_SE14C {
 	displayName = "[ENC] SE-14c";
 
 	magazines[] = {QGMAGAZINE(se14c)};
-	magazineWell[] = {QGMAGWELL(enc_se14c_magwell)};
+	magazineWell[] = {QGMAGWELL(se14c)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
 
+	class Stun: MTI_Stun_Muzzle {};
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {
 			//compatibleItems[] = {};

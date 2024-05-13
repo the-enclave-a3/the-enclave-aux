@@ -9,7 +9,7 @@ class GWEAPON(ls150): MTI_LS150 {
 	displayName = "[ENC] LS-150";
 
 	magazines[] = {QGMAGAZINE(ls150)};
-	magazineWell[] = {QGMAGWELL(enc_ls150_magwell)};
+	magazineWell[] = {QGMAGWELL(ls150)};
 	//modes[] = {"FullAuto"};
 	//muzzles[] = {"this"};
 

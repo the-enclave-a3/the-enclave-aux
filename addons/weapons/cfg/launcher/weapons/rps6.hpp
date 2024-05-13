@@ -9,7 +9,7 @@ class GWEAPON(rps6): MTI_RPS6 {
 	displayName = "[ENC] RPS-6";
 
 	magazines[] = {QGMAGAZINE(rps6_at),QGMAGAZINE(rps6_he)};
-	magazineWell[] = {QGMAGWELL(enc_rps6_magwell)};
+	magazineWell[] = {QGMAGWELL(rps6)};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this"};
 

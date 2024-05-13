@@ -9,7 +9,7 @@ class GWEAPON(acpr): MTI_ACPR {
 	displayName = "[ENC] ACP-R";
 
 	magazines[] = {QGMAGAZINE(acpr)};
-	magazineWell[] = {QGMAGWELL(enc_acpr_magwell)};
+	magazineWell[] = {QGMAGWELL(acpr)};
 	//modes[] = {"FullAuto","close","short","medium"};
 	//muzzles[] = {"this","Stun"};
 

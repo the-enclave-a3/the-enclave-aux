@@ -1,3 +1,3 @@
-class enc_dlt19x_magwell {
+class GMAGWELL(dlt19x) {
 	enc[] = {QGMAGAZINE(dlt19x)};
 };

@@ -9,9 +9,11 @@ class GWEAPON(dh17): WM_DH17 {
 	displayName = "[ENC] DH-17";
 
 	magazines[] = {QGMAGAZINE(dh17)};
-	magazineWell[] = {QGMAGWELL(enc_dh17_magwell)};
+	magazineWell[] = {QGMAGWELL(dh17)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

@@ -27,6 +27,9 @@ workshop = [
     "1224892496", # GRAD Trenches
     "2853193856", # MTI Core
     "3203512867", # TGF
+    "3020930712", # SFA
+    "2954535667", # WMA
+
 ]
 mission = "testbed.Stratis"
 parameters = [

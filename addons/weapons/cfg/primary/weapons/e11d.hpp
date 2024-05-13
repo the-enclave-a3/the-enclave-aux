@@ -9,7 +9,7 @@ class GWEAPON(e11d): WM_E11D {
 	displayName = "[ENC] E-11D";
 
 	magazines[] = {QGMAGAZINE(e11d)};
-	magazineWell[] = {QGMAGWELL(enc_e11d_magwell)};
+	magazineWell[] = {QGMAGWELL(e11d)};
 	//modes[] = {"Single","FullAuto","close","short","medium"};
 	//muzzles[] = {"this"};
 

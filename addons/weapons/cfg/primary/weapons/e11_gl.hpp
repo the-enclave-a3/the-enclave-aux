@@ -10,9 +10,11 @@ class GWEAPON(e11_gl): 3AS_E11_GL {
 	displayName = "[ENC] E-11 GL";
 
 	magazines[] = {QGMAGAZINE(e11)};
-	magazineWell[] = {QGMAGWELL(enc_e11_magwell)};
+	magazineWell[] = {QGMAGWELL(e11)};
 	//modes[] = {"Single","Burst","FullAuto"};
-	//muzzles[] = {"this","3AS_E11GL"};
+	muzzles[] = {"this","3AS_E11GL","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class 3AS_E11GL: 3AS_E11GL {
 		magazines[] = { MACRO_GL_MAGAZINES };

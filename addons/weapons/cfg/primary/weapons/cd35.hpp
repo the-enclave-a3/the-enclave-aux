@@ -9,9 +9,11 @@ class GWEAPON(cd35): SFA_CD35_Sniper {
 	displayName = "[ENC] CD-35";
 
 	magazines[] = {QGMAGAZINE(cd35)};
-	magazineWell[] = {QGMAGWELL(enc_cd35_magwell)};
+	magazineWell[] = {QGMAGWELL(cd35)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

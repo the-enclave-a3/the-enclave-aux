@@ -9,10 +9,11 @@ class GWEAPON(westar35sa): SWLW_Westar35SA {
 	displayName = "[ENC] Westar-35s";
 
 	magazines[] = {QGMAGAZINE(westar35sa)};
-	magazineWell[] = {QGMAGWELL(enc_westar35sa_magwell)};
+	magazineWell[] = {QGMAGWELL(westar35sa)};
 	//modes[] = {"Single","close","short","medium"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
 
+	class Stun: MTI_Stun_Muzzle {};
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {
 			//compatibleItems[] = {};

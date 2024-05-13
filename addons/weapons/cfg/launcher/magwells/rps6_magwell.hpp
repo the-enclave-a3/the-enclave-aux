@@ -1,3 +1,3 @@
-class enc_rps6_magwell {
+class GMAGWELL(rps6) {
 	enc[] = {QGMAGAZINE(rps6_at),QGMAGAZINE(rps6_he)};
 };

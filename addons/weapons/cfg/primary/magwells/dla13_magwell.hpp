@@ -1,3 +1,3 @@
-class enc_dla13_magwell {
+class GMAGWELL(dla13) {
 	enc[] = {QGMAGAZINE(dla13)};
 };

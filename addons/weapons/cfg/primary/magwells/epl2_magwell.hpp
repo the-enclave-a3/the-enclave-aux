@@ -1,3 +1,3 @@
-class enc_epl2_magwell {
+class GMAGWELL(epl2) {
 	enc[] = {QGMAGAZINE(epl2)};
 };

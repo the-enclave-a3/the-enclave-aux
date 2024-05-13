@@ -1,3 +1,3 @@
-class enc_valken38x_magwell {
+class GMAGWELL(valken38x) {
 	enc[] = {QGMAGAZINE(valken38x)};
 };

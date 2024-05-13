@@ -9,9 +9,11 @@ class GWEAPON(x300): SFA_X300_Sniper {
 	displayName = "[ENC] X-300";
 
 	magazines[] = {QGMAGAZINE(x300)};
-	magazineWell[] = {QGMAGWELL(enc_x300_magwell)};
+	magazineWell[] = {QGMAGWELL(x300)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

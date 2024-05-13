@@ -9,9 +9,11 @@ class GWEAPON(ee2): MTI_EE2 {
 	displayName = "[ENC] EE-2";
 
 	magazines[] = {QGMAGAZINE(ee2)};
-	magazineWell[] = {QGMAGWELL(enc_ee2_magwell)};
+	magazineWell[] = {QGMAGWELL(ee2)};
 	//modes[] = {"Burst","Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

@@ -9,10 +9,11 @@ class GWEAPON(ec17): WM_EC17 {
 	displayName = "[ENC] EC-17";
 
 	magazines[] = {QGMAGAZINE(ec17)};
-	magazineWell[] = {QGMAGWELL(enc_ec17_magwell)};
+	magazineWell[] = {QGMAGWELL(ec17)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"This"};
+	muzzles[] = {"this","Stun"};
 
+	class Stun: MTI_Stun_Muzzle {};
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {
 			//compatibleItems[] = {};

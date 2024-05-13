@@ -8,7 +8,7 @@ class GWEAPON(rd4): MTI_RD4 {
 	displayName = "[ENC] RD-4";
 
 	magazines[] = {QGMAGAZINE(rd4_1rnd),QGMAGAZINE(rd4_6rnd),MACRO_GL_MAGAZINES};
-	magazineWell[] = {QGMAGWELL(enc_rd4_magwell)};
+	magazineWell[] = {QGMAGWELL(rd4)};
 	//modes[] = {"Single","close","short","medium"};
 	//muzzles[] = {"this"};
 

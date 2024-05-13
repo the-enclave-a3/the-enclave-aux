@@ -9,9 +9,11 @@ class GWEAPON(t21): WM_T21 {
 	displayName = "[ENC] T-21";
 
 	magazines[] = {QGMAGAZINE(t21)};
-	magazineWell[] = {QGMAGWELL(enc_t21_magwell)};
+	magazineWell[] = {QGMAGWELL(t21)};
 	//modes[] = {"manual","close","short","medium","far_optic1","far_optic2"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

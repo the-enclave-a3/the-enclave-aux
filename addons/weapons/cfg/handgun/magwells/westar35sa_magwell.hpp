@@ -1,3 +1,3 @@
-class enc_westar35sa_magwell {
+class GMAGWELL(westar35sa) {
 	enc[] = {QGMAGAZINE(westar35sa)};
 };

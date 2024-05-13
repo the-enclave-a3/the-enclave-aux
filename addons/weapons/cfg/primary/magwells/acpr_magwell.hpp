@@ -1,3 +1,3 @@
-class enc_acpr_magwell {
+class GMAGWELL(acpr) {
 	enc[] = {QGMAGAZINE(acpr)};
 };

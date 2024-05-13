@@ -11,7 +11,9 @@ class GWEAPON(arkanian_carbine): SFA_KOTOR_Arkanian_C {
 	magazines[] = {QGMAGAZINE(arkanian_carbine)};
 	magazineWell[] = {QGMAGWELL(enc_arkanian_carbine_magwell)};
 	//modes[] = {"Single","Burst","close","short","medium"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

@@ -9,9 +9,11 @@ class GWEAPON(causality): SFA_Causality {
 	displayName = "[ENC] Causality";
 
 	magazines[] = {QGMAGAZINE(causality)};
-	magazineWell[] = {QGMAGWELL(enc_causality_magwell)};
+	magazineWell[] = {QGMAGWELL(causality)};
 	//modes[] = {"Single","Burst","close","short","medium"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

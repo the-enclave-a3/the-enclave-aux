@@ -1,3 +1,3 @@
-class enc_x300_magwell {
+class GMAGWELL(x300) {
 	enc[] = {QGMAGAZINE(x300)};
 };

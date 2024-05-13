@@ -11,7 +11,9 @@ class GWEAPON(e11_stock): 3AS_E11Stock {
 	magazines[] = {QGMAGAZINE(e11_stock)};
 	magazineWell[] = {QGMAGWELL(enc_e11_stock_magwell)};
 	//modes[] = {"Single","Burst","FullAuto"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

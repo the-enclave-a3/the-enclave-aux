@@ -1,3 +1,3 @@
-class enc_causality_magwell {
+class GMAGWELL(causality) {
 	enc[] = {QGMAGAZINE(causality)};
 };

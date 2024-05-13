@@ -9,9 +9,11 @@ class GWEAPON(valken38x): MTI_Valken38X {
 	displayName = "[ENC] Valken 38X";
 
 	magazines[] = {QGMAGAZINE(valken38x)};
-	magazineWell[] = {QGMAGWELL(enc_valken38x_magwell)};
+	magazineWell[] = {QGMAGWELL(valken38x)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

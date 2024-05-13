@@ -11,8 +11,9 @@ class GWEAPON(dymek_pistol): DymekBlasterPistol_F {
 	magazines[] = {QGMAGAZINE(dymek_pistol)};
 	magazineWell[] = {QGMAGWELL(enc_dymek_pistol_magwell)};
 	//modes[] = {"Single"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
 
+	class Stun: MTI_Stun_Muzzle {};
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {
 			//compatibleItems[] = {};

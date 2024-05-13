@@ -9,7 +9,7 @@ class GWEAPON(el34): SFA_EL34 {
 	displayName = "[ENC] EL-34";
 
 	magazines[] = {QGMAGAZINE(el34)};
-	magazineWell[] = {QGMAGWELL(enc_el34_magwell)};
+	magazineWell[] = {QGMAGWELL(el34)};
 	//modes[] = {"manual","close","short","medium","far_optic1","far_optic2"};
 	//muzzles[] = {"this"};
 

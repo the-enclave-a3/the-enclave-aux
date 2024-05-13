@@ -1,3 +1,3 @@
-class enc_s5_magwell {
+class GMAGWELL(s5) {
 	enc[] = {QGMAGAZINE(s5)};
 };

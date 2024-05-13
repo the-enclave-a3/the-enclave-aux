@@ -11,7 +11,9 @@ class GWEAPON(t20_rifle): SFA_T20_rifle {
 	magazines[] = {QGMAGAZINE(t20_rifle)};
 	magazineWell[] = {QGMAGWELL(enc_t20_rifle_magwell)};
 	//modes[] = {"Single","Burst","close","short","medium"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

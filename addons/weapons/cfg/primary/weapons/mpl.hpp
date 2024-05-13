@@ -8,7 +8,7 @@ class GWEAPON(mpl): 3AS_MPL_F {
 	displayName = "[ENC] MPL";
 
 	magazines[] = {QGMAGAZINE(mpl)};
-	magazineWell[] = {QGMAGWELL(enc_mpl_magwell)};
+	magazineWell[] = {QGMAGWELL(mpl)};
 	//modes[] = {"Single","Burst"};
 	//muzzles[] = {"this"};
 

@@ -9,7 +9,7 @@ class GWEAPON(dw32s): MTI_DW32S {
 	displayName = "[ENC] DW-32S";
 
 	magazines[] = {QGMAGAZINE(dw32s)};
-	magazineWell[] = {QGMAGWELL(enc_dw32s_magwell)};
+	magazineWell[] = {QGMAGWELL(dw32s)};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this","Stun"};
 

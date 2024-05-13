@@ -10,7 +10,7 @@ class GWEAPON(westarm5_gl): MTI_WestarM5_GL {
 	displayName = "[ENC] Westar-M5 GL";
 
 	magazines[] = {QGMAGAZINE(westarm5)};
-	magazineWell[] = {QGMAGWELL(enc_westarm5_magwell)};
+	magazineWell[] = {QGMAGWELL(westarm5)};
 	//modes[] = {"Single","Burst","FullAuto"};
 	//muzzles[] = {"this","Stun","3AS_WestarM5_GL_F"};
 

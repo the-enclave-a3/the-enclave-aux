@@ -9,7 +9,7 @@ class GWEAPON(dc19sa): MTI_DC19SA {
 	displayName = "[ENC] DC-19s";
 
 	magazines[] = {QGMAGAZINE(dc19sa)};
-	magazineWell[] = {QGMAGWELL(enc_dc19sa_magwell)};
+	magazineWell[] = {QGMAGWELL(dc19sa)};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this","Stun"};
 

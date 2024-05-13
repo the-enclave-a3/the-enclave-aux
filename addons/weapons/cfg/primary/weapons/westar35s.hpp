@@ -1,5 +1,6 @@
 class SWLW_rifle_base;
 class SWLW_Westar35S: SWLW_rifle_base {
+	class Scatter;
 	class WeaponSlotsInfo;
 };
 class GWEAPON(westar35s): SWLW_Westar35S {
@@ -9,9 +10,15 @@ class GWEAPON(westar35s): SWLW_Westar35S {
 	displayName = "[ENC] Westar-35S";
 
 	magazines[] = {QGMAGAZINE(westar35s)};
-	magazineWell[] = {QGMAGWELL(enc_westar35s_magwell)};
+	magazineWell[] = {QGMAGWELL(westar35s)};
 	//modes[] = {"Single","close","short","medium"};
-	//muzzles[] = {"this","Scatter"};
+	muzzles[] = {"this","Scatter","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
+
+	class Scatter: Scatter {
+		magazines[] = { QGMAGAZINE(westar35s_scatter) };
+	};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

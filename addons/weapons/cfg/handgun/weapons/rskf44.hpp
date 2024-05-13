@@ -9,7 +9,7 @@ class GWEAPON(rskf44): MTI_RSKF44 {
 	displayName = "[ENC] RSKF-44";
 
 	magazines[] = {QGMAGAZINE(rskf44)};
-	magazineWell[] = {QGMAGWELL(enc_rskf44_magwell)};
+	magazineWell[] = {QGMAGWELL(rskf44)};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this","Stun"};
 

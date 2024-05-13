@@ -9,7 +9,7 @@ class GWEAPON(acpa): MTI_ACPA {
 	displayName = "[ENC] ACP-A";
 
 	magazines[] = {QGMAGAZINE(acpa)};
-	magazineWell[] = {QGMAGWELL(enc_acpa_magwell)};
+	magazineWell[] = {QGMAGWELL(acpa)};
 	//modes[] = {"Single","close","short","medium"};
 	//muzzles[] = {"this","Stun"};
 

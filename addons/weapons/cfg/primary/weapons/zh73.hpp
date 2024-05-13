@@ -9,7 +9,7 @@ class GWEAPON(zh73): MTI_ZH73 {
 	displayName = "[ENC] ZH-73";
 
 	magazines[] = {QGMAGAZINE(zh73)};
-	magazineWell[] = {QGMAGWELL(enc_zh73_magwell)};
+	magazineWell[] = {QGMAGWELL(zh73)};
 	//modes[] = {"Single","FullAuto"};
 	//muzzles[] = {"this","Stun"};
 

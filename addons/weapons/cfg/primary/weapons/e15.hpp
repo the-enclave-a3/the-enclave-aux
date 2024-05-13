@@ -9,7 +9,7 @@ class GWEAPON(e15): SFA_E15 {
 	displayName = "[ENC] E-15";
 
 	magazines[] = {QGMAGAZINE(e15)};
-	magazineWell[] = {QGMAGWELL(enc_e15_magwell)};
+	magazineWell[] = {QGMAGWELL(e15)};
 	//modes[] = {"manual","close","short","medium","far_optic1","far_optic2"};
 	//muzzles[] = {"this"};
 

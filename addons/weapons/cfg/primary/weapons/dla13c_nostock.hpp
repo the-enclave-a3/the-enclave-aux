@@ -11,7 +11,9 @@ class GWEAPON(dla13c_nostock): SFA_DLA13_C2 {
 	magazines[] = {QGMAGAZINE(dla13c_nostock)};
 	magazineWell[] = {QGMAGWELL(enc_dla13c_nostock_magwell)};
 	//modes[] = {"Single","FullAuto","close","short","medium"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
+
+	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

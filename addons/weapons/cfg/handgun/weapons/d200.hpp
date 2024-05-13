@@ -9,10 +9,11 @@ class GWEAPON(d200): SFA_D200 {
 	displayName = "[ENC] D-200";
 
 	magazines[] = {QGMAGAZINE(d200)};
-	magazineWell[] = {QGMAGWELL(enc_d200_magwell)};
+	magazineWell[] = {QGMAGWELL(d200)};
 	//modes[] = {"Single","close","short","medium"};
-	//muzzles[] = {"this"};
+	muzzles[] = {"this","Stun"};
 
+	class Stun: MTI_Stun_Muzzle {};
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {
 			//compatibleItems[] = {};

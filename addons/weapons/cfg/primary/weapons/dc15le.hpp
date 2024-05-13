@@ -9,7 +9,7 @@ class GWEAPON(dc15le): MTI_DC15LE {
 	displayName = "[ENC] DC-15LE";
 
 	magazines[] = {QGMAGAZINE(dc15le)};
-	magazineWell[] = {QGMAGWELL(enc_dc15le_magwell)};
+	magazineWell[] = {QGMAGWELL(dc15le)};
 	//modes[] = {"Single"};
 	//muzzles[] = {"this","Stun"};
 
