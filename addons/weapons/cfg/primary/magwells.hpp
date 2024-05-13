@@ -47,3 +47,7 @@
 #include "magwells\verpine_magwell.hpp"
 #include "magwells\dlt19x_magwell.hpp"
 #include "magwells\dc15x_magwell.hpp"
+
+#include "magwells\epl2_magwell.hpp"
+#include "magwells\rd4_magwell.hpp"
+#include "magwells\mpl_magwell.hpp"

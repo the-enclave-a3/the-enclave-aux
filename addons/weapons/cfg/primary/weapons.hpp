@@ -47,3 +47,7 @@
 #include "weapons\verpine.hpp"
 #include "weapons\dlt19x.hpp"
 #include "weapons\dc15x.hpp"
+
+#include "weapons\epl2.hpp"
+#include "weapons\rd4.hpp"
+#include "weapons\mpl.hpp"

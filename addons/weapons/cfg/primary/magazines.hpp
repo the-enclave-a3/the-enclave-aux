@@ -47,3 +47,7 @@
 #include "mags\verpine_mag.hpp"
 #include "mags\dlt19x_mag.hpp"
 #include "mags\dc15x_mag.hpp"
+
+#include "mags\epl2_mag.hpp"
+#include "mags\rd4_mag.hpp"
+#include "mags\mpl_mag.hpp"

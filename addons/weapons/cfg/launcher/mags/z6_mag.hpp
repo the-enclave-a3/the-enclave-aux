@@ -5,6 +5,4 @@ class GMAGAZINE(z6): MTI_Z6_mag {
 	displayName = "[ENC] Z-6 600rnd Magazine";
 	count = 600;
 	//ammo = "3AS_Chaingun_Ammo";
-	ammo = QGAMMO(launcher);
 };
-

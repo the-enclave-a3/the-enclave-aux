@@ -5,6 +5,5 @@ class GMAGAZINE(s7): SFA_Launcher_Guided_Mag {
 	displayName = "[ENC] S-7 1rnd Magazine";
 	count = 1;
 	//ammo = "SFA_Guided_Rocket";
-	ammo = QGAMMO(launcher);
 };
 

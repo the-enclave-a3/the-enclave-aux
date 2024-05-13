@@ -13,6 +13,5 @@ class GMAGAZINE(plx1_aa): MTI_PLX1_mag_AA {
 	displayName = "[ENC] PLX-1 3rnd AA Rocket";
 	count = 3;
 	//ammo = "M_Titan_AA";
-	ammo = QGAMMO(launcher);
 };
 
