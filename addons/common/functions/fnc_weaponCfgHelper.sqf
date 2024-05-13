@@ -75,7 +75,7 @@ private _newMagWell = format [QGMAGWELL(%1),_newClassName];
 
 // build CfgWeapons entry
 private _cfgWeaponsEntry = format [
-    "class %1;%8class %2: %1 {%8%9class WeaponSlotsInfo;%8};%8class GWEAPON(%3): %2 {%8%9scope = 2;%8%9author = AUTHOR;%8%9displayName = ""%7"";%8%8%9magazines[] = {%4};%8%9%10//modes[] = {%5};%8%9//muzzles[] = {%6};%8%8%9class WeaponSlotsInfo: WeaponSlotsInfo {%8%9%9class CowsSlot {%8%9%9%9//compatibleItems[] = {};%8%9%9};%8%9%9class PointerSlot {%8%9%9%9//compatibleItems[] = { RAILATTACHMENT_LIST };%8%9%9};%8%9};%8};%8",
+    "class %1;%8class %2: %1 {%8%9class WeaponSlotsInfo;%8};%8class GWEAPON(%3): %2 {%8%9scope = 2;%8%9baseWeapon = QGWEAPON(%3);%8%9author = AUTHOR;%8%9displayName = ""%7"";%8%8%9magazines[] = {%4};%8%9%10//modes[] = {%5};%8%9//muzzles[] = {%6};%8%8%9class WeaponSlotsInfo: WeaponSlotsInfo {%8%9%9class CowsSlot {%8%9%9%9//compatibleItems[] = {};%8%9%9};%8%9%9class PointerSlot {%8%9%9%9//compatibleItems[] = { RAILATTACHMENT_LIST };%8%9%9};%8%9};%8};%8",
     configName _weaponParent,
     _className,
     _newClassName,
