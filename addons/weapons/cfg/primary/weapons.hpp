@@ -32,3 +32,14 @@
 #include "weapons\dc15l.hpp"
 #include "weapons\z6_small.hpp"
 #include "weapons\dh17.hpp"
+
+#include "weapons\e11d.hpp"
+#include "weapons\dc15c_gl.hpp"
+#include "weapons\westarm5_gl.hpp"
+#include "weapons\westarm5.hpp"
+#include "weapons\dc15c.hpp"
+
+#include "weapons\e15.hpp"
+#include "weapons\el34.hpp"
+#include "weapons\t20_ac.hpp"
+#include "weapons\ls150.hpp"

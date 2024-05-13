@@ -32,3 +32,14 @@
 #include "magwells\dc15l_magwell.hpp"
 #include "magwells\z6_small_magwell.hpp"
 #include "magwells\dh17_magwell.hpp"
+
+#include "magwells\e11d_magwell.hpp"
+#include "magwells\dc15c_gl_magwell.hpp"
+#include "magwells\westarm5_gl_magwell.hpp"
+#include "magwells\westarm5_magwell.hpp"
+#include "magwells\dc15c_magwell.hpp"
+
+#include "magwells\e15_magwell.hpp"
+#include "magwells\el34_magwell.hpp"
+#include "magwells\t20_ac_magwell.hpp"
+#include "magwells\ls150_magwell.hpp"

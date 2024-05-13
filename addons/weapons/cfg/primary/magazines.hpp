@@ -32,3 +32,14 @@
 #include "mags\dc15l_mag.hpp"
 #include "mags\z6_small_mag.hpp"
 #include "mags\dh17_mag.hpp"
+
+#include "mags\e11d_mag.hpp"
+#include "mags\dc15c_gl_mag.hpp"
+#include "mags\westarm5_gl_mag.hpp"
+#include "mags\westarm5_mag.hpp"
+#include "mags\dc15c_mag.hpp"
+
+#include "mags\e15_mag.hpp"
+#include "mags\el34_mag.hpp"
+#include "mags\t20_ac_mag.hpp"
+#include "mags\ls150_mag.hpp"
