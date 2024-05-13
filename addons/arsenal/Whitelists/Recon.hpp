@@ -35,6 +35,14 @@ class Magazines: Magazines {
     MACRO_WHITELIST(GMAGAZINE(dc15x_ai_latheniol));
 
     MACRO_WHITELIST(GMAGAZINE(dc19sa));
+
+    MACRO_WHITELIST(MTI_1Rnd_Mortar_HE);
+    MACRO_WHITELIST(MTI_1Rnd_Mortar_Smoke);
+    MACRO_WHITELIST(MTI_1Rnd_Mortar_Smoke_Red);
+    MACRO_WHITELIST(MTI_1Rnd_Mortar_Illum);
+    MACRO_WHITELIST(MTI_1Rnd_Mortar_Guided);
+    MACRO_WHITELIST(MTI_1Rnd_Mortar_LG);
+    MACRO_WHITELIST(MTI_1Rnd_Mortar_Smoke_Halothane);
 };
 
 class Uniforms: Uniforms {};
@@ -47,4 +55,6 @@ class Weapons: Weapons {
     MACRO_WHITELIST(GWEAPON(dc15x));
 
     MACRO_WHITELIST(GWEAPON(dc19sa));
+
+    MACRO_WHITELIST(MTI_Mortar_Carry);
 };
