@@ -268,6 +268,13 @@ class Magazines {
     MACRO_WHITELIST(GMAGAZINE(boltblaster_pistol));
     MACRO_WHITELIST(GMAGAZINE(d200));
     MACRO_WHITELIST(GMAGAZINE(dymek_pistol));
+
+    // Launcher
+    MACRO_WHITELIST(GMAGAZINE(rps6_hp_at));
+    MACRO_WHITELIST(GMAGAZINE(rps6_hp_aa));
+    MACRO_WHITELIST(GMAGAZINE(rps6_at));
+    MACRO_WHITELIST(GMAGAZINE(rps6_he));
+    MACRO_WHITELIST(GMAGAZINE(rps6_d));
 };
 
 class Uniforms {};
@@ -339,4 +346,9 @@ class Weapons {
     MACRO_WHITELIST(GWEAPON(d200));
     MACRO_WHITELIST(GWEAPON(vibroblade_7));
     MACRO_WHITELIST(GWEAPON(dymek_pistol));
+
+    // Launcher
+    MACRO_WHITELIST(GWEAPON(rps6_hp));
+    MACRO_WHITELIST(GWEAPON(rps6));
+    MACRO_WHITELIST(GWEAPON(rps6_d_loaded));
 };

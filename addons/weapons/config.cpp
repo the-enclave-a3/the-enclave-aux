@@ -19,3 +19,4 @@ class CfgPatches {
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgWeapons.hpp"
+#include "CBA_DisposableLaunchers.hpp"
