@@ -1,5 +1,5 @@
-class 30Rnd_65x39_caseless_mag;
-class GMAGAZINE(e11d): 30Rnd_65x39_caseless_mag {
+class WM_E11D_Mag;
+class GMAGAZINE(e11d): WM_E11D_Mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] E-11D 60rnd Magazine";

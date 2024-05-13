@@ -1,5 +1,5 @@
-class 3AS_40Rnd_EC40_Mag;
-class GMAGAZINE(dc15c): 3AS_40Rnd_EC40_Mag {
+class MTI_DC15C_mag;
+class GMAGAZINE(dc15c): MTI_DC15C_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] DC-15C 40rnd Magazine";
