@@ -20,6 +20,7 @@ class GWEAPON(dc15sa): MTI_DC15SA {
 //		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
 //		};
+		class MuzzleSlot {};
 	};
 };
 
