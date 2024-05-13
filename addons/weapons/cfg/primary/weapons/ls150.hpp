@@ -4,6 +4,7 @@ class MTI_LS150: ls_weapon_ls150_primary {
 };
 class GWEAPON(ls150): MTI_LS150 {
 	scope = 2;
+	baseWeapon = QGWEAPON(ls150);
 	author = AUTHOR;
 	displayName = "[ENC] LS-150";
 

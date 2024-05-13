@@ -4,6 +4,7 @@ class WM_A280: arifle_MX_Base_F {
 };
 class GWEAPON(a280): WM_A280 {
 	scope = 2;
+	baseWeapon = QGWEAPON(a280);
 	author = AUTHOR;
 	displayName = "[ENC] A-280";
 

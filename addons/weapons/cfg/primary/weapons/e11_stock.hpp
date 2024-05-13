@@ -4,6 +4,7 @@ class 3AS_E11Stock: 3AS_E11_Base_F {
 };
 class GWEAPON(e11_stock): 3AS_E11Stock {
 	scope = 2;
+	baseWeapon = QGWEAPON(e11_stock);
 	author = AUTHOR;
 	displayName = "[ENC] E-11 (Stock)";
 

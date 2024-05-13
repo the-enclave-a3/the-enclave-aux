@@ -4,6 +4,7 @@ class MTI_DP23: JLTS_DP23 {
 };
 class GWEAPON(dp23): MTI_DP23 {
 	scope = 2;
+	baseWeapon = QGWEAPON(dp23);
 	author = AUTHOR;
 	displayName = "[ENC] DP-23";
 

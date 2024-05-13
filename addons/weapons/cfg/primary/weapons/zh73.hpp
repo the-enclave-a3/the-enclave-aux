@@ -4,6 +4,7 @@ class MTI_ZH73: SWLW_ZH73 {
 };
 class GWEAPON(zh73): MTI_ZH73 {
 	scope = 2;
+	baseWeapon = QGWEAPON(zh73);
 	author = AUTHOR;
 	displayName = "[ENC] ZH-73";
 

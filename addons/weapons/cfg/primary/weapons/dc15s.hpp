@@ -4,6 +4,7 @@ class MTI_DC15S: JLTS_DC15S {
 };
 class GWEAPON(dc15s): MTI_DC15S {
 	scope = 2;
+	baseWeapon = QGWEAPON(dc15s);
 	author = AUTHOR;
 	displayName = "[ENC] DC-15S";
 

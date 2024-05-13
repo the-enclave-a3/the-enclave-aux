@@ -4,6 +4,7 @@ class SFA_DLA13: SFA_rifle_base {
 };
 class GWEAPON(dla13): SFA_DLA13 {
 	scope = 2;
+	baseWeapon = QGWEAPON(dla13);
 	author = AUTHOR;
 	displayName = "[ENC] DLA-13";
 

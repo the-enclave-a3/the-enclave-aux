@@ -4,6 +4,7 @@ class LFP_Skirata_Knife: Pistol_Base_F {
 };
 class GWEAPON(skirata_knife): LFP_Skirata_Knife {
 	scope = 2;
+	baseWeapon = QGWEAPON(skirata_knife);
 	author = AUTHOR;
 	displayName = "[ENC] Skirata Knife";
 

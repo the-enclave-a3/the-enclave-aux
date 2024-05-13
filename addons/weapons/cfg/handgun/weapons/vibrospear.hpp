@@ -4,6 +4,7 @@ class LST_Spear: WBK_brush_axe {
 };
 class GWEAPON(vibrospear): LST_Spear {
 	scope = 2;
+	baseWeapon = QGWEAPON(vibrospear);
 	author = AUTHOR;
 	displayName = "[ENC] Vibrospear";
 

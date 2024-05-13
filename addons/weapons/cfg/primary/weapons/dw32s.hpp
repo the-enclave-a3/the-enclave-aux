@@ -4,6 +4,7 @@ class MTI_DW32S: JLTS_DW32S {
 };
 class GWEAPON(dw32s): MTI_DW32S {
 	scope = 2;
+	baseWeapon = QGWEAPON(dw32s);
 	author = AUTHOR;
 	displayName = "[ENC] DW-32S";
 

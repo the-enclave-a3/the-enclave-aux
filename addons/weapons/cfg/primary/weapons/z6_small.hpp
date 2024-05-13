@@ -4,6 +4,7 @@ class MTI_Z6_Small: JLTS_Z6 {
 };
 class GWEAPON(z6_small): MTI_Z6_Small {
 	scope = 2;
+	baseWeapon = QGWEAPON(z6_small);
 	author = AUTHOR;
 	displayName = "[ENC] Z-6";
 

@@ -4,6 +4,7 @@ class WM_DH17: arifle_MX_Base_F {
 };
 class GWEAPON(dh17): WM_DH17 {
 	scope = 2;
+	baseWeapon = QGWEAPON(dh17);
 	author = AUTHOR;
 	displayName = "[ENC] DH-17";
 

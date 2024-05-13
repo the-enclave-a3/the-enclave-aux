@@ -4,6 +4,7 @@ class SFA_T20_p: Pistol_Base_F {
 };
 class GWEAPON(t20_pistol): SFA_T20_p {
 	scope = 2;
+	baseWeapon = QGWEAPON(t20_pistol);
 	author = AUTHOR;
 	displayName = "[ENC] T-20 Pistol";
 

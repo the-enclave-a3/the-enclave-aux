@@ -4,6 +4,7 @@ class WM_EC17: WM_PistolBase {
 };
 class GWEAPON(ec17): WM_EC17 {
 	scope = 2;
+	baseWeapon = QGWEAPON(ec17);
 	author = AUTHOR;
 	displayName = "[ENC] EC-17";
 

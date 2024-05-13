@@ -4,6 +4,7 @@ class SFA_CD35_Sniper: SFA_rifle_base {
 };
 class GWEAPON(cd35): SFA_CD35_Sniper {
 	scope = 2;
+	baseWeapon = QGWEAPON(cd35);
 	author = AUTHOR;
 	displayName = "[ENC] CD-35";
 

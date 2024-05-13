@@ -4,6 +4,7 @@ class SFA_E15: LMG_Mk200_F {
 };
 class GWEAPON(e15): SFA_E15 {
 	scope = 2;
+	baseWeapon = QGWEAPON(e15);
 	author = AUTHOR;
 	displayName = "[ENC] E-15";
 

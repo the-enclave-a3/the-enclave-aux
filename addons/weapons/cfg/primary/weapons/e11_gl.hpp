@@ -4,6 +4,7 @@ class 3AS_E11_GL: 3AS_E11GL_Base_F {
 };
 class GWEAPON(e11_gl): 3AS_E11_GL {
 	scope = 2;
+	baseWeapon = QGWEAPON(e11_gl);
 	author = AUTHOR;
 	displayName = "[ENC] E-11 GL";
 

@@ -4,6 +4,7 @@ class 3AS_DLT19: 3AS_DLT19_Base_F {
 };
 class GWEAPON(dlt19): 3AS_DLT19 {
 	scope = 2;
+	baseWeapon = QGWEAPON(dlt19);
 	author = AUTHOR;
 	displayName = "[ENC] DLT-19";
 

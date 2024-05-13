@@ -4,6 +4,7 @@ class DymekBlasterPistol_F: 3AS_DymekBlasterPistol_Base_F {
 };
 class GWEAPON(dymek_pistol): DymekBlasterPistol_F {
 	scope = 2;
+	baseWeapon = QGWEAPON(dymek_pistol);
 	author = AUTHOR;
 	displayName = "[ENC] Dymek Pistol";
 

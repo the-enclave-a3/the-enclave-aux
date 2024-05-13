@@ -4,6 +4,7 @@ class SFA_KOTOR_Arkanian_rifle: SFA_rifle_base {
 };
 class GWEAPON(arkanian_rifle): SFA_KOTOR_Arkanian_rifle {
 	scope = 2;
+	baseWeapon = QGWEAPON(arkanian_rifle);
 	author = AUTHOR;
 	displayName = "[ENC] Arkanian Rifle";
 

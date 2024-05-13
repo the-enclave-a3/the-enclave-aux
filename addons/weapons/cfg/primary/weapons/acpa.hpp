@@ -4,6 +4,7 @@ class MTI_ACPA: SWLW_ACPA {
 };
 class GWEAPON(acpa): MTI_ACPA {
 	scope = 2;
+	baseWeapon = QGWEAPON(acpa);
 	author = AUTHOR;
 	displayName = "[ENC] ACP-A";
 

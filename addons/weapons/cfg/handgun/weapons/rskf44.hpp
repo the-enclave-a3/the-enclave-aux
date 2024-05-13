@@ -4,6 +4,7 @@ class MTI_RSKF44: MTI_RSKF44_base {
 };
 class GWEAPON(rskf44): MTI_RSKF44 {
 	scope = 2;
+	baseWeapon = QGWEAPON(rskf44);
 	author = AUTHOR;
 	displayName = "[ENC] RSKF-44";
 

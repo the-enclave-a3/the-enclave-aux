@@ -4,6 +4,7 @@ class WBK_SciFi_Sword_2: WBK_Dutch_Vibro {
 };
 class GWEAPON(vibroblade_6): WBK_SciFi_Sword_2 {
 	scope = 2;
+	baseWeapon = QGWEAPON(vibroblade_6);
 	author = AUTHOR;
 	displayName = "[ENC] Vibroblade #6";
 

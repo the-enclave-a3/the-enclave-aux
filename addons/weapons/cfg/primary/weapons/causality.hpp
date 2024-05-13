@@ -4,6 +4,7 @@ class SFA_Causality: SFA_rifle_base {
 };
 class GWEAPON(causality): SFA_Causality {
 	scope = 2;
+	baseWeapon = QGWEAPON(causality);
 	author = AUTHOR;
 	displayName = "[ENC] Causality";
 

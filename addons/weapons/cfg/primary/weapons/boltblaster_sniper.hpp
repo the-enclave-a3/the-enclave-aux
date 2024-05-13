@@ -4,6 +4,7 @@ class SFA_Boltblaster_Sniper: SFA_rifle_base {
 };
 class GWEAPON(boltblaster_sniper): SFA_Boltblaster_Sniper {
 	scope = 2;
+	baseWeapon = QGWEAPON(boltblaster_sniper);
 	author = AUTHOR;
 	displayName = "[ENC] Boltblaster Mk2 Sniper";
 

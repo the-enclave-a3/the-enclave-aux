@@ -4,6 +4,7 @@ class mti_clone_knife: mti_clone_knife_base {
 };
 class GWEAPON(clone_knife): mti_clone_knife {
 	scope = 2;
+	baseWeapon = QGWEAPON(clone_knife);
 	author = AUTHOR;
 	displayName = "[ENC] Clone Knife";
 

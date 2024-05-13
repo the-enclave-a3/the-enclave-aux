@@ -4,6 +4,7 @@ class SFA_T20_AC: LMG_Mk200_F {
 };
 class GWEAPON(t20_ac): SFA_T20_AC {
 	scope = 2;
+	baseWeapon = QGWEAPON(t20_ac);
 	author = AUTHOR;
 	displayName = "[ENC] T-20 Assault Cannon";
 

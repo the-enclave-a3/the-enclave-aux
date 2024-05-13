@@ -4,6 +4,7 @@ class MTI_ACPR: SWLW_ACPR {
 };
 class GWEAPON(acpr): MTI_ACPR {
 	scope = 2;
+	baseWeapon = QGWEAPON(acpr);
 	author = AUTHOR;
 	displayName = "[ENC] ACP-R";
 

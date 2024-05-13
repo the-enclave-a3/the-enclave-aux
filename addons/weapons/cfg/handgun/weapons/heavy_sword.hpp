@@ -4,6 +4,7 @@ class LST_Heavy_Sword: WBK_axe {
 };
 class GWEAPON(heavy_sword): LST_Heavy_Sword {
 	scope = 2;
+	baseWeapon = QGWEAPON(heavy_sword);
 	author = AUTHOR;
 	displayName = "[ENC] Heavy Sword";
 

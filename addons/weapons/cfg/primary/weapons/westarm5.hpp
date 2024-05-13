@@ -4,6 +4,7 @@ class MTI_WestarM5: 3AS_WestarM5_F {
 };
 class GWEAPON(westarm5): MTI_WestarM5 {
 	scope = 2;
+	baseWeapon = QGWEAPON(westarm5);
 	author = AUTHOR;
 	displayName = "[ENC] Westar-M5";
 

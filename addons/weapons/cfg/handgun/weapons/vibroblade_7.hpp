@@ -4,6 +4,7 @@ class acklay_sv: WBK_Dutch_Vibro {
 };
 class GWEAPON(vibroblade_7): acklay_sv {
 	scope = 2;
+	baseWeapon = QGWEAPON(vibroblade_7);
 	author = AUTHOR;
 	displayName = "[ENC] Vibroblade #7";
 

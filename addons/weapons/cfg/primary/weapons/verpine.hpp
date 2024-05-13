@@ -4,6 +4,7 @@ class MTI_Verpine: MTI_Verpine_base {
 };
 class GWEAPON(verpine): MTI_Verpine {
 	scope = 2;
+	baseWeapon = QGWEAPON(verpine);
 	author = AUTHOR;
 	displayName = "[ENC] Verpine Shatter Rifle";
 

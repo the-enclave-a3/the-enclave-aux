@@ -4,6 +4,7 @@ class SFA_KOTOR_Arkanian_C: SFA_rifle_base {
 };
 class GWEAPON(arkanian_carbine): SFA_KOTOR_Arkanian_C {
 	scope = 2;
+	baseWeapon = QGWEAPON(arkanian_carbine);
 	author = AUTHOR;
 	displayName = "[ENC] Arkanian Carbine";
 

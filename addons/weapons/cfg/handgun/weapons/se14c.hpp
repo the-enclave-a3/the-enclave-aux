@@ -4,6 +4,7 @@ class WM_SE14C: WM_PistolBase {
 };
 class GWEAPON(se14c): WM_SE14C {
 	scope = 2;
+	baseWeapon = QGWEAPON(se14c);
 	author = AUTHOR;
 	displayName = "[ENC] SE-14c";
 

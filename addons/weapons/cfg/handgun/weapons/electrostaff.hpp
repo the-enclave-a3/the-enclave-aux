@@ -4,6 +4,7 @@ class ls_weapon_electrostaff_melee: ls_weapon_melee_base {
 };
 class GWEAPON(electrostaff): ls_weapon_electrostaff_melee {
 	scope = 2;
+	baseWeapon = QGWEAPON(electrostaff);
 	author = AUTHOR;
 	displayName = "[ENC] Electrostaff";
 

@@ -4,6 +4,7 @@ class MTI_RPS6_HP: launch_NLAW_F {
 };
 class GWEAPON(rps6_hp): MTI_RPS6_HP {
 	scope = 2;
+	baseWeapon = QGWEAPON(rps6_hp);
 	author = AUTHOR;
 	displayName = "[ENC] RPS-6 Heavy Projectile";
 

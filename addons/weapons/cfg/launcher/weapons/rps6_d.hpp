@@ -5,6 +5,7 @@ class MTI_RPS6_D: 3AS_RPS6_Base {
 class GWEAPON(rps6_d): MTI_RPS6_D {
 	scope = 1;
 	author = AUTHOR;
+	baseWeapon = QGWEAPON(rps6_d_loaded);
 	displayName = "[ENC] RPS-6 Disposable";
 
 	magazines[] = {QGMAGAZINE(rps6_d)};
@@ -12,6 +13,7 @@ class GWEAPON(rps6_d): MTI_RPS6_D {
 
 class GWEAPON(rps6_d_loaded) : GWEAPON(rps6_d) {
 	scope = 2;
+	baseWeapon = QGWEAPON(rps6_d_loaded);
 
 	author = AUTHOR;
     displayName = "[ENC] RPS-6 (Disposable)";
@@ -24,6 +26,7 @@ class GWEAPON(rps6_d_loaded) : GWEAPON(rps6_d) {
 
 class GWEAPON(rps6_d_used): GWEAPON(rps6_d) {
 	author = AUTHOR;
+	baseWeapon = QGWEAPON(rps6_d_used);
     displayName = "[ENC] RPS-6 (Disposable, Used)";
 	magazines[] = {"CBA_FakeLauncherMagazine"};
 };

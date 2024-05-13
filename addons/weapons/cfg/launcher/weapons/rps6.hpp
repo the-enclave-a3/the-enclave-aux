@@ -4,6 +4,7 @@ class MTI_RPS6: JLTS_RPS6 {
 };
 class GWEAPON(rps6): MTI_RPS6 {
 	scope = 2;
+	baseWeapon = QGWEAPON(rps6);
 	author = AUTHOR;
 	displayName = "[ENC] RPS-6";
 

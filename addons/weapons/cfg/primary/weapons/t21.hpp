@@ -4,6 +4,7 @@ class WM_T21: arifle_MX_Base_F {
 };
 class GWEAPON(t21): WM_T21 {
 	scope = 2;
+	baseWeapon = QGWEAPON(t21);
 	author = AUTHOR;
 	displayName = "[ENC] T-21";
 

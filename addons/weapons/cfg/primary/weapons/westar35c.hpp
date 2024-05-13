@@ -4,6 +4,7 @@ class SWLW_westar35c: SWLW_rifle_base {
 };
 class GWEAPON(westar35c): SWLW_westar35c {
 	scope = 2;
+	baseWeapon = QGWEAPON(westar35c);
 	author = AUTHOR;
 	displayName = "[ENC] Westar-35C";
 

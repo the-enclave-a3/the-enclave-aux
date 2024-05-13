@@ -4,6 +4,7 @@ class WM_E11D: ImperialRifle_Base {
 };
 class GWEAPON(e11d): WM_E11D {
 	scope = 2;
+	baseWeapon = QGWEAPON(e11d);
 	author = AUTHOR;
 	displayName = "[ENC] E-11D";
 

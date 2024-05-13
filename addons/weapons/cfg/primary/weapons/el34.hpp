@@ -4,6 +4,7 @@ class SFA_EL34: LMG_Mk200_F {
 };
 class GWEAPON(el34): SFA_EL34 {
 	scope = 2;
+	baseWeapon = QGWEAPON(el34);
 	author = AUTHOR;
 	displayName = "[ENC] EL-34";
 

@@ -4,6 +4,7 @@ class 3AS_S5_f: 3AS_S5_Base_F {
 };
 class GWEAPON(s5): 3AS_S5_f {
 	scope = 2;
+	baseWeapon = QGWEAPON(s5);
 	author = AUTHOR;
 	displayName = "[ENC] S-5";
 

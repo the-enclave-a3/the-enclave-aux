@@ -4,6 +4,7 @@ class SFA_D200: hgun_Pistol_heavy_02_F {
 };
 class GWEAPON(d200): SFA_D200 {
 	scope = 2;
+	baseWeapon = QGWEAPON(d200);
 	author = AUTHOR;
 	displayName = "[ENC] D-200";
 

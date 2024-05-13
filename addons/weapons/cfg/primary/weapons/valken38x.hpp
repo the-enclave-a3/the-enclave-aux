@@ -4,6 +4,7 @@ class MTI_Valken38X: 3AS_Valken38X_F {
 };
 class GWEAPON(valken38x): MTI_Valken38X {
 	scope = 2;
+	baseWeapon = QGWEAPON(valken38x);
 	author = AUTHOR;
 	displayName = "[ENC] Valken 38X";
 

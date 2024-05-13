@@ -4,6 +4,7 @@ class 3AS_RK3: 3AS_RK3_Base_F {
 };
 class GWEAPON(rk3): 3AS_RK3 {
 	scope = 2;
+	baseWeapon = QGWEAPON(rk3);
 	author = AUTHOR;
 	displayName = "[ENC] RK-3";
 
