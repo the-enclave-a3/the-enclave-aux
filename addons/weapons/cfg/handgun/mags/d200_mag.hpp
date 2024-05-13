@@ -1,5 +1,5 @@
-class SFA_pistol_base_mag;
-class GMAGAZINE(d200): SFA_pistol_base_mag {
+class SFA_D200_Pistol_mag;
+class GMAGAZINE(d200): SFA_D200_Pistol_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] D-200 20rnd Magazine";

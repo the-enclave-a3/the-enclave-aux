@@ -1,5 +1,5 @@
-class SFA_pistol_base_mag;
-class GMAGAZINE(boltblaster_pistol): SFA_pistol_base_mag {
+class SFA_Boltblaster_Pistol_mag;
+class GMAGAZINE(boltblaster_pistol): SFA_Boltblaster_Pistol_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] Boltblaster Mk2 Pistol 20rnd Magazine";

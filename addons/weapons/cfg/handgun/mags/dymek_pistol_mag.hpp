@@ -1,5 +1,5 @@
-class CA_Magazine;
-class GMAGAZINE(dymek_pistol): CA_Magazine {
+class 3AS_16Rnd_EY20_Mag;
+class GMAGAZINE(dymek_pistol): 3AS_16Rnd_EY20_Mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] Dymek Pistol 16rnd Magazine";

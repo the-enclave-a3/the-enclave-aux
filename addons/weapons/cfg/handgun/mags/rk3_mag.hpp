@@ -1,5 +1,5 @@
-class 3AS_16Rnd_EC20_Mag;
-class GMAGAZINE(rk3): 3AS_16Rnd_EC20_Mag {
+class 3AS_16Rnd_EM20_Mag;
+class GMAGAZINE(rk3): 3AS_16Rnd_EM20_Mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] RK-3 16rnd Magazine";

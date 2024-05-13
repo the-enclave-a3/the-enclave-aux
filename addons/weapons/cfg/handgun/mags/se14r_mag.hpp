@@ -1,5 +1,5 @@
-class 3AS_16Rnd_EM20_Mag;
-class GMAGAZINE(se14r): 3AS_16Rnd_EM20_Mag {
+class 3AS_16Rnd_EM20_Mag_Imp;
+class GMAGAZINE(se14r): 3AS_16Rnd_EM20_Mag_Imp {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] SE-14r 16rnd Magazine";

@@ -1,5 +1,5 @@
-class CA_Magazine;
-class GMAGAZINE(s5): CA_Magazine {
+class 3AS_20Rnd_EG20_mag;
+class GMAGAZINE(s5): 3AS_20Rnd_EG20_mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] S-5 20rnd Magazine";

@@ -1,5 +1,5 @@
-class CA_Magazine;
-class GMAGAZINE(se14c): CA_Magazine {
+class WM_SE14C_Mag;
+class GMAGAZINE(se14c): WM_SE14C_Mag {
 	scope = 2;
 	author = AUTHOR;
 	displayName = "[ENC] SE-14c 25rnd Magazine";
