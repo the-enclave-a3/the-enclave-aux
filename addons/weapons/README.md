@@ -1,3 +1,3 @@
-enc_weapons_core
+enc_weapons
 ===================
 
