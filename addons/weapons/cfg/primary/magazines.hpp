@@ -7,11 +7,9 @@
 #include "mags\dla13_mag.hpp"
 #include "mags\t20_rifle_mag.hpp"
 #include "mags\dc15a_mag.hpp"
-#include "mags\dc15a_gl_mag.hpp"
 #include "mags\ee2_mag.hpp"
 #include "mags\e11_mag.hpp"
 #include "mags\e11_stock_mag.hpp"
-#include "mags\e11_gl_mag.hpp"
 #include "mags\arkanian_carbine_mag.hpp"
 #include "mags\boltblaster_carbine_mag.hpp"
 #include "mags\dla13c_mag.hpp"
@@ -34,8 +32,6 @@
 #include "mags\dh17_mag.hpp"
 
 #include "mags\e11d_mag.hpp"
-#include "mags\dc15c_gl_mag.hpp"
-#include "mags\westarm5_gl_mag.hpp"
 #include "mags\westarm5_mag.hpp"
 #include "mags\dc15c_mag.hpp"
 

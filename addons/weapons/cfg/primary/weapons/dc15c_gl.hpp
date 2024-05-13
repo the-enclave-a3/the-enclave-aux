@@ -1,5 +1,6 @@
 class 3AS_DC15C_GL;
 class MTI_DC15C_GL: 3AS_DC15C_GL {
+	class 3AS_15CGL;
 	class WeaponSlotsInfo;
 };
 class GWEAPON(dc15c_gl): MTI_DC15C_GL {
@@ -8,10 +9,15 @@ class GWEAPON(dc15c_gl): MTI_DC15C_GL {
 	author = AUTHOR;
 	displayName = "[ENC] DC-15C GL";
 
-	magazines[] = {QGMAGAZINE(dc15c_gl)};
-	magazineWell[] = {QGMAGWELL(enc_dc15c_gl_magwell)};
+	magazines[] = {QGMAGAZINE(dc15c)};
+	magazineWell[] = {QGMAGWELL(enc_dc15c_magwell)};
 	//modes[] = {"FullAuto","Single"};
 	//muzzles[] = {"this","Stun","3AS_15CGL"};
+
+	class 3AS_15CGL: 3AS_15CGL {
+		magazines[] = { MACRO_GL_MAGAZINES };
+		magazineWell[] = {"MTI_UGL_magwell"};
+	};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
 		class CowsSlot {

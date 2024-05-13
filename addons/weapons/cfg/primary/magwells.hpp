@@ -7,11 +7,9 @@
 #include "magwells\dla13_magwell.hpp"
 #include "magwells\t20_rifle_magwell.hpp"
 #include "magwells\dc15a_magwell.hpp"
-#include "magwells\dc15a_gl_magwell.hpp"
 #include "magwells\ee2_magwell.hpp"
 #include "magwells\e11_magwell.hpp"
 #include "magwells\e11_stock_magwell.hpp"
-#include "magwells\e11_gl_magwell.hpp"
 #include "magwells\arkanian_carbine_magwell.hpp"
 #include "magwells\boltblaster_carbine_magwell.hpp"
 #include "magwells\dla13c_magwell.hpp"
@@ -34,8 +32,6 @@
 #include "magwells\dh17_magwell.hpp"
 
 #include "magwells\e11d_magwell.hpp"
-#include "magwells\dc15c_gl_magwell.hpp"
-#include "magwells\westarm5_gl_magwell.hpp"
 #include "magwells\westarm5_magwell.hpp"
 #include "magwells\dc15c_magwell.hpp"
 
