@@ -57,7 +57,7 @@ private _newMagsArray = "";
     };
 
     private _magConfig = (configFile >> "CfgMagazines" >> _x);
-    private _magParent = inheritsFrom _magConfig;
+    private _magParent = configName _magConfig;
     private _magCount = getNumber (_magConfig >> "count");
     private _magAmmo = getText (_magConfig >> "ammo");
     private _magName = format ["%1 %2rnd Magazine%3",_newDisplayName,_magCount,[" #" + (str _forEachIndex), ""] select ((count _weaponMags) == 1)];
@@ -98,7 +98,7 @@ private _cfgMagazinesEntry = "";
         "class %3;%1class %4: %3 {%1%2scope = 2;%1%2author = AUTHOR;%1%2displayName = ""%5"";%1%2count = %6;%1%2//ammo = ""%7"";%1%2ammo = QGAMMO(%8);%1};%1",
         toString[13,10],    // %1: CRLF
         toString[9],        // %2: HT
-        configName _xMagParent,
+        _xMagParent,
         _x,
         _xMagName,
         _xMagCount,

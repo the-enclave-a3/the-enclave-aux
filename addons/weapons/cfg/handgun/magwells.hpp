@@ -12,3 +12,5 @@
 #include "magwells\se14r_magwell.hpp"
 #include "magwells\t20_pistol_magwell.hpp"
 #include "magwells\westar35sa_magwell.hpp"
+
+#include "magwells\dc19sa_magwell.hpp"

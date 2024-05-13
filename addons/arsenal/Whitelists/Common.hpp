@@ -127,7 +127,6 @@ class Items {
 class Magazines {
     // Throwables
     MACRO_WHITELIST(MTI_EmergencyFlare);
-    MACRO_WHITELIST(MTI_HuntIRHandheld);
     MACRO_WHITELIST(MTI_SmokeWhite_impact);
     MACRO_WHITELIST(MTI_SmokeGreen);
     MACRO_WHITELIST(MTI_ThermalDetonator);

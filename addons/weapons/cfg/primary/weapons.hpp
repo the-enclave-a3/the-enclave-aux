@@ -43,3 +43,7 @@
 #include "weapons\el34.hpp"
 #include "weapons\t20_ac.hpp"
 #include "weapons\ls150.hpp"
+
+#include "weapons\verpine.hpp"
+#include "weapons\dlt19x.hpp"
+#include "weapons\dc15x.hpp"

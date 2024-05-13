@@ -12,3 +12,5 @@
 #include "mags\se14r_mag.hpp"
 #include "mags\t20_pistol_mag.hpp"
 #include "mags\westar35sa_mag.hpp"
+
+#include "mags\dc19sa_mag.hpp"

@@ -25,3 +25,5 @@
 #include "weapons\d200.hpp"
 #include "weapons\vibroblade_7.hpp"
 #include "weapons\dymek_pistol.hpp"
+
+#include "weapons\dc19sa.hpp"

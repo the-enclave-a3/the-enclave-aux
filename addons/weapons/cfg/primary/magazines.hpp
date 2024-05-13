@@ -43,3 +43,7 @@
 #include "mags\el34_mag.hpp"
 #include "mags\t20_ac_mag.hpp"
 #include "mags\ls150_mag.hpp"
+
+#include "mags\verpine_mag.hpp"
+#include "mags\dlt19x_mag.hpp"
+#include "mags\dc15x_mag.hpp"

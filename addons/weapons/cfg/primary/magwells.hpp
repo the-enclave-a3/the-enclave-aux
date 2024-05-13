@@ -43,3 +43,7 @@
 #include "magwells\el34_magwell.hpp"
 #include "magwells\t20_ac_magwell.hpp"
 #include "magwells\ls150_magwell.hpp"
+
+#include "magwells\verpine_magwell.hpp"
+#include "magwells\dlt19x_magwell.hpp"
+#include "magwells\dc15x_magwell.hpp"
