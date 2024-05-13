@@ -117,6 +117,11 @@ class Items {
     MACRO_WHITELIST(ACE_Flashlight_XL50);
     MACRO_WHITELIST(ACE_epinephrine);
     MACRO_WHITELIST(mti_flags_blue);
+
+    MACRO_WHITELIST(JLTS_CloneBinocular_black);
+    MACRO_WHITELIST(ACE_Vector);
+    MACRO_WHITELIST(ACE_VectorDay);
+    MACRO_WHITELIST(JLTS_CloneBinocular);
 };
 
 class Magazines {
