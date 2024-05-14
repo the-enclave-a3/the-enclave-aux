@@ -2,11 +2,9 @@
 #define COMPONENT_BEAUTIFIED Common
 #include "\z\enc\addons\main\script_mod.hpp"
 
-#ifndef RELEASE_BUILD
 // #define DEBUG_MODE_FULL
- #define DISABLE_COMPILE_CACHE
+// #define DISABLE_COMPILE_CACHE
 // #define ENABLE_PERFORMANCE_COUNTERS
-#endif
 
 #ifdef DEBUG_ENABLED_COMMON
     #define DEBUG_MODE_FULL

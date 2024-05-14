@@ -18,3 +18,4 @@ class CfgPatches {
 #include "CfgFactionClasses.hpp"
 #include "CfgEditorSubcategories.hpp"
 #include "CfgEditorCategories.hpp"
+#include "Cfg3den.hpp"
