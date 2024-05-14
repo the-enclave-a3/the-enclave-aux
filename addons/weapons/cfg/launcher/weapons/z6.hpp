@@ -4,6 +4,7 @@ class MTI_Z6: 3AS_Chaingun {
 };
 class GWEAPON(z6): MTI_Z6 {
 	scope = 2;
+	baseWeapon = QGWEAPON(z6);
 	author = AUTHOR;
 	displayName = "[ENC] Z-6";
 

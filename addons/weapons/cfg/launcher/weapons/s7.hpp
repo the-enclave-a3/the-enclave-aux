@@ -4,6 +4,7 @@ class SFA_Guided_Onslaught_Launcher: launch_Titan_base {
 };
 class GWEAPON(s7): SFA_Guided_Onslaught_Launcher {
 	scope = 2;
+	baseWeapon = QGWEAPON(s7);
 	author = AUTHOR;
 	displayName = "[ENC] S-7";
 
