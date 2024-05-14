@@ -133,7 +133,7 @@ class GBACKPACK(var_classname): EGBACKPACK(equipment,DOUBLES(base,var_type)) { \
 }
 
 #define MACRO_BACKPACK_LR(var_scope,var_classname,var_name,var_type) \
-class GBACKPACK(DOUBLES(var_classname,LR)): EGBACKPACK(equipment,TRIPLES(base,var_type,LR)) { \
+class GBACKPACK(DOUBLES(var_classname,lr)): EGBACKPACK(equipment,TRIPLES(base,var_type,lr)) { \
     scope = var_scope; \
     displayName = QUOTE([ENC] var_name (LR)); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\backpacks\var_classname\camo1_co.paa) }; \

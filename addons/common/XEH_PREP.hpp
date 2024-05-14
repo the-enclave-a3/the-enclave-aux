@@ -6,4 +6,5 @@ PREP(initPlayer);
 PREP(weaponCfgHelper);
 PREP(stripArrayBrackets);
 PREP(bulkWeaponCfg);
+PREP(grabModClasses);
 #endif

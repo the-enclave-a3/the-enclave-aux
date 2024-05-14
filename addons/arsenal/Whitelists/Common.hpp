@@ -56,13 +56,35 @@ class Attachments {
     MACRO_WHITELIST(MTI_DC15LE_muzzle);
 };
 
-class Backpacks {};
+class Backpacks {
+    MACRO_WHITELIST(EGBACKPACK(equipment,mandoad_jt12));
+    MACRO_WHITELIST(EGBACKPACK(equipment,mandoad_jt12_lr));
+};
 
-class Goggles {};
+class Goggles {
+    MACRO_WHITELIST(EGFACEWEAR(equipment,base_heavy_belt));
+    MACRO_WHITELIST(EGFACEWEAR(equipment,base_light_belt));
+    MACRO_WHITELIST(EGFACEWEAR(equipment,base_medium_belt));
+    MACRO_WHITELIST(EGFACEWEAR(equipment,base_pilot_belt));
+};
 
-class Headgear {};
+class Headgear {
+    MACRO_WHITELIST(EGHELMET(equipment,foundling));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_battle_master));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_heavy));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_traditional));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_veteran));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_viper));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_viper_veteran));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_warlord));
+};
 
 class Items {
+    MACRO_WHITELIST(EGNVG(equipment,base_circuit));
+    MACRO_WHITELIST(EGNVG(equipment,foundling_rangefinder_r));
+    MACRO_WHITELIST(EGNVG(equipment,mandoad_heavy));
+    MACRO_WHITELIST(EGNVG(equipment,mandoad_rangefinder));
+
     MACRO_WHITELIST(ACE_Altimeter);
     MACRO_WHITELIST(ACE_bloodIV_250);
     MACRO_WHITELIST(ACE_bloodIV_500);
@@ -279,9 +301,25 @@ class Magazines {
     MACRO_WHITELIST(GMAGAZINE(rps6_d));
 };
 
-class Uniforms {};
+class Uniforms {
+    MACRO_WHITELIST(EGUNIFORM(equipment,blue));
+    MACRO_WHITELIST(EGUNIFORM(equipment,blue_seal));
+    MACRO_WHITELIST(EGUNIFORM(equipment,grey));
+    MACRO_WHITELIST(EGUNIFORM(equipment,grey_seal));
+    MACRO_WHITELIST(EGUNIFORM(equipment,white));
+    MACRO_WHITELIST(EGUNIFORM(equipment,white_seal));
+};
 
-class Vests {};
+class Vests {
+    MACRO_WHITELIST(EGHELMET(equipment,foundling));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_battle_master));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_heavy));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_traditional));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_veteran));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_viper));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_viper_veteran));
+    MACRO_WHITELIST(EGHELMET(equipment,mandoad_warlord));
+};
 
 class Weapons {
     // Primary
