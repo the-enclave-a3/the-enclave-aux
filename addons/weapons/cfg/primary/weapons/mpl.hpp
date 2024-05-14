@@ -17,6 +17,7 @@ class GWEAPON(mpl): 3AS_MPL_F {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

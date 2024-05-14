@@ -19,6 +19,7 @@ class GWEAPON(se14r): 3AS_SE14R {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

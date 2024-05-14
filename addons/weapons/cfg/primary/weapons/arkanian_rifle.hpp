@@ -17,6 +17,7 @@ class GWEAPON(arkanian_rifle): SFA_KOTOR_Arkanian_rifle {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

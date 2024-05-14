@@ -18,6 +18,7 @@ class GWEAPON(dp23): MTI_DP23 {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

@@ -18,6 +18,7 @@ class GWEAPON(dw32s): MTI_DW32S {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

@@ -18,6 +18,7 @@ class GWEAPON(dc17s): MTI_DC17s {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST,"JLTS_DC17SA_flashlight" };
 		};
 	};

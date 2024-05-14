@@ -14,6 +14,9 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_WEAPONS
 #endif
 
+#include "\z\mti\addons\weapons_core\config_lists.hpp"
+#include "\z\enc\addons\main\script_macros.hpp"
+
 #ifdef RAILATTACHMENT_LIST
     #undef RAILATTACHMENT_LIST
 #endif
@@ -28,5 +31,11 @@ iconScale = 0.2;\
 linkProxy = "\a3\data_f\proxies\weapon_slots\TOP";\
 scope = 0
 
-#include "\z\mti\addons\weapons_core\config_lists.hpp"
-#include "\z\enc\addons\main\script_macros.hpp"
+#define MACRO_POINTER_DEFS \
+displayName = "Pointer Slot";\
+iconPicture = "\a3\weapons_f\Data\ui\attachment_side";\
+iconPinpoint = "Center";\
+iconPosition[] = {0.35, 0.5};\
+iconScale = 0.25;\
+linkProxy = "\a3\data_f\proxies\weapon_slots\SIDE";\
+scope = 0

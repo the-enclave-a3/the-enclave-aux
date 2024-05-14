@@ -19,6 +19,7 @@ class GWEAPON(boltblaster_pistol): SFA_boltblaster_p {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

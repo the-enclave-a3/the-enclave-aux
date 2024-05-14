@@ -24,6 +24,7 @@ class GWEAPON(dc15a_gl): MTI_DC15A_GL {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

@@ -18,6 +18,7 @@ class GWEAPON(rskf44): MTI_RSKF44 {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

@@ -21,6 +21,7 @@ class GWEAPON(dla13): SFA_DLA13 {
 			compatibleItems[] = {"SFA_DLA13_scope",RCO_LIST,MRCO_LIST,HOLO_LIST,MRD_LIST};
 		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

@@ -20,6 +20,7 @@ class GWEAPON(dla13c_nostock): SFA_DLA13_C2 {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

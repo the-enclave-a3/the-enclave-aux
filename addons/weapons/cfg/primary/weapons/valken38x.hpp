@@ -20,6 +20,7 @@ class GWEAPON(valken38x): MTI_Valken38X {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

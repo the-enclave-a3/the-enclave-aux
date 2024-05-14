@@ -19,6 +19,7 @@ class GWEAPON(e15): SFA_E15 {
 			compatibleItems[] = {"SFA_Holosight_blue",HOLO_LIST,MRD_LIST};
 		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

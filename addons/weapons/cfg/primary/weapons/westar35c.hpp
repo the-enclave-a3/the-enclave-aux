@@ -20,6 +20,7 @@ class GWEAPON(westar35c): SWLW_westar35c {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

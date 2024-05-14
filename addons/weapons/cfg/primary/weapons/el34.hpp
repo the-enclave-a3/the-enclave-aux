@@ -19,6 +19,7 @@ class GWEAPON(el34): SFA_EL34 {
 			compatibleItems[] = {MRD_LIST};
 		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

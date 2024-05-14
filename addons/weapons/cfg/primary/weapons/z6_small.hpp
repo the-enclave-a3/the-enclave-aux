@@ -18,6 +18,7 @@ class GWEAPON(z6_small): MTI_Z6_Small {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

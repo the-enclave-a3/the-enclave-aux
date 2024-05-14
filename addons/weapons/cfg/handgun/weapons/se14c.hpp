@@ -20,6 +20,7 @@ class GWEAPON(se14c): WM_SE14C {
 			compatibleItems[] = {"WM_SE14C_Scope",MRD_LIST};
 		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

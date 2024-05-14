@@ -19,6 +19,7 @@ class GWEAPON(dymek_pistol): DymekBlasterPistol_F {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

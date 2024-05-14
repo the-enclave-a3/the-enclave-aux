@@ -19,6 +19,7 @@ class GWEAPON(t20_ac): SFA_T20_AC {
 			compatibleItems[] = {"SFA_Holosight_blue",MRD_LIST,HOLO_LIST};
 		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

@@ -20,6 +20,7 @@ class GWEAPON(rk3): 3AS_RK3 {
 			compatibleItems[] = {MRD_LIST};
 		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

@@ -20,6 +20,7 @@ class GWEAPON(cd35): SFA_CD35_Sniper {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

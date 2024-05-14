@@ -20,6 +20,7 @@ class GWEAPON(x300): SFA_X300_Sniper {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

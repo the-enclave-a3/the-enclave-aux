@@ -24,6 +24,7 @@ class GWEAPON(westarm5_gl): MTI_WestarM5_GL {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

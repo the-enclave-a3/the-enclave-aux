@@ -31,6 +31,7 @@ class GWEAPON(dc17s_dual): MTI_DC17s_dual {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

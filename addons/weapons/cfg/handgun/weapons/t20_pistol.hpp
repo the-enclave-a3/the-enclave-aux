@@ -19,6 +19,7 @@ class GWEAPON(t20_pistol): SFA_T20_p {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};

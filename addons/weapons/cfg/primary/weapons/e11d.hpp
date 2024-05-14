@@ -19,6 +19,7 @@ class GWEAPON(e11d): WM_E11D {
 			compatibleItems[] = {RCO_LIST,MRCO_LIST,HOLO_LIST,MRD_LIST};
 		};
 		class PointerSlot {
+			MACRO_POINTER_DEFS;
 			compatibleItems[] = { RAILATTACHMENT_LIST };
 		};
 	};
