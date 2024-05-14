@@ -37,3 +37,32 @@ parameters = [
     "-window",
 ]
 
+[hemtt.launch.arsenal]
+workshop = [
+    "450814997",  # CBA
+    "1940589429", # JLTS
+    "2332457910", # JLTS TFAR Compat
+    "2058554822", # 3AS
+    "2215872933", # 3AS Terrains
+    "463939057",  # ACE
+    "2522638637", # ACEAX
+    "935654483",  # LAGO Biken
+    "2320596778", # Legion Battlefields
+    "2162749089", # Legion Base
+    "894678801",  # TFAR Beta
+    "2369477168", # Adv Dev Tools
+    "1779063631", # ZEN
+    "2018593688", # ZEN ACE Compat
+    "1224892496", # GRAD Trenches
+    "2853193856", # MTI Core
+    "3203512867", # TGF
+    "3020930712", # SFA
+    "2954535667", # WMA
+
+]
+mission = "Arsenal.VR"
+parameters = [
+    "-noPause",
+    "-window",
+]
+
