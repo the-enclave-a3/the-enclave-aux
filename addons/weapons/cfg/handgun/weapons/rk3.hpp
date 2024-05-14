@@ -15,9 +15,10 @@ class GWEAPON(rk3): 3AS_RK3 {
 
 	class Stun: MTI_Stun_Muzzle {};
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-//		class CowsSlot {
-			//compatibleItems[] = {};
-//		};
+		class CowsSlot {
+			MACRO_COWS_DEFS;
+			compatibleItems[] = {MRD_LIST};
+		};
 //		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
 //		};

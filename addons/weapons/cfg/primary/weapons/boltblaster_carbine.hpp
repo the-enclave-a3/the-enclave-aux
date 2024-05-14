@@ -16,9 +16,10 @@ class GWEAPON(boltblaster_carbine): SFA_Boltblaster_Carbine2 {
 	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-//		class CowsSlot {
-			//compatibleItems[] = {};
-//		};
+		class CowsSlot {
+			MACRO_COWS_DEFS;
+			compatibleItems[] = {"SFA_Holosight_blue",RCO_LIST,MRCO_LIST,HOLO_LIST,MRD_LIST};
+		};
 //		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
 //		};

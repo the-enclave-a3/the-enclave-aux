@@ -14,9 +14,10 @@ class GWEAPON(e11d): WM_E11D {
 	//muzzles[] = {"this"};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-//		class CowsSlot {
-			//compatibleItems[] = {};
-//		};
+		class CowsSlot {
+			MACRO_COWS_DEFS;
+			compatibleItems[] = {RCO_LIST,MRCO_LIST,HOLO_LIST,MRD_LIST};
+		};
 //		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
 //		};

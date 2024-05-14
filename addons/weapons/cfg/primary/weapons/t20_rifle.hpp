@@ -16,9 +16,10 @@ class GWEAPON(t20_rifle): SFA_T20_rifle {
 	class Stun: MTI_Stun_Muzzle {};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-//		class CowsSlot {
-			//compatibleItems[] = {};
-//		};
+		class CowsSlot {
+			MACRO_COWS_DEFS;
+			compatibleItems[] = {"SFA_Holosight_blue",RCO_LIST,MRCO_LIST,HOLO_LIST,MRD_LIST};
+		};
 //		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
 //		};

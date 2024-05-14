@@ -14,9 +14,10 @@ class GWEAPON(e15): SFA_E15 {
 	//muzzles[] = {"this"};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-//		class CowsSlot {
-			//compatibleItems[] = {};
-//		};
+		class CowsSlot {
+			MACRO_COWS_DEFS;
+			compatibleItems[] = {"SFA_Holosight_blue",HOLO_LIST,MRD_LIST};
+		};
 //		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
 //		};

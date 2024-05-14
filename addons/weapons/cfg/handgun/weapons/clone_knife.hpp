@@ -13,12 +13,14 @@ class GWEAPON(clone_knife): mti_clone_knife {
 	//muzzles[] = {"this"};
 
 	class WeaponSlotsInfo: WeaponSlotsInfo {
-//		class CowsSlot {
-			//compatibleItems[] = {};
-//		};
+		class CowsSlot {
+			MACRO_COWS_DEFS;
+			compatibleItems[] = {};
+		};
 //		class PointerSlot {
 			//compatibleItems[] = { RAILATTACHMENT_LIST };
 //		};
+		class MuzzleSlot {};
 	};
 };
 

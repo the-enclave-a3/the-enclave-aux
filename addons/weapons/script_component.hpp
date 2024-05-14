@@ -14,4 +14,19 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_WEAPONS
 #endif
 
+#ifdef RAILATTACHMENT_LIST
+    #undef RAILATTACHMENT_LIST
+#endif
+#define RAILATTACHMENT_LIST "MTI_flashlight_noModel","MTI_pointerIR_noModel"
+
+#define MACRO_COWS_DEFS \
+displayName = "Optics Slot";\
+iconPicture = "\A3\Weapons_F\Data\UI\attachment_top.paa";\
+iconPinpoint = "Bottom";\
+iconPosition[] = {0.5,0.35};\
+iconScale = 0.2;\
+linkProxy = "\a3\data_f\proxies\weapon_slots\TOP";\
+scope = 0
+
+#include "\z\mti\addons\weapons_core\config_lists.hpp"
 #include "\z\enc\addons\main\script_macros.hpp"
