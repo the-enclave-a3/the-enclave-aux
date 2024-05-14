@@ -19,7 +19,7 @@ class GWEAPON(westar35sa): SWLW_Westar35SA {
 			//compatibleItems[] = {};
 //		};
 		class PointerSlot {
-			compatibleItems[] = { RAILATTACHMENT_LIST };
+			compatibleItems[] = { RAILATTACHMENT_LIST,"SWLW_Westar35SA_flash","SWLW_Westar35SA_laser" };
 		};
 	};
 };
