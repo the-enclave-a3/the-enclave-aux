@@ -1,3 +1,3 @@
-enc_equipment_core
+enc_equipment
 ===================
 
