@@ -39,3 +39,15 @@ class GHELMET(base_veteran): tgf_helmets_veteran {
     author = AUTHOR;
     displayName = "[ENC] Veteran Mandalorian Helmet";
 };
+
+// Foundling
+MACRO_HELMET(2,foundling,Foundling Helmet,traditional);
+
+// Mando'ad
+MACRO_HELMET(2,mandoad_battle_master,Mando'ad Battlemaster Helmet,battle_master);
+MACRO_HELMET(2,mandoad_heavy,Heavy Mando'ad Helmet,heavy);
+MACRO_HELMET(2,mandoad_traditional,Traditional Mando'ad Helmet,traditional);
+MACRO_HELMET(2,mandoad_veteran,Mando'ad Veteran Helmet,veteran);
+MACRO_HELMET(2,mandoad_viper,Mando'ad Viper Helmet,viper);
+MACRO_HELMET(2,mandoad_viper_veteran,Mando'ad Viper Helmet (Veteran),viper_vet);
+MACRO_HELMET(2,mandoad_warlord,Mando'ad Warlord Helmet,warlord);

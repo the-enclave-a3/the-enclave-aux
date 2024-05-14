@@ -8,10 +8,24 @@ class XtdGearModels {
             class camo {
                 changeingame = 0;
                 values[] = {
-                    // placeholder
+                    "foundling",
+                    "mandoad_battle_master",
+                    "mandoad_heavy",
+                    "mandoad_traditional",
+                    "mandoad_veteran",
+                    "mandoad_viper",
+                    "mandoad_viper_veteran",
+                    "mandoad_warlord"
                 };
 
-                // class placeholder { label = "Placeholder"; };
+                class foundling { label = "Foundling"; };
+                class mandoad_battle_master { label = "Battlemaster"; };
+                class mandoad_heavy { label = "Heavy"; };
+                class mandoad_traditional { label = "Traditional"; };
+                class mandoad_veteran { label = "Veteran"; };
+                class mandoad_viper { label = "Viper"; };
+                class mandoad_viper_veteran { label = "Viper Veteran"; };
+                class mandoad_warlord { label = "Warlord"; };
             };
         };
 
@@ -23,10 +37,20 @@ class XtdGearModels {
             class camo {
                 changeingame = 0;
                 values[] = {
-                    // placeholder
+                    "foundling",
+                    "mandoad_battle",
+                    "mandoad_heavy",
+                    "mandoad_medium",
+                    "mandoad_recon",
+                    "mandoad_traditional"
                 };
 
-                // class placeholder { label = "Placeholder"; };
+                class foundling { label = "Foundling"; };
+                class mandoad_battle { label = "Battle"; };
+                class mandoad_heavy { label = "Heavy"; };
+                class mandoad_medium { label = "Medium"; };
+                class mandoad_recon { label = "Recon"; };
+                class mandoad_traditional { label = "Traditional"; };
             };
         };
 
@@ -38,10 +62,20 @@ class XtdGearModels {
             class camo {
                 changeingame = 0;
                 values[] = {
-                    // placeholder
+                    "blue",
+                    "blue_seal",
+                    "grey",
+                    "grey_seal",
+                    "white",
+                    "white_seal"
                 };
 
-                // class placeholder { label = "Placeholder"; };
+                class blue { label = "Blue"; };
+                class blue_seal { label = "Blue, Seal"; };
+                class grey { label = "Grey"; };
+                class grey_seal { label = "Grey, Seal"; };
+                class white { label = "White"; };
+                class white_seal { label = "White, Seal"; };
             };
         };
 
@@ -53,10 +87,14 @@ class XtdGearModels {
             class camo {
                 changeingame = 0;
                 values[] = {
-                    "foundling_rangefinder_r"
+                    "foundling_rangefinder_r",
+                    "mandoad_heavy",
+                    "mandoad_rangefinder"
                 };
 
                 class foundling_rangefinder_r { label = "Foundling"; };
+                class mandoad_heavy  { label = "Heavy"; };
+                class mandoad_rangefinder  { label = "Rangefinder"; };
             };
         };
     };
@@ -70,10 +108,12 @@ class XtdGearModels {
             class camo {
                 changeingame = 0;
                 values[] = {
-                    // placeholder
+                    "mandoad_jt12",
+                    "mandoad_jt12_lr"
                 };
 
-                // class placeholder { label = "Placeholder"; };
+                class mandoad_jt12 { label = "JT-12"; };
+                class mandoad_jt12_lr { label = "JT-12 (LR)"; };
             };
         };
     };

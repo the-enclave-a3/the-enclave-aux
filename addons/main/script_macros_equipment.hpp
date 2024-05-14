@@ -39,7 +39,7 @@
 class GHELMET(var_classname): EGHELMET(equipment,DOUBLES(base,var_type)) { \
     scope = var_scope; \
     displayName = QUOTE([ENC] var_name); \
-    hiddenSelectionsTextures[] = { QPATHTOF(data\helmets\var_classname\camo1_co.paa) }; \
+    hiddenSelectionsTextures[] = { QPATHTOF(data\helmets\var_classname\camo1_co.paa),"\z\tgf\addons\helmets\viper\data\camo2_co.paa" }; \
     class XtdGearInfo { \
         model = QGVAR(helmet); \
         camo = QUOTE(var_classname); \
@@ -71,7 +71,7 @@ class GUNIFORM(var_classname): EGUNIFORM(equipment,base) { \
 }
 
 #define MACRO_UNIFORM_SEAL(var_scope,var_classname,var_name) \
-class GUNIFORM(DOUBLES(var_classname,seal)): EGUNIFORM(equipment,base) { \
+class GUNIFORM(DOUBLES(var_classname,seal)): EGUNIFORM(equipment,DOUBLES(base,seal)) { \
     scope = var_scope; \
     displayName = QUOTE([ENC] var_name); \
     class ItemInfo: ItemInfo { \
@@ -118,7 +118,7 @@ class GUNIT(DOUBLES(var_classname,seal)): EGUNIT(equipment,DOUBLES(base,seal)) {
     scope = var_scope; \
     displayName = QUOTE([ENC] var_name); \
     uniformClass = QGUNIFORM(DOUBLES(var_classname,seal)); \
-    hiddenSelectionsTextures[] = { QPATHTOF(data\uniforms\var_classname\undersuit_co.paa) }; \
+    hiddenSelectionsTextures[] = { QPATHTOF(data\uniforms\var_classname\undersuit_co.paa),"\z\tgf\addons\undersuit\data\camo2_co.paa" }; \
 }
 
 #define MACRO_BACKPACK(var_scope,var_classname,var_name,var_type) \
@@ -133,12 +133,12 @@ class GBACKPACK(var_classname): EGBACKPACK(equipment,DOUBLES(base,var_type)) { \
 }
 
 #define MACRO_BACKPACK_LR(var_scope,var_classname,var_name,var_type) \
-class GBACKPACK(DOUBLES(var_classname)): EGBACKPACK(equipment,TRIPLES(base,var_type,LR)) { \
+class GBACKPACK(DOUBLES(var_classname,LR)): EGBACKPACK(equipment,TRIPLES(base,var_type,LR)) { \
     scope = var_scope; \
     displayName = QUOTE([ENC] var_name (LR)); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\backpacks\var_classname\camo1_co.paa) }; \
     class XtdGearInfo { \
         model = QGVAR(backpack); \
-        camo = QUOTE(DOUBLES(var_classname,LR)); \
+        camo = QUOTE(DOUBLES(var_classname,lr)); \
     }; \
 }

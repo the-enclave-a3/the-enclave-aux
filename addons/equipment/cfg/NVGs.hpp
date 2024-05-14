@@ -32,3 +32,7 @@ class GNVG(foundling_rangefinder_r): GNVG(base_rangefinder_r) {
         camo = "foundling_rangefinder_r";
     };
 };
+
+// Mando'ad
+MACRO_NVG(2,mandoad_heavy,Mando'ad Heavy NV Attachment,heavy_nv);
+MACRO_NVG(2,mandoad_rangefinder,Mando'ad Rangefinder,rangefinder_r);

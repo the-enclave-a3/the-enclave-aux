@@ -27,3 +27,13 @@ class GVEST(base_light_armour): tgf_armour_light_armour {
     author = AUTHOR;
     displayName = "[ENC] Traditional Mandalorian Armour";
 };
+
+// Foundling
+MACRO_VEST(2,foundling,Foundling Armour,super_light_armour);
+
+// Mando'ad
+MACRO_VEST(2,mandoad_battle,Mando'ad Battle Armour,battle_armour);
+MACRO_VEST(2,mandoad_heavy,Heavy Mando'ad Armour,heavy_armour);
+MACRO_VEST(2,mandoad_medium,Medium Mando'ad Armour,medium_armour);
+MACRO_VEST(2,mandoad_recon,Mando'ad Recon Armour,super_light_armour);
+MACRO_VEST(2,mandoad_traditional,Traditional Mando'ad Armour,light_armour);
