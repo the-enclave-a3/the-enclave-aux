@@ -70,6 +70,19 @@ class GUNIFORM(var_classname): EGUNIFORM(equipment,base) { \
     }; \
 }
 
+#define MACRO_UNIFORM_SEAL(var_scope,var_classname,var_name) \
+class GUNIFORM(DOUBLES(var_classname,seal)): EGUNIFORM(equipment,base) { \
+    scope = var_scope; \
+    displayName = QUOTE([ENC] var_name); \
+    class ItemInfo: ItemInfo { \
+        uniformClass = QGUNIT(DOUBLES(var_classname,seal)); \
+    }; \
+    class XtdGearInfo { \
+        model = QGVAR(uniform); \
+        camo = QUOTE(DOUBLES(var_classname,seal)); \
+    }; \
+}
+
 #define MACRO_NVG(var_scope,var_classname,var_name,var_type) \
 class GNVG(var_classname): EGNVG(equipment,DOUBLES(base,var_type)) { \
     scope = var_scope; \
@@ -101,10 +114,10 @@ class GUNIT(var_classname): EGUNIT(equipment,base) { \
 }
 
 #define MACRO_UNIT_SEAL(var_scope,var_classname,var_name) \
-class GUNIT(var_classname): EGUNIT(equipment,DOUBLES(base,seal)) { \
+class GUNIT(DOUBLES(var_classname,seal)): EGUNIT(equipment,DOUBLES(base,seal)) { \
     scope = var_scope; \
     displayName = QUOTE([ENC] var_name); \
-    uniformClass = QGUNIFORM(var_classname); \
+    uniformClass = QGUNIFORM(DOUBLES(var_classname,seal)); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\uniforms\var_classname\undersuit_co.paa) }; \
 }
 
@@ -116,5 +129,16 @@ class GBACKPACK(var_classname): EGBACKPACK(equipment,DOUBLES(base,var_type)) { \
     class XtdGearInfo { \
         model = QGVAR(backpack); \
         camo = QUOTE(var_classname); \
+    }; \
+}
+
+#define MACRO_BACKPACK_LR(var_scope,var_classname,var_name,var_type) \
+class GBACKPACK(DOUBLES(var_classname)): EGBACKPACK(equipment,TRIPLES(base,var_type,LR)) { \
+    scope = var_scope; \
+    displayName = QUOTE([ENC] var_name (LR)); \
+    hiddenSelectionsTextures[] = { QPATHTOF(data\backpacks\var_classname\camo1_co.paa) }; \
+    class XtdGearInfo { \
+        model = QGVAR(backpack); \
+        camo = QUOTE(DOUBLES(var_classname,LR)); \
     }; \
 }

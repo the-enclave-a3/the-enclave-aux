@@ -19,6 +19,7 @@ class CfgWeapons {
 
     // Uniforms
     class EGUNIFORM(equipment,base);
+    class EGUNIFORM(equipment,base_seal);
 
     #include "cfg\Uniforms.hpp"
 

@@ -20,6 +20,7 @@ class CfgWeapons {
 
     // Uniforms
     class tgf_undersuit_uniform_male;
+    class tgf_undersuit_uniform_male_seal;
 
     #include "cfg\Uniforms.hpp"
 

@@ -53,10 +53,10 @@ class XtdGearModels {
             class camo {
                 changeingame = 0;
                 values[] = {
-                    // placeholder
+                    "foundling_rangefinder_r"
                 };
 
-                // class placeholder { label = "Placeholder"; };
+                class foundling_rangefinder_r { label = "Foundling"; };
             };
         };
     };
