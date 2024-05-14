@@ -8,23 +8,7 @@
 #define ARSENALTYPE_RECON 4
 
 // Equipment Macros
-#define GUNIT(var1) EGVAR(unit,var1)
-#define QGUNIT(var1) QUOTE(GUNIT(var1))
-
-#define GUNIFORM(var1) EGVAR(uniform,var1)
-#define QGUNIFORM(var1) QUOTE(GUNIFORM(var1))
-
-#define GHELMET(var1) EGVAR(helmet,var1)
-#define QGHELMET(var1) QUOTE(GHELMET(var1))
-
-#define GVEST(var1) EGVAR(vest,var1)
-#define QGVEST(var1) QUOTE(GVEST(var1))
-
-#define GNVG(var1) EGVAR(nvg,var1)
-#define QGNVG(var1) QUOTE(GNVG(var1))
-
-#define GFACEWEAR(var1) EGVAR(facewear,var1)
-#define QGFACEWEAR(var1) QUOTE(GFACEWEAR(var1))
+#include "script_macros_equipment.hpp"
 
 // Weapon Macros
 #define GWEAPON(var1) DOUBLES(PREFIX,var1)

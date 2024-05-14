@@ -15,3 +15,7 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgGlasses.hpp"
+#include "XtdGearModels.hpp"
