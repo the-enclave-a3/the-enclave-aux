@@ -19,9 +19,9 @@ class GWEAPON(dla13c): SFA_DLA13_C {
 //		class CowsSlot {
 			//compatibleItems[] = {};
 //		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 

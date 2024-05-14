@@ -18,9 +18,9 @@ class GWEAPON(westar35sa): SWLW_Westar35SA {
 //		class CowsSlot {
 			//compatibleItems[] = {};
 //		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 

@@ -18,9 +18,9 @@ class GWEAPON(t20_ac): SFA_T20_AC {
 			MACRO_COWS_DEFS;
 			compatibleItems[] = {"SFA_Holosight_blue",MRD_LIST,HOLO_LIST};
 		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 

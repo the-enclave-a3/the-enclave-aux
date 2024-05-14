@@ -19,9 +19,9 @@ class GWEAPON(boltblaster_sniper): SFA_Boltblaster_Sniper {
 //		class CowsSlot {
 			//compatibleItems[] = {};
 //		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 

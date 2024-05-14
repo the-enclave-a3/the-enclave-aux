@@ -20,9 +20,9 @@ class GWEAPON(boltblaster_carbine): SFA_Boltblaster_Carbine2 {
 			MACRO_COWS_DEFS;
 			compatibleItems[] = {"SFA_Holosight_blue",RCO_LIST,MRCO_LIST,HOLO_LIST,MRD_LIST};
 		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 

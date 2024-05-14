@@ -19,9 +19,9 @@ class GWEAPON(rk3): 3AS_RK3 {
 			MACRO_COWS_DEFS;
 			compatibleItems[] = {MRD_LIST};
 		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 

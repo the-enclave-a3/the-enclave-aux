@@ -19,9 +19,9 @@ class GWEAPON(se14c): WM_SE14C {
 			MACRO_COWS_DEFS;
 			compatibleItems[] = {"WM_SE14C_Scope",MRD_LIST};
 		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 

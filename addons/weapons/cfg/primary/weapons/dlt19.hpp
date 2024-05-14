@@ -20,9 +20,9 @@ class GWEAPON(dlt19): 3AS_DLT19 {
 			MACRO_COWS_DEFS;
 			compatibleItems[] = {"3AS_Imp_Optic_1","3AS_Imp_Optic_2","3AS_Imp_Optic_3","3AS_Imp_Optic_4",RCO_LIST,MRCO_LIST,HOLO_LIST,MRD_LIST};
 		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 

@@ -25,9 +25,9 @@ class GWEAPON(westar35s): SWLW_Westar35S {
 			MACRO_COWS_DEFS;
 			compatibleItems[] = {"SWLW_Westar35S_scope",RCO_LIST,MRCO_LIST,HOLO_LIST,MRD_LIST};
 		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 

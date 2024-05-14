@@ -30,9 +30,9 @@ class GWEAPON(dc17s_dual): MTI_DC17s_dual {
 //		class CowsSlot {
 			//compatibleItems[] = {};
 //		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 
 	class XtdGearInfo {};

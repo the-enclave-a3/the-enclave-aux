@@ -18,9 +18,9 @@ class GWEAPON(e11d): WM_E11D {
 			MACRO_COWS_DEFS;
 			compatibleItems[] = {RCO_LIST,MRCO_LIST,HOLO_LIST,MRD_LIST};
 		};
-//		class PointerSlot {
-			//compatibleItems[] = { RAILATTACHMENT_LIST };
-//		};
+		class PointerSlot {
+			compatibleItems[] = { RAILATTACHMENT_LIST };
+		};
 	};
 };
 
