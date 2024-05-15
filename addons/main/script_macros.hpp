@@ -55,3 +55,69 @@ class DOUBLES(var1,bcsewpn): var1 { \
     hiddenSelections[] = {"zasleh"}; \
     hiddenSelectionsTextures[] = {""}; \
 }
+
+// Groundholder Macros
+#undef MACRO_GH_ITEM
+#undef MACRO_GH_UNIFORM
+#undef MACRO_GH_VEST
+#undef MACRO_GH_HEADGEAR
+#undef MACRO_GH_WEAPON
+
+#define MACRO_GH_ITEM(var_classname,var_name) class var_classname##_GH: Item_Base_F { \
+    scope = 2; \
+    scopeCurator = 2; \
+    author = AUTHOR; \
+    displayName = QUOTE([ENC] var_name); \
+    vehicleClass = "Items"; \
+    class TransportItems { \
+        MACRO_ADDITEM(var_classname,1); \
+    }; \
+}
+
+#define MACRO_GH_UNIFORM(var_classname,var_name) class var_classname##_GH: Item_Base_F { \
+    scope = 2; \
+    scopeCurator = 2; \
+    author = AUTHOR; \
+    displayName = QUOTE([ENC] var_name); \
+    vehicleClass = "ItemsUniforms"; \
+	 model = "\A3\Weapons_f\dummyweapon.p3d"; \
+    class TransportItems { \
+        MACRO_ADDITEM(var_classname,1); \
+    }; \
+}
+
+#define MACRO_GH_VEST(var_classname,var_name) class var_classname##_GH: Vest_Base_F { \
+    scope = 2; \
+    scopeCurator = 2; \
+    author = AUTHOR; \
+    displayName = QUOTE([ENC] var_name); \
+    vehicleClass = "ItemsVests"; \
+    class TransportItems { \
+        MACRO_ADDITEM(var_classname,1); \
+    }; \
+}
+
+#define MACRO_GH_HEADGEAR(var_classname,var_name) class var_classname##_GH: Headgear_Base_F { \
+    scope = 2; \
+    scopeCurator = 2; \
+    author = AUTHOR; \
+    displayName = QUOTE([ENC] var_name); \
+    vehicleClass = "ItemsHeadgear"; \
+    class TransportItems { \
+        MACRO_ADDITEM(var_classname,1); \
+    }; \
+}
+
+#define MACRO_GH_WEAPON(var_classname,MAG,var_name) class var_classname##_GH: Weapon_Base_F { \
+    scope = 2; \
+    scopeCurator = 2; \
+    author = AUTHOR; \
+    displayName = QUOTE([ENC] var_name); \
+    class TransportWeapons { \
+        MACRO_ADDWEAPON(var_classname,1); \
+    }; \
+    class TransportMagazines { \
+        MACRO_ADDMAGAZINE(MAG,1); \
+    }; \
+}
+
