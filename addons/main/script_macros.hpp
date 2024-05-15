@@ -39,3 +39,19 @@
 "MTI_40mm_mag_groundmarker_green", "MTI_40mm_mag_groundmarker_red", "MTI_40mm_mag_groundmarker_yellow", "MTI_40mm_mag_groundmarker_ir", \
 "MTI_40mm_mag_cluster","MTI_40mm_mag_cluster_airburst","MTI_40mm_mag_canister", "MTI_40mm_mag_canister_lgbt", "MTI_40mm_mag_canister_trans", \
 "MTI_40mm_mag_canister_white","MTI_40mm_mag_shrapnel","MTI_MED_UGL_Mag"
+
+#define MACRO_BCSEWPN(var1) \
+class DOUBLES(var1,bcsewpn): var1 { \
+    enableAttack = 0; \
+    type = 4; \
+    scope = 1; \
+    scopeArsenal = 0; \
+    handAnim[] = {}; \
+    class Fake: Mode_MTI_Fake{}; \
+    modes[] = {"Fake"}; \
+    class Fake_GL: mti_weapons_bc_Fake_GL {}; \
+    muzzles[] = {"this","Fake_GL"}; \
+    baseWeapon = ""; \
+    hiddenSelections[] = {"zasleh"}; \
+    hiddenSelectionsTextures[] = {""}; \
+}

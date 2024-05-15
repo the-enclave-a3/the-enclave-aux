@@ -29,6 +29,7 @@ workshop = [
     "3203512867", # TGF
     "3020930712", # SFA
     "2954535667", # WMA
+    "2703656123", # BCSE
 
 ]
 mission = "testbed.Stratis"
@@ -58,6 +59,7 @@ workshop = [
     "3203512867", # TGF
     "3020930712", # SFA
     "2954535667", # WMA
+    "2703656123", # BCSE
 
 ]
 mission = "Arsenal.VR"
