@@ -21,6 +21,7 @@ class Items: Items {
 };
 
 class Magazines: Magazines {
+    // Primary
     MACRO_WHITELIST(GMAGAZINE(verpine));
     MACRO_WHITELIST(GMAGAZINE(verpine_apds));
     MACRO_WHITELIST(GMAGAZINE(verpine_ion));
@@ -34,8 +35,10 @@ class Magazines: Magazines {
     MACRO_WHITELIST(GMAGAZINE(dc15x_ai_deraformine));
     MACRO_WHITELIST(GMAGAZINE(dc15x_ai_latheniol));
 
+    // Handgun
     MACRO_WHITELIST(GMAGAZINE(dc19sa));
 
+    // Launcher
     MACRO_WHITELIST(MTI_1Rnd_Mortar_HE);
     MACRO_WHITELIST(MTI_1Rnd_Mortar_Smoke);
     MACRO_WHITELIST(MTI_1Rnd_Mortar_Smoke_Red);
@@ -50,11 +53,19 @@ class Uniforms: Uniforms {};
 class Vests: Vests {};
 
 class Weapons: Weapons {
+    // Primary
     MACRO_WHITELIST(GWEAPON(verpine));
     MACRO_WHITELIST(GWEAPON(dlt19x));
     MACRO_WHITELIST(GWEAPON(dc15x));
 
+    // Handgun
     MACRO_WHITELIST(GWEAPON(dc19sa));
 
+    // Launcher
     MACRO_WHITELIST(MTI_Mortar_Carry);
+
+    // BCSE
+    MACRO_WHITELIST(GWEAPON(verpine_bcsewpn));
+    MACRO_WHITELIST(GWEAPON(dlt19x_bcsewpn));
+    MACRO_WHITELIST(GWEAPON(dc15x_bcsewpn));
 };

@@ -7,4 +7,5 @@ PREP(weaponCfgHelper);
 PREP(stripArrayBrackets);
 PREP(bulkWeaponCfg);
 PREP(grabModClasses);
+PREP(weaponGHHelper);
 #endif

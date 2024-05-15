@@ -45,7 +45,7 @@ class DOUBLES(var1,bcsewpn): var1 { \
     enableAttack = 0; \
     type = 4; \
     scope = 1; \
-    scopeArsenal = 0; \
+    scopeArsenal = 2; \
     handAnim[] = {}; \
     class Fake: Mode_MTI_Fake{}; \
     modes[] = {"Fake"}; \
