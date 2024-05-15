@@ -7,21 +7,24 @@ Description:
     Helper function to generate GH entries
 
 Arguments:
-    None
+    _addon - Addon to grab classes from
 
 Return Value:
     gh entries
 
 Example:
     (begin example)
-        [] call enc_common_fnc_weaponGHHelper;
+        ["weapons"] call enc_common_fnc_weaponGHHelper;
     (end)
 
 Author:
 	Mokka
 */
 
-private _allClasses = (QUOTE(((getNumber (_x >> 'scope')) == 2) && (QUOTE(QUOTE(DOUBLES(PREFIX,weapons))) in (configSourceAddonList _x))) configClasses (configFile >> "CfgWeapons"));
+params ["_addon"];
+
+private _allClasses = (format [QUOTE(((getNumber (_x >> 'scope')) == 2) && ('%1_%2' in (configSourceAddonList _x))),QUOTE(PREFIX),_addon] configClasses (configFile >> "CfgWeapons"));
+_allClasses append (format [QUOTE(((getNumber (_x >> 'scope')) == 2) && ('%1_%2' in (configSourceAddonList _x))),QUOTE(PREFIX),_addon] configClasses (configFile >> "CfgGlasses"));
 
 private _ret = _allClasses apply {[configName _x, getText (_x >> "displayName")]};
 

@@ -10,4 +10,9 @@ class CfgVehicles {
     class tgf_backpacks_JT12_LR;
 
     #include "cfg\Backpacks.hpp"
+
+    // Groundholders
+    MACRO_GH_PREAMBLE;
+
+    #include "cfg\Groundholders.hpp"
 };
