@@ -11,9 +11,9 @@ class Goggles: Goggles {};
 class Headgear: Headgear {};
 
 class Items: Items {
-    MACRO_WHITELIST(B_UavTerminal);
+    MACRO_WHITELIST(I_UavTerminal);
     MACRO_WHITELIST(ACE_artilleryTable);
-    MACRO_WHITELIST(mti_drones_prowler500_packed);
+    MACRO_WHITELIST(EGVAR(drones,prowler_packed));
     MACRO_WHITELIST(ACE_HuntIR_monitor);
     MACRO_WHITELIST(ACE_UAVBattery);
     MACRO_WHITELIST(ACE_Tripod);
@@ -46,6 +46,14 @@ class Magazines: Magazines {
     MACRO_WHITELIST(MTI_1Rnd_Mortar_Guided);
     MACRO_WHITELIST(MTI_1Rnd_Mortar_LG);
     MACRO_WHITELIST(MTI_1Rnd_Mortar_Smoke_Halothane);
+
+    MACRO_WHITELIST(mti_mortar_turret_he_mag);
+    MACRO_WHITELIST(mti_mortar_turret_ranging_mag);
+    MACRO_WHITELIST(mti_mortar_turret_he_airburst_mag);
+    MACRO_WHITELIST(mti_mortar_turret_smoke_mag);
+    MACRO_WHITELIST(mti_mortar_turret_mine_mag);
+    MACRO_WHITELIST(mti_mortar_turret_flare_mag);
+    MACRO_WHITELIST(mti_mortar_turret_flare_ir_mag);
 };
 
 class Uniforms: Uniforms {};
@@ -63,6 +71,8 @@ class Weapons: Weapons {
 
     // Launcher
     MACRO_WHITELIST(MTI_Mortar_Carry);
+    MACRO_WHITELIST(EGVAR(drones,adbm9_tube));
+    MACRO_WHITELIST(mti_mortar_turret_carry_tripod);
 
     // BCSE
     MACRO_WHITELIST(GWEAPON(verpine_bcsewpn));
