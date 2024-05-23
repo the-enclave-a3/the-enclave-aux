@@ -388,6 +388,8 @@ class Weapons {
     MACRO_WHITELIST(GWEAPON(vibroblade_7));
     MACRO_WHITELIST(GWEAPON(dymek_pistol));
 
+    MACRO_WHITELIST(WBK_BrassKnuckles); // todo: move to custom weapon defs
+
     MACRO_WHITELIST(MTI_defibrillator);
 
     // Launcher
