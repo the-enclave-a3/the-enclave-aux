@@ -311,14 +311,11 @@ class Uniforms {
 };
 
 class Vests {
-    MACRO_WHITELIST(EGHELMET(equipment,foundling));
-    MACRO_WHITELIST(EGHELMET(equipment,mandoad_battle_master));
-    MACRO_WHITELIST(EGHELMET(equipment,mandoad_heavy));
-    MACRO_WHITELIST(EGHELMET(equipment,mandoad_traditional));
-    MACRO_WHITELIST(EGHELMET(equipment,mandoad_veteran));
-    MACRO_WHITELIST(EGHELMET(equipment,mandoad_viper));
-    MACRO_WHITELIST(EGHELMET(equipment,mandoad_viper_veteran));
-    MACRO_WHITELIST(EGHELMET(equipment,mandoad_warlord));
+	MACRO_WHITELIST(EGVEST(equipment,base_heavy_armour));
+    MACRO_WHITELIST(EGVEST(equipment,base_battle_armour));
+    MACRO_WHITELIST(EGVEST(equipment,base_super_light_armour));
+    MACRO_WHITELIST(EGVEST(equipment,base_medium_armour));
+    MACRO_WHITELIST(EGVEST(equipment,base_light_armour));
 };
 
 class Weapons {
