@@ -293,6 +293,8 @@ class Magazines {
     MACRO_WHITELIST(GMAGAZINE(d200));
     MACRO_WHITELIST(GMAGAZINE(dymek_pistol));
 
+    MACRO_WHITELIST(MTI_defibrillator_mag);
+
     // Launcher
     MACRO_WHITELIST(GMAGAZINE(rps6_hp_at));
     MACRO_WHITELIST(GMAGAZINE(rps6_hp_aa));
@@ -383,6 +385,8 @@ class Weapons {
     MACRO_WHITELIST(GWEAPON(d200));
     MACRO_WHITELIST(GWEAPON(vibroblade_7));
     MACRO_WHITELIST(GWEAPON(dymek_pistol));
+
+    MACRO_WHITELIST(MTI_defibrillator);
 
     // Launcher
     MACRO_WHITELIST(GWEAPON(rps6_hp));
