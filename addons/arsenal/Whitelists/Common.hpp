@@ -59,6 +59,8 @@ class Attachments {
 class Backpacks {
     MACRO_WHITELIST(EGBACKPACK(equipment,mandoad_jt12));
     MACRO_WHITELIST(EGBACKPACK(equipment,mandoad_jt12_lr));
+    MACRO_WHITELIST(EGBACKPACK(equipment,base_modular_pack));
+    MACRO_WHITELIST(EGBACKPACK(equipment,base_modular_pack_lr));
 };
 
 class Goggles {

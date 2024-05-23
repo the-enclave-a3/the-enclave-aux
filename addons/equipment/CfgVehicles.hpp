@@ -8,6 +8,8 @@ class CfgVehicles {
     // Backpacks
     class tgf_backpacks_JT12;
     class tgf_backpacks_JT12_LR;
+    class tgf_backpacks_modular_pack;
+    class tgf_backpacks_modular_pack_lr;
 
     #include "cfg\Backpacks.hpp"
 
