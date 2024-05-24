@@ -7,6 +7,7 @@ class CfgWeapons {
     class tgf_helmets_warlord;
     class tgf_helmets_traditional;
     class tgf_helmets_veteran;
+    class tgf_helmets_arbiter;
 
     #include "cfg\Helmets.hpp"
 
@@ -30,6 +31,7 @@ class CfgWeapons {
     class tgf_armour_super_light_armour;
     class tgf_armour_medium_armour;
     class tgf_armour_light_armour;
+    class tgf_armour_arbiter_armour;
 
     #include "cfg\Vests.hpp"
 };

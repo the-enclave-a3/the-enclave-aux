@@ -51,3 +51,15 @@ MACRO_HELMET(2,mandoad_veteran,Mando'ad Veteran Helmet,veteran);
 MACRO_HELMET(2,mandoad_viper,Mando'ad Viper Helmet,viper);
 MACRO_HELMET(2,mandoad_viper_veteran,Mando'ad Viper Helmet (Veteran),viper_vet);
 MACRO_HELMET(2,mandoad_warlord,Mando'ad Warlord Helmet,warlord);
+
+// Arbiter
+class GHELMET(arbiter): tgf_helmets_arbiter {
+    scope = 2;
+    author = AUTHOR;
+    displayName = "[ENC] Mandalorian Arbiter Helmet";
+
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\helmets\arbiter\camo1_co.paa),
+        "\z\tgf\addons\helmets\arbiter\data\camo2_co.paa"
+    };
+};

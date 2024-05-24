@@ -37,3 +37,15 @@ MACRO_VEST(2,mandoad_heavy,Heavy Mando'ad Armour,heavy_armour);
 MACRO_VEST(2,mandoad_medium,Medium Mando'ad Armour,medium_armour);
 MACRO_VEST(2,mandoad_recon,Mando'ad Recon Armour,super_light_armour);
 MACRO_VEST(2,mandoad_traditional,Traditional Mando'ad Armour,light_armour);
+
+// Arbiter
+class GVEST(arbiter_armour): tgf_armour_arbiter_armour {
+    scope = 2;
+    author = AUTHOR;
+    displayName = "[ENC] Mandalorian Arbiter Armour";
+
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\vests\arbiter\camo1_co.paa),
+        QPATHTOF(data\vests\arbiter\camo2_co.paa)
+    };
+};
