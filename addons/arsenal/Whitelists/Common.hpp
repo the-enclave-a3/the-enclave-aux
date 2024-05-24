@@ -141,6 +141,7 @@ class Items {
     MACRO_WHITELIST(MTI_PBA);
     MACRO_WHITELIST(MTI_Symoxin);
     MACRO_WHITELIST(mti_tech_spike);
+    MACRO_WHITELIST(ACE_Tripod);
 
     MACRO_WHITELIST(JLTS_CloneBinocular_black);
     MACRO_WHITELIST(ACE_Vector);

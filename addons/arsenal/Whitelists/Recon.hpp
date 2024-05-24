@@ -16,7 +16,6 @@ class Items: Items {
     MACRO_WHITELIST(EGVAR(drones,prowler_packed));
     MACRO_WHITELIST(ACE_HuntIR_monitor);
     MACRO_WHITELIST(ACE_UAVBattery);
-    MACRO_WHITELIST(ACE_Tripod);
     MACRO_WHITELIST(MTI_HuntIRHandheld);
 };
 
