@@ -316,11 +316,12 @@ class Uniforms {
 };
 
 class Vests {
-	MACRO_WHITELIST(EGVEST(equipment,base_heavy_armour));
-    MACRO_WHITELIST(EGVEST(equipment,base_battle_armour));
-    MACRO_WHITELIST(EGVEST(equipment,base_super_light_armour));
-    MACRO_WHITELIST(EGVEST(equipment,base_medium_armour));
-    MACRO_WHITELIST(EGVEST(equipment,base_light_armour));
+    MACRO_WHITELIST(EGVEST(equipment,foundling));
+    MACRO_WHITELIST(EGVEST(equipment,mandoad_battle));
+    MACRO_WHITELIST(EGVEST(equipment,mandoad_heavy));
+    MACRO_WHITELIST(EGVEST(equipment,mandoad_medium));
+    MACRO_WHITELIST(EGVEST(equipment,mandoad_recon));
+    MACRO_WHITELIST(EGVEST(equipment,mandoad_traditional));
 };
 
 class Weapons {
