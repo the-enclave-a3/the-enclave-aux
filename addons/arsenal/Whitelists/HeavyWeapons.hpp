@@ -20,7 +20,7 @@ class Magazines: Magazines {
     MACRO_WHITELIST(GMAGAZINE(plx1_at));
     MACRO_WHITELIST(GMAGAZINE(plx1_aa));
     MACRO_WHITELIST(GMAGAZINE(z6));
-    MACRO_WHITELIST(MTI_HeavyRepeater_1000Rnd_csw_mag)
+    MACRO_WHITELIST(MTI_HeavyRepeater_1000Rnd_csw_mag);
 };
 
 class Uniforms: Uniforms {};
