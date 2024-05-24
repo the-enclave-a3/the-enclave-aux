@@ -20,6 +20,7 @@ class Magazines: Magazines {
     MACRO_WHITELIST(GMAGAZINE(plx1_at));
     MACRO_WHITELIST(GMAGAZINE(plx1_aa));
     MACRO_WHITELIST(GMAGAZINE(z6));
+    MACRO_WHITELIST(MTI_HeavyRepeater_1000Rnd_csw_mag)
 };
 
 class Uniforms: Uniforms {};
@@ -37,6 +38,7 @@ class Weapons: Weapons {
     MACRO_WHITELIST(GWEAPON(s7));
     MACRO_WHITELIST(GWEAPON(plx1));
     MACRO_WHITELIST(GWEAPON(z6));
+    MACRO_WHITELIST(MTI_HeavyRepeater_Carry);
 
     // BCSE
     MACRO_WHITELIST(GWEAPON(e15_bcsewpn));
