@@ -6,7 +6,7 @@ class GWEAPON(plx1): MTI_PLX1 {
 	scope = 2;
 	author = AUTHOR;
 	baseWeapon = QGWEAPON(plx1);
-	displayName = "[ENC] PLX-1";
+	displayName = "[TEA] PLX-1";
 
 	magazines[] = {QGMAGAZINE(plx1_at),QGMAGAZINE(plx1_aa)};
 	magazineWell[] = {QGMAGWELL(plx1)};

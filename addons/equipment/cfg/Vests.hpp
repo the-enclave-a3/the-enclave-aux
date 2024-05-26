@@ -1,31 +1,31 @@
 class GVEST(base_heavy_armour): tgf_armour_heavy_armour {
     scope = 1;
     author = AUTHOR;
-    displayName = "[ENC] Heavy Mandalorian Armour";
+    displayName = "[TEA] Heavy Mandalorian Armour";
 };
 
 class GVEST(base_battle_armour): tgf_armour_battle_armour {
     scope = 1;
     author = AUTHOR;
-    displayName = "[ENC] Mandalorian Battle Armour";
+    displayName = "[TEA] Mandalorian Battle Armour";
 };
 
 class GVEST(base_super_light_armour): tgf_armour_super_light_armour {
     scope = 1;
     author = AUTHOR;
-    displayName = "[ENC] Mandalorian Recon Armour";
+    displayName = "[TEA] Mandalorian Recon Armour";
 };
 
 class GVEST(base_medium_armour): tgf_armour_medium_armour {
     scope = 1;
     author = AUTHOR;
-    displayName = "[ENC] Medium Mandalorian Armour";
+    displayName = "[TEA] Medium Mandalorian Armour";
 };
 
 class GVEST(base_light_armour): tgf_armour_light_armour {
     scope = 1;
     author = AUTHOR;
-    displayName = "[ENC] Traditional Mandalorian Armour";
+    displayName = "[TEA] Traditional Mandalorian Armour";
 };
 
 // Foundling
@@ -42,7 +42,7 @@ MACRO_VEST(2,mandoad_traditional,Traditional Mando'ad Armour,light_armour);
 class GVEST(arbiter_armour): tgf_armour_arbiter_armour {
     scope = 2;
     author = AUTHOR;
-    displayName = "[ENC] Mandalorian Arbiter Armour";
+    displayName = "[TEA] Mandalorian Arbiter Armour";
 
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\vests\arbiter\camo1_co.paa),

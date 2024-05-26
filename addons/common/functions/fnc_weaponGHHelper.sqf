@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_common_fnc_weaponGHHelper
+Function: tea_common_fnc_weaponGHHelper
 
 Description:
     Helper function to generate GH entries
@@ -14,7 +14,7 @@ Return Value:
 
 Example:
     (begin example)
-        ["weapons"] call enc_common_fnc_weaponGHHelper;
+        ["weapons"] call tea_common_fnc_weaponGHHelper;
     (end)
 
 Author:

@@ -6,7 +6,7 @@ class GWEAPON(vibrospear): LST_Spear {
 	scope = 2;
 	baseWeapon = QGWEAPON(vibrospear);
 	author = AUTHOR;
-	displayName = "[ENC] Vibrospear";
+	displayName = "[TEA] Vibrospear";
 
 	magazines[] = {};
 	magazineWell[] = {};

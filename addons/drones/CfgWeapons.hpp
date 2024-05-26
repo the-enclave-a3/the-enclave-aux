@@ -3,7 +3,7 @@ class CfgWeapons {
     class GVAR(prowler_packed): mti_drones_prowler500_packed {
         scope = 2;
         author = AUTHOR;
-        displayName = "[ENC] Prowler (Packed)";
+        displayName = "[TEA] Prowler (Packed)";
 
         mti_drones_unpacksTo = QGVAR(prowler);
     };
@@ -12,7 +12,7 @@ class CfgWeapons {
     class GVAR(adbm9_tube): MTI_Mortar_Turret_carry_tube {
         scope = 2;
         author = AUTHOR;
-        displayName = "[ENC] AD-BM9 (Tube)";
+        displayName = "[TEA] AD-BM9 (Tube)";
         class ACE_CSW {
             type = "weapon";
             deployTime = 4;

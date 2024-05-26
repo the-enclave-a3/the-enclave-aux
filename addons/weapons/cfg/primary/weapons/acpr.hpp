@@ -6,7 +6,7 @@ class GWEAPON(acpr): MTI_ACPR {
 	scope = 2;
 	baseWeapon = QGWEAPON(acpr);
 	author = AUTHOR;
-	displayName = "[ENC] ACP-R";
+	displayName = "[TEA] ACP-R";
 
 	magazines[] = {QGMAGAZINE(acpr)};
 	magazineWell[] = {QGMAGWELL(acpr)};

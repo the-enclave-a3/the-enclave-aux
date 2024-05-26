@@ -5,7 +5,7 @@ class MTI_EPL2: JLTS_EPL2 {
 class GWEAPON(epl2): MTI_EPL2 {
 	scope = 2;
 	author = AUTHOR;
-	displayName = "[ENC] EPL-2";
+	displayName = "[TEA] EPL-2";
 
 	magazines[] = {QGMAGAZINE(epl2)};
 	magazineWell[] = {QGMAGWELL(epl2)};

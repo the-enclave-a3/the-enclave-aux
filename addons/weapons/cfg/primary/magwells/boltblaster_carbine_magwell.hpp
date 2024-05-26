@@ -1,3 +1,3 @@
 class GMAGWELL(boltblaster_carbine) {
-	enc[] = {QGMAGAZINE(boltblaster_carbine)};
+	PREFIX[] = {QGMAGAZINE(boltblaster_carbine)};
 };

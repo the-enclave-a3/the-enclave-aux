@@ -1,3 +1,3 @@
 class GMAGWELL(s5) {
-	enc[] = {QGMAGAZINE(s5)};
+	PREFIX[] = {QGMAGAZINE(s5)};
 };

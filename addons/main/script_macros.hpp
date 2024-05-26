@@ -67,7 +67,7 @@ class DOUBLES(var1,bcsewpn): var1 { \
     scope = 2; \
     scopeCurator = 2; \
     author = AUTHOR; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     vehicleClass = "Items"; \
     class TransportItems { \
         MACRO_ADDITEM(var_classname,1); \
@@ -78,7 +78,7 @@ class DOUBLES(var1,bcsewpn): var1 { \
     scope = 2; \
     scopeCurator = 2; \
     author = AUTHOR; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     vehicleClass = "ItemsUniforms"; \
 	 model = "\A3\Weapons_f\dummyweapon.p3d"; \
     class TransportItems { \
@@ -90,7 +90,7 @@ class DOUBLES(var1,bcsewpn): var1 { \
     scope = 2; \
     scopeCurator = 2; \
     author = AUTHOR; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     vehicleClass = "ItemsVests"; \
     class TransportItems { \
         MACRO_ADDITEM(var_classname,1); \
@@ -101,7 +101,7 @@ class DOUBLES(var1,bcsewpn): var1 { \
     scope = 2; \
     scopeCurator = 2; \
     author = AUTHOR; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     vehicleClass = "ItemsHeadgear"; \
     class TransportItems { \
         MACRO_ADDITEM(var_classname,1); \
@@ -112,7 +112,7 @@ class DOUBLES(var1,bcsewpn): var1 { \
     scope = 2; \
     scopeCurator = 2; \
     author = AUTHOR; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     class TransportWeapons { \
         MACRO_ADDWEAPON(var_classname,1); \
     }; \

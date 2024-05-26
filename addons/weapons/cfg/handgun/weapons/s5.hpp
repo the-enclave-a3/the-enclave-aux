@@ -6,7 +6,7 @@ class GWEAPON(s5): 3AS_S5_f {
 	scope = 2;
 	baseWeapon = QGWEAPON(s5);
 	author = AUTHOR;
-	displayName = "[ENC] S-5";
+	displayName = "[TEA] S-5";
 
 	magazines[] = {QGMAGAZINE(s5)};
 	magazineWell[] = {QGMAGWELL(s5)};

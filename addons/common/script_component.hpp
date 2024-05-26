@@ -1,6 +1,6 @@
 #define COMPONENT common
 #define COMPONENT_BEAUTIFIED Common
-#include "\z\enc\addons\main\script_mod.hpp"
+#include "\z\tea\addons\main\script_mod.hpp"
 
 #ifndef RELEASE_BUILD
     // #define DEBUG_MODE_FULL
@@ -16,4 +16,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_COMMON
 #endif
 
-#include "\z\enc\addons\main\script_macros.hpp"
+#include "\z\tea\addons\main\script_macros.hpp"

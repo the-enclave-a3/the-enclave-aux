@@ -6,7 +6,7 @@ class GWEAPON(dlt19): 3AS_DLT19 {
 	scope = 2;
 	baseWeapon = QGWEAPON(dlt19);
 	author = AUTHOR;
-	displayName = "[ENC] DLT-19";
+	displayName = "[TEA] DLT-19";
 
 	magazines[] = {QGMAGAZINE(dlt19)};
 	magazineWell[] = {QGMAGWELL(dlt19)};

@@ -6,7 +6,7 @@ class GWEAPON(vibroblade_7): acklay_sv {
 	scope = 2;
 	baseWeapon = QGWEAPON(vibroblade_7);
 	author = AUTHOR;
-	displayName = "[ENC] Vibroblade #7";
+	displayName = "[TEA] Vibroblade #7";
 
 	magazines[] = {"WBK_Cybercrystal"};
 	//modes[] = {"Single"};

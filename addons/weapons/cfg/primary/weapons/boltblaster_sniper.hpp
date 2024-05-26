@@ -6,7 +6,7 @@ class GWEAPON(boltblaster_sniper): SFA_Boltblaster_Sniper {
 	scope = 2;
 	baseWeapon = QGWEAPON(boltblaster_sniper);
 	author = AUTHOR;
-	displayName = "[ENC] Boltblaster Mk2 Sniper";
+	displayName = "[TEA] Boltblaster Mk2 Sniper";
 
 	magazines[] = {QGMAGAZINE(boltblaster_sniper)};
 	magazineWell[] = {QGMAGWELL(boltblaster_sniper)};

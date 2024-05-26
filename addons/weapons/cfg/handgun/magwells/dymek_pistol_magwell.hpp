@@ -1,3 +1,3 @@
 class GMAGWELL(dymek_pistol) {
-	enc[] = {QGMAGAZINE(dymek_pistol)};
+	PREFIX[] = {QGMAGAZINE(dymek_pistol)};
 };

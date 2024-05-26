@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_arsenal_fnc_init
+Function: tea_arsenal_fnc_init
 
 Description:
     Handles initialization of an arsenal object.
@@ -14,7 +14,7 @@ Return Value:
 
 Example:
     (begin example)
-        [] call enc_arsenal_fnc_init;
+        [] call tea_arsenal_fnc_init;
     (end)
 
 Author:

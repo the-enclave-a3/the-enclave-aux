@@ -6,7 +6,7 @@ class GWEAPON(dh17): WM_DH17 {
 	scope = 2;
 	baseWeapon = QGWEAPON(dh17);
 	author = AUTHOR;
-	displayName = "[ENC] DH-17";
+	displayName = "[TEA] DH-17";
 
 	magazines[] = {QGMAGAZINE(dh17)};
 	magazineWell[] = {QGMAGWELL(dh17)};

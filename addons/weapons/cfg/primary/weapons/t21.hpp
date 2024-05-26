@@ -6,7 +6,7 @@ class GWEAPON(t21): WM_T21 {
 	scope = 2;
 	baseWeapon = QGWEAPON(t21);
 	author = AUTHOR;
-	displayName = "[ENC] T-21";
+	displayName = "[TEA] T-21";
 
 	magazines[] = {QGMAGAZINE(t21)};
 	magazineWell[] = {QGMAGWELL(t21)};

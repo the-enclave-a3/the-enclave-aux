@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_common_fnc_grabModClasses
+Function: tea_common_fnc_grabModClasses
 
 Description:
     Returns all of the mod's classes in a sorted hashMap by type.
@@ -14,7 +14,7 @@ Return Value:
 
 Example:
     (begin example)
-        [] call enc_common_fnc_grabModClasses;
+        [] call tea_common_fnc_grabModClasses;
     (end)
 
 Author:

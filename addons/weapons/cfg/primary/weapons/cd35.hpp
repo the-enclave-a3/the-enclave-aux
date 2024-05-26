@@ -6,7 +6,7 @@ class GWEAPON(cd35): SFA_CD35_Sniper {
 	scope = 2;
 	baseWeapon = QGWEAPON(cd35);
 	author = AUTHOR;
-	displayName = "[ENC] CD-35";
+	displayName = "[TEA] CD-35";
 
 	magazines[] = {QGMAGAZINE(cd35)};
 	magazineWell[] = {QGMAGWELL(cd35)};

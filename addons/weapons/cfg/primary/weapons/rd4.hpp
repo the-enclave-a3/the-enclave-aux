@@ -5,7 +5,7 @@ class MTI_RD4: SWLW_GL {
 class GWEAPON(rd4): MTI_RD4 {
 	scope = 2;
 	author = AUTHOR;
-	displayName = "[ENC] RD-4";
+	displayName = "[TEA] RD-4";
 
 	magazines[] = {QGMAGAZINE(rd4_1rnd),QGMAGAZINE(rd4_6rnd),MACRO_GL_MAGAZINES};
 	magazineWell[] = {QGMAGWELL(rd4)};

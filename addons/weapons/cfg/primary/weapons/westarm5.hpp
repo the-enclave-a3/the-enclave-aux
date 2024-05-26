@@ -6,7 +6,7 @@ class GWEAPON(westarm5): MTI_WestarM5 {
 	scope = 2;
 	baseWeapon = QGWEAPON(westarm5);
 	author = AUTHOR;
-	displayName = "[ENC] Westar-M5";
+	displayName = "[TEA] Westar-M5";
 
 	magazines[] = {QGMAGAZINE(westarm5)};
 	magazineWell[] = {QGMAGWELL(westarm5)};

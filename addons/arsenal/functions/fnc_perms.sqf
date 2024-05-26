@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_arsenal_fnc_perms
+Function: tea_arsenal_fnc_perms
 
 Description:
     Sets perms on given player, depending on type of arsenal.
@@ -15,7 +15,7 @@ Return Value:
 
 Example:
     (begin example)
-        [] call enc_arsenal_fnc_perms;
+        [] call tea_arsenal_fnc_perms;
     (end)
 
 Author:

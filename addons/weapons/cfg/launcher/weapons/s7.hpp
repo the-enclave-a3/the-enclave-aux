@@ -6,7 +6,7 @@ class GWEAPON(s7): SFA_Guided_Onslaught_Launcher {
 	scope = 2;
 	baseWeapon = QGWEAPON(s7);
 	author = AUTHOR;
-	displayName = "[ENC] S-7";
+	displayName = "[TEA] S-7";
 
 	magazines[] = {QGMAGAZINE(s7)};
 	magazineWell[] = {QGMAGWELL(s7)};

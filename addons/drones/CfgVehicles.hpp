@@ -18,7 +18,7 @@ class CfgVehicles {
     class GVAR(prowler): MTI_Prowler_500 {
         scope = 2;
         author = AUTHOR;
-        displayName = "[ENC] Prowler Recon Drone";
+        displayName = "[TEA] Prowler Recon Drone";
 
         faction = QUOTE(PREFIX);
         editorSubcategory = QEGVAR(edsubcat,drones);
@@ -35,7 +35,7 @@ class CfgVehicles {
         scope = 2;
         author = AUTHOR;
 
-        displayName = "[ENC] AD-BM9";
+        displayName = "[TEA] AD-BM9";
 
         faction = QUOTE(PREFIX);
 	    editorSubcategory = QEGVAR(edsubcat,drones);

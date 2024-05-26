@@ -6,7 +6,7 @@ class GWEAPON(ee2): MTI_EE2 {
 	scope = 2;
 	baseWeapon = QGWEAPON(ee2);
 	author = AUTHOR;
-	displayName = "[ENC] EE-2";
+	displayName = "[TEA] EE-2";
 
 	magazines[] = {QGMAGAZINE(ee2)};
 	magazineWell[] = {QGMAGWELL(ee2)};

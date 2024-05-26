@@ -6,7 +6,7 @@ class GWEAPON(dc15s): MTI_DC15S {
 	scope = 2;
 	baseWeapon = QGWEAPON(dc15s);
 	author = AUTHOR;
-	displayName = "[ENC] DC-15S";
+	displayName = "[TEA] DC-15S";
 
 	magazines[] = {QGMAGAZINE(dc15s)};
 	magazineWell[] = {QGMAGWELL(dc15s)};

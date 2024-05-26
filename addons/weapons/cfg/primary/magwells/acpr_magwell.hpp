@@ -1,3 +1,3 @@
 class GMAGWELL(acpr) {
-	enc[] = {QGMAGAZINE(acpr)};
+	PREFIX[] = {QGMAGAZINE(acpr)};
 };

@@ -6,7 +6,7 @@ class GWEAPON(rps6_d): MTI_RPS6_D {
 	scope = 1;
 	author = AUTHOR;
 	baseWeapon = QGWEAPON(rps6_d_loaded);
-	displayName = "[ENC] RPS-6 Disposable";
+	displayName = "[TEA] RPS-6 Disposable";
 
 	magazines[] = {QGMAGAZINE(rps6_d)};
 };
@@ -16,7 +16,7 @@ class GWEAPON(rps6_d_loaded) : GWEAPON(rps6_d) {
 	baseWeapon = QGWEAPON(rps6_d_loaded);
 
 	author = AUTHOR;
-    displayName = "[ENC] RPS-6 (Disposable)";
+    displayName = "[TEA] RPS-6 (Disposable)";
 	magazines[] = {"CBA_FakeLauncherMagazine"};
 
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -27,6 +27,6 @@ class GWEAPON(rps6_d_loaded) : GWEAPON(rps6_d) {
 class GWEAPON(rps6_d_used): GWEAPON(rps6_d) {
 	author = AUTHOR;
 	baseWeapon = QGWEAPON(rps6_d_used);
-    displayName = "[ENC] RPS-6 (Disposable, Used)";
+    displayName = "[TEA] RPS-6 (Disposable, Used)";
 	magazines[] = {"CBA_FakeLauncherMagazine"};
 };

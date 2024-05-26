@@ -1,6 +1,6 @@
 #define COMPONENT weapons
 #define COMPONENT_BEAUTIFIED Weapons
-#include "\z\enc\addons\main\script_mod.hpp"
+#include "\z\tea\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -15,7 +15,7 @@
 #endif
 
 #include "\z\mti\addons\weapons_core\config_lists.hpp"
-#include "\z\enc\addons\main\script_macros.hpp"
+#include "\z\tea\addons\main\script_macros.hpp"
 
 #ifdef RAILATTACHMENT_LIST
     #undef RAILATTACHMENT_LIST

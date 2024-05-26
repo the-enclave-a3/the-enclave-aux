@@ -1,6 +1,6 @@
 #define COMPONENT equipment_custom
 #define COMPONENT_BEAUTIFIED Equipment (Custom)
-#include "\z\enc\addons\main\script_mod.hpp"
+#include "\z\tea\addons\main\script_mod.hpp"
 
 #define MODEL_NAME Custom
 
@@ -16,4 +16,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_EQUIPMENT_CUSTOM
 #endif
 
-#include "\z\enc\addons\main\script_macros.hpp"
+#include "\z\tea\addons\main\script_macros.hpp"

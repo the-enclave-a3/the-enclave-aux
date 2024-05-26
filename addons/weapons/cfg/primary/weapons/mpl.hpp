@@ -5,7 +5,7 @@ class 3AS_MPL_F: 3AS_MPL_Base_F {
 class GWEAPON(mpl): 3AS_MPL_F {
 	scope = 2;
 	author = AUTHOR;
-	displayName = "[ENC] MPL";
+	displayName = "[TEA] MPL";
 
 	magazines[] = {QGMAGAZINE(mpl)};
 	magazineWell[] = {QGMAGWELL(mpl)};

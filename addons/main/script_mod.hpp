@@ -1,7 +1,7 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
 #define MAINPREFIX z
-#define PREFIX enc
+#define PREFIX tea
 
 #define AUTHOR QUOTE(The Enclave)
 #define MOD_NAME_BEAUTIFIED QUOTE(The Enclave - Aux)

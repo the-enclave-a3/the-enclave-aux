@@ -6,7 +6,7 @@ class GWEAPON(causality): SFA_Causality {
 	scope = 2;
 	baseWeapon = QGWEAPON(causality);
 	author = AUTHOR;
-	displayName = "[ENC] Causality";
+	displayName = "[TEA] Causality";
 
 	magazines[] = {QGMAGAZINE(causality)};
 	magazineWell[] = {QGMAGWELL(causality)};

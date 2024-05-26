@@ -1,3 +1,3 @@
 class GMAGWELL(causality) {
-	enc[] = {QGMAGAZINE(causality)};
+	PREFIX[] = {QGMAGAZINE(causality)};
 };

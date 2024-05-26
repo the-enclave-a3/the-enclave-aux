@@ -6,7 +6,7 @@ class GWEAPON(vibroblade_4): SFA_Vibroblade {
 	scope = 2;
 	baseWeapon = QGWEAPON(vibroblade_4);
 	author = AUTHOR;
-	displayName = "[ENC] Vibroblade #4";
+	displayName = "[TEA] Vibroblade #4";
 
 	magazines[] = {"WBK_Cybercrystal"};
 	//modes[] = {"Single"};

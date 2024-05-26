@@ -6,7 +6,7 @@ class GWEAPON(acpa): MTI_ACPA {
 	scope = 2;
 	baseWeapon = QGWEAPON(acpa);
 	author = AUTHOR;
-	displayName = "[ENC] ACP-A";
+	displayName = "[TEA] ACP-A";
 
 	magazines[] = {QGMAGAZINE(acpa)};
 	magazineWell[] = {QGMAGWELL(acpa)};

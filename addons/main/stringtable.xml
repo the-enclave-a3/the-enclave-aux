@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ENC">
+<Project name="TEA">
     <Package name="Main">
-        <Key ID="STR_ENC_Main_URL">
+        <Key ID="STR_TEA_Main_URL">
             <English>https://discord.gg/4MNdYYUvwK/</English>
         </Key>
     </Package>

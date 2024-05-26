@@ -6,7 +6,7 @@ class GWEAPON(el34): SFA_EL34 {
 	scope = 2;
 	baseWeapon = QGWEAPON(el34);
 	author = AUTHOR;
-	displayName = "[ENC] EL-34";
+	displayName = "[TEA] EL-34";
 
 	magazines[] = {QGMAGAZINE(el34)};
 	magazineWell[] = {QGMAGWELL(el34)};

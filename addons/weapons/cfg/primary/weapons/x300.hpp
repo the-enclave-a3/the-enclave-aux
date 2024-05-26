@@ -6,7 +6,7 @@ class GWEAPON(x300): SFA_X300_Sniper {
 	scope = 2;
 	baseWeapon = QGWEAPON(x300);
 	author = AUTHOR;
-	displayName = "[ENC] X-300";
+	displayName = "[TEA] X-300";
 
 	magazines[] = {QGMAGAZINE(x300)};
 	magazineWell[] = {QGMAGWELL(x300)};

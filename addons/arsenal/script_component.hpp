@@ -1,6 +1,6 @@
 #define COMPONENT arsenal
 #define COMPONENT_BEAUTIFIED Arsenal
-#include "\z\enc\addons\main\script_mod.hpp"
+#include "\z\tea\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,4 +14,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_ARSENAL
 #endif
 
-#include "\z\enc\addons\main\script_macros.hpp"
+#include "\z\tea\addons\main\script_macros.hpp"

@@ -1,3 +1,3 @@
-enc_equipment
+tea_equipment
 ===================
 

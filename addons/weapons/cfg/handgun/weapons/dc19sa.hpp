@@ -6,7 +6,7 @@ class GWEAPON(dc19sa): MTI_DC19SA {
 	scope = 2;
 	baseWeapon = QGWEAPON(dc19sa);
 	author = AUTHOR;
-	displayName = "[ENC] DC-19s";
+	displayName = "[TEA] DC-19s";
 
 	magazines[] = {QGMAGAZINE(dc19sa)};
 	magazineWell[] = {QGMAGWELL(dc19sa)};

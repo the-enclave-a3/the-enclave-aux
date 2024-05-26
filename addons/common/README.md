@@ -1,4 +1,4 @@
-enc_common
+tea_common
 ===================
 
 Common function definitions, data and configs used by The Enclave - Aux.

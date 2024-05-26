@@ -6,7 +6,7 @@ class GWEAPON(a280): WM_A280 {
 	scope = 2;
 	baseWeapon = QGWEAPON(a280);
 	author = AUTHOR;
-	displayName = "[ENC] A-280";
+	displayName = "[TEA] A-280";
 
 	magazines[] = {QGMAGAZINE(a280)};
 	magazineWell[] = {QGMAGWELL(a280)};

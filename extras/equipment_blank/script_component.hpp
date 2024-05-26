@@ -1,6 +1,6 @@
 #define COMPONENT equipment_blank
 #define COMPONENT_BEAUTIFIED Equipment (Blank)
-#include "\z\enc\addons\main\script_mod.hpp"
+#include "\z\tea\addons\main\script_mod.hpp"
 
 #define MODEL_NAME Blank
 
@@ -16,4 +16,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_EQUIPMENT_BLANK
 #endif
 
-#include "\z\enc\addons\main\script_macros.hpp"
+#include "\z\tea\addons\main\script_macros.hpp"

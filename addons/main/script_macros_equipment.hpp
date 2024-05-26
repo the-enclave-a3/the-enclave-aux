@@ -38,7 +38,7 @@
 #define MACRO_HELMET(var_scope,var_classname,var_name,var_type) \
 class GHELMET(var_classname): EGHELMET(equipment,DOUBLES(base,var_type)) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\helmets\var_classname\camo1_co.paa),"\z\tgf\addons\helmets\viper\data\camo2_co.paa" }; \
     class XtdGearInfo { \
         model = QGVAR(helmet); \
@@ -49,7 +49,7 @@ class GHELMET(var_classname): EGHELMET(equipment,DOUBLES(base,var_type)) { \
 #define MACRO_VEST(var_scope,var_classname,var_name,var_type) \
 class GVEST(var_classname): EGVEST(equipment,DOUBLES(base,var_type)) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\vests\var_classname\camo1_co.paa), QPATHTOF(data\vests\var_classname\camo2_co.paa) }; \
     class XtdGearInfo { \
         model = QGVAR(vest); \
@@ -60,7 +60,7 @@ class GVEST(var_classname): EGVEST(equipment,DOUBLES(base,var_type)) { \
 #define MACRO_UNIFORM(var_scope,var_classname,var_name) \
 class GUNIFORM(var_classname): EGUNIFORM(equipment,base) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     class ItemInfo: ItemInfo { \
         uniformClass = QGUNIT(var_classname); \
     }; \
@@ -73,7 +73,7 @@ class GUNIFORM(var_classname): EGUNIFORM(equipment,base) { \
 #define MACRO_UNIFORM_SEAL(var_scope,var_classname,var_name) \
 class GUNIFORM(DOUBLES(var_classname,seal)): EGUNIFORM(equipment,DOUBLES(base,seal)) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     class ItemInfo: ItemInfo { \
         uniformClass = QGUNIT(DOUBLES(var_classname,seal)); \
     }; \
@@ -86,7 +86,7 @@ class GUNIFORM(DOUBLES(var_classname,seal)): EGUNIFORM(equipment,DOUBLES(base,se
 #define MACRO_NVG(var_scope,var_classname,var_name,var_type) \
 class GNVG(var_classname): EGNVG(equipment,DOUBLES(base,var_type)) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\nvgs\var_classname\camo1_co.paa) }; \
     class XtdGearInfo { \
         model = QGVAR(nvg); \
@@ -97,7 +97,7 @@ class GNVG(var_classname): EGNVG(equipment,DOUBLES(base,var_type)) { \
 #define MACRO_FACEWEAR(var_scope,var_classname,var_name,var_type) \
 class GFACEWEAR(var_classname): EGFACEWEAR(equipment,DOUBLES(base,var_type)) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\facewear\var_classname\camo1_co.paa) }; \
     class XtdGearInfo { \
         model = QGVAR(facewear); \
@@ -108,7 +108,7 @@ class GFACEWEAR(var_classname): EGFACEWEAR(equipment,DOUBLES(base,var_type)) { \
 #define MACRO_UNIT(var_scope,var_classname,var_name) \
 class GUNIT(var_classname): EGUNIT(equipment,base) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     uniformClass = QGUNIFORM(var_classname); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\uniforms\var_classname\undersuit_co.paa) }; \
 }
@@ -116,7 +116,7 @@ class GUNIT(var_classname): EGUNIT(equipment,base) { \
 #define MACRO_UNIT_SEAL(var_scope,var_classname,var_name) \
 class GUNIT(DOUBLES(var_classname,seal)): EGUNIT(equipment,DOUBLES(base,seal)) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     uniformClass = QGUNIFORM(DOUBLES(var_classname,seal)); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\uniforms\var_classname\undersuit_co.paa),"\z\tgf\addons\undersuit\data\camo2_co.paa" }; \
 }
@@ -124,7 +124,7 @@ class GUNIT(DOUBLES(var_classname,seal)): EGUNIT(equipment,DOUBLES(base,seal)) {
 #define MACRO_BACKPACK(var_scope,var_classname,var_name,var_type) \
 class GBACKPACK(var_classname): EGBACKPACK(equipment,DOUBLES(base,var_type)) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name); \
+    displayName = QUOTE([TEA] var_name); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\backpacks\var_classname\camo1_co.paa) }; \
     class XtdGearInfo { \
         model = QGVAR(backpack); \
@@ -135,7 +135,7 @@ class GBACKPACK(var_classname): EGBACKPACK(equipment,DOUBLES(base,var_type)) { \
 #define MACRO_BACKPACK_LR(var_scope,var_classname,var_name,var_type) \
 class GBACKPACK(DOUBLES(var_classname,lr)): EGBACKPACK(equipment,TRIPLES(base,var_type,lr)) { \
     scope = var_scope; \
-    displayName = QUOTE([ENC] var_name (LR)); \
+    displayName = QUOTE([TEA] var_name (LR)); \
     hiddenSelectionsTextures[] = { QPATHTOF(data\backpacks\var_classname\camo1_co.paa) }; \
     class XtdGearInfo { \
         model = QGVAR(backpack); \

@@ -1,4 +1,4 @@
-enc_blank
+tea_blank
 ===================
 
 Blank template feature.

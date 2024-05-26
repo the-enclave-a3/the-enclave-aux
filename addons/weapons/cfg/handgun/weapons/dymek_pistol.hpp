@@ -6,7 +6,7 @@ class GWEAPON(dymek_pistol): DymekBlasterPistol_F {
 	scope = 2;
 	baseWeapon = QGWEAPON(dymek_pistol);
 	author = AUTHOR;
-	displayName = "[ENC] Dymek Pistol";
+	displayName = "[TEA] Dymek Pistol";
 
 	magazines[] = {QGMAGAZINE(dymek_pistol)};
 	magazineWell[] = {QGMAGWELL(dymek_pistol)};

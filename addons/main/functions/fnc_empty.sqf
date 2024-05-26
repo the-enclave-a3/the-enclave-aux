@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_main_fnc_
+Function: tea_main_fnc_
 
 Description:
     Description...
@@ -14,7 +14,7 @@ Return Value:
 
 Example:
     (begin example)
-        [] call enc_main_fnc_;
+        [] call tea_main_fnc_;
     (end)
 
 Author:

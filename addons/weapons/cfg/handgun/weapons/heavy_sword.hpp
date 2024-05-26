@@ -6,7 +6,7 @@ class GWEAPON(heavy_sword): LST_Heavy_Sword {
 	scope = 2;
 	baseWeapon = QGWEAPON(heavy_sword);
 	author = AUTHOR;
-	displayName = "[ENC] Heavy Sword";
+	displayName = "[TEA] Heavy Sword";
 
 	magazines[] = {};
 	magazineWell[] = {};

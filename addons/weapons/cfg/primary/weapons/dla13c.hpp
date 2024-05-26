@@ -6,7 +6,7 @@ class GWEAPON(dla13c): SFA_DLA13_C {
 	scope = 2;
 	baseWeapon = QGWEAPON(dla13c);
 	author = AUTHOR;
-	displayName = "[ENC] DLA-13C";
+	displayName = "[TEA] DLA-13C";
 
 	magazines[] = {QGMAGAZINE(dla13c)};
 	magazineWell[] = {QGMAGWELL(dla13c)};

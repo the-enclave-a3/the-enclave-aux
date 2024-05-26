@@ -7,7 +7,7 @@ class GWEAPON(westar35s): SWLW_Westar35S {
 	scope = 2;
 	baseWeapon = QGWEAPON(westar35s);
 	author = AUTHOR;
-	displayName = "[ENC] Westar-35S";
+	displayName = "[TEA] Westar-35S";
 
 	magazines[] = {QGMAGAZINE(westar35s)};
 	magazineWell[] = {QGMAGWELL(westar35s)};

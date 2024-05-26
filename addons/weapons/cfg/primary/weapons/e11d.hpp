@@ -6,7 +6,7 @@ class GWEAPON(e11d): WM_E11D {
 	scope = 2;
 	baseWeapon = QGWEAPON(e11d);
 	author = AUTHOR;
-	displayName = "[ENC] E-11D";
+	displayName = "[TEA] E-11D";
 
 	magazines[] = {QGMAGAZINE(e11d)};
 	magazineWell[] = {QGMAGWELL(e11d)};

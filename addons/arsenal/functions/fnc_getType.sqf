@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_arsenal_fnc_getType
+Function: tea_arsenal_fnc_getType
 
 Description:
     Returns the type of the given arsenal object.
@@ -14,7 +14,7 @@ Return Value:
 
 Example:
     (begin example)
-        [] call enc_arsenal_fnc_getType;
+        [] call tea_arsenal_fnc_getType;
     (end)
 
 Author:

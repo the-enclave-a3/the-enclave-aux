@@ -1,3 +1,3 @@
 class GMAGWELL(z6_small) {
-	enc[] = {QGMAGAZINE(z6_small)};
+	PREFIX[] = {QGMAGAZINE(z6_small)};
 };

@@ -6,7 +6,7 @@ class GWEAPON(e15): SFA_E15 {
 	scope = 2;
 	baseWeapon = QGWEAPON(e15);
 	author = AUTHOR;
-	displayName = "[ENC] E-15";
+	displayName = "[TEA] E-15";
 
 	magazines[] = {QGMAGAZINE(e15)};
 	magazineWell[] = {QGMAGWELL(e15)};

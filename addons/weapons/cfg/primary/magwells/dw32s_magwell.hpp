@@ -1,3 +1,3 @@
 class GMAGWELL(dw32s) {
-	enc[] = {QGMAGAZINE(dw32s)};
+	PREFIX[] = {QGMAGAZINE(dw32s)};
 };

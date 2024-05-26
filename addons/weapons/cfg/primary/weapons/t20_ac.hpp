@@ -6,7 +6,7 @@ class GWEAPON(t20_ac): SFA_T20_AC {
 	scope = 2;
 	baseWeapon = QGWEAPON(t20_ac);
 	author = AUTHOR;
-	displayName = "[ENC] T-20 Assault Cannon";
+	displayName = "[TEA] T-20 Assault Cannon";
 
 	magazines[] = {QGMAGAZINE(t20_ac)};
 	magazineWell[] = {QGMAGWELL(t20_ac)};

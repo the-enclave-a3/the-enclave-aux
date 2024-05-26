@@ -6,7 +6,7 @@ class GWEAPON(rps6): MTI_RPS6 {
 	scope = 2;
 	baseWeapon = QGWEAPON(rps6);
 	author = AUTHOR;
-	displayName = "[ENC] RPS-6";
+	displayName = "[TEA] RPS-6";
 
 	magazines[] = {QGMAGAZINE(rps6_at),QGMAGAZINE(rps6_he)};
 	magazineWell[] = {QGMAGWELL(rps6)};

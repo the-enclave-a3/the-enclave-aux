@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_blank_fnc_
+Function: tea_blank_fnc_
 
 Description:
     Description...
@@ -14,7 +14,7 @@ Return Value:
 
 Example:
     (begin example)
-        [] call enc_blank_fnc_;
+        [] call tea_blank_fnc_;
     (end)
 
 Author:

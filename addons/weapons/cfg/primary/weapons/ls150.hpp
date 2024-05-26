@@ -6,7 +6,7 @@ class GWEAPON(ls150): MTI_LS150 {
 	scope = 2;
 	baseWeapon = QGWEAPON(ls150);
 	author = AUTHOR;
-	displayName = "[ENC] LS-150";
+	displayName = "[TEA] LS-150";
 
 	magazines[] = {QGMAGAZINE(ls150)};
 	magazineWell[] = {QGMAGWELL(ls150)};

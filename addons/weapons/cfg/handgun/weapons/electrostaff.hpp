@@ -6,7 +6,7 @@ class GWEAPON(electrostaff): ls_weapon_electrostaff_melee {
 	scope = 2;
 	baseWeapon = QGWEAPON(electrostaff);
 	author = AUTHOR;
-	displayName = "[ENC] Electrostaff";
+	displayName = "[TEA] Electrostaff";
 
 	magazines[] = {};
 	magazineWell[] = {};

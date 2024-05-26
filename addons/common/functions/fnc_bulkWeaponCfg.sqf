@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_common_fnc_bulkWeaponCfg
+Function: tea_common_fnc_bulkWeaponCfg
 
 Description:
     Helper function to generate (and output to file) cfg weapon entries
@@ -14,7 +14,7 @@ Return Value:
 
 Example:
     (begin example)
-        [["MTI_DC15A","dc15a","DC-15A","carbine"],["MTI_DC15A_GL","dc15a_gl","DC-15A GL","carbine"]] call enc_common_fnc_bulkWeaponCfg;
+        [["MTI_DC15A","dc15a","DC-15A","carbine"],["MTI_DC15A_GL","dc15a_gl","DC-15A GL","carbine"]] call tea_common_fnc_bulkWeaponCfg;
     (end)
 
 Author:

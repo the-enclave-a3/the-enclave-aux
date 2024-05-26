@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_common_fnc_weaponCfgHelper
+Function: tea_common_fnc_weaponCfgHelper
 
 Description:
     Helper function to generate adjusted CfgWeapons/-Magazines/-MagazineWells entries.
@@ -17,7 +17,7 @@ Return Value:
 
 Example:
     (begin example)
-        ["MTI_DC15A_GL","dc15a_gl","DC-15A GL","carbine"] call enc_common_fnc_weaponCfgHelper;
+        ["MTI_DC15A_GL","dc15a_gl","DC-15A GL","carbine"] call tea_common_fnc_weaponCfgHelper;
     (end)
 
 Author:
@@ -43,7 +43,7 @@ private _weaponParent = inheritsFrom _weaponConfig;
 private _isMelee = false;
 
 // transform displayName
-_newDisplayName = format ["[ENC] %1",_newDisplayName];
+_newDisplayName = format ["[TEA] %1",_newDisplayName];
 
 // transform mag data
 // in format [newMagClass: [magParent,magCount,magAmmo,magName]]

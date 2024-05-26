@@ -1,7 +1,7 @@
 class GUNIT(base): tgf_undersuit_unit_male {
     scope = 1;
     author = AUTHOR;
-    displayName = "[ENC] Mandalorian";
+    displayName = "[TEA] Mandalorian";
     uniformClass = QGUNIFORM(base);
 
     linkedItems[] = {QGHELMET(base_traditional),QGVEST(base_light_armour),QGNVG(base_circuit),"JLTS_clone_comLink","ItemMap","ItemCompass","ItemWatch","ItemGPS"};
@@ -11,7 +11,7 @@ class GUNIT(base): tgf_undersuit_unit_male {
 class GUNIT(base_seal): tgf_undersuit_unit_male_seal {
     scope = 1;
     author = AUTHOR;
-    displayName = "[ENC] Mandalorian (Seal)";
+    displayName = "[TEA] Mandalorian (Seal)";
     uniformClass = QGUNIFORM(base_seal);
 
     linkedItems[] = {QGHELMET(base_traditional),QGVEST(base_light_armour),QGNVG(base_circuit),"JLTS_clone_comLink","ItemMap","ItemCompass","ItemWatch","ItemGPS"};

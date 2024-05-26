@@ -6,7 +6,7 @@ class GWEAPON(d200): SFA_D200 {
 	scope = 2;
 	baseWeapon = QGWEAPON(d200);
 	author = AUTHOR;
-	displayName = "[ENC] D-200";
+	displayName = "[TEA] D-200";
 
 	magazines[] = {QGMAGAZINE(d200)};
 	magazineWell[] = {QGMAGWELL(d200)};

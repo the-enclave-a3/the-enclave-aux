@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_common_fnc_stripArrayBrackets
+Function: tea_common_fnc_stripArrayBrackets
 
 Description:
     Helper rfunction to strip away the array brackets [] for string purposes
@@ -14,7 +14,7 @@ Return Value:
 
 Example:
     (begin example)
-        [[1,2,3]] call enc_common_fnc_stripArrayBrackets;
+        [[1,2,3]] call tea_common_fnc_stripArrayBrackets;
     (end)
 
 Author:

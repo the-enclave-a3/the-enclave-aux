@@ -6,7 +6,7 @@ class GWEAPON(rk3): 3AS_RK3 {
 	scope = 2;
 	baseWeapon = QGWEAPON(rk3);
 	author = AUTHOR;
-	displayName = "[ENC] RK-3";
+	displayName = "[TEA] RK-3";
 
 	magazines[] = {QGMAGAZINE(rk3)};
 	magazineWell[] = {QGMAGWELL(rk3)};

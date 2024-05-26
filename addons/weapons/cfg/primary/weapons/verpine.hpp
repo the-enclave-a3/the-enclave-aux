@@ -6,7 +6,7 @@ class GWEAPON(verpine): MTI_Verpine {
 	scope = 2;
 	baseWeapon = QGWEAPON(verpine);
 	author = AUTHOR;
-	displayName = "[ENC] Verpine Shatter Rifle";
+	displayName = "[TEA] Verpine Shatter Rifle";
 
 	magazines[] = {QGMAGAZINE(verpine),QGMAGAZINE(verpine_improv),QGMAGAZINE(verpine_apds),QGMAGAZINE(verpine_ai_deraformine),QGMAGAZINE(verpine_ai_latheniol),QGMAGAZINE(verpine_tracking),QGMAGAZINE(verpine_ion),QGMAGAZINE(verpine_acid)};
 	magazineWell[] = {QGMAGWELL(verpine)};

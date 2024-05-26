@@ -6,7 +6,7 @@ class GWEAPON(e11_stock): 3AS_E11Stock {
 	scope = 2;
 	baseWeapon = QGWEAPON(e11_stock);
 	author = AUTHOR;
-	displayName = "[ENC] E-11 (Stock)";
+	displayName = "[TEA] E-11 (Stock)";
 
 	magazines[] = {QGMAGAZINE(e11_stock)};
 	magazineWell[] = {QGMAGWELL(e11_stock)};

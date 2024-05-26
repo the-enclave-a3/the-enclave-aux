@@ -8,7 +8,7 @@ class GWEAPON(dc17s_dual): MTI_DC17s_dual {
 	scope = 2;
 	baseWeapon = QGWEAPON(dc17s_dual);
 	author = AUTHOR;
-	displayName = "[ENC] DC-17s (Dual)";
+	displayName = "[TEA] DC-17s (Dual)";
 
 	magazines[] = {QGMAGAZINE(dc17s_dual)};
 	magazineWell[] = {QGMAGWELL(dc17s_dual)};

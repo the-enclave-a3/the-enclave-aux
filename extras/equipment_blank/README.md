@@ -1,3 +1,3 @@
-enc_equipment_blank
+tea_equipment_blank
 ===================
 

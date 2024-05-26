@@ -6,7 +6,7 @@ class GWEAPON(guard_shock_pike): LFP_Guard_Shock_Pike {
 	scope = 2;
 	baseWeapon = QGWEAPON(guard_shock_pike);
 	author = AUTHOR;
-	displayName = "[ENC] Guard Shock Pike";
+	displayName = "[TEA] Guard Shock Pike";
 
 	magazines[] = {};
 	magazineWell[] = {};

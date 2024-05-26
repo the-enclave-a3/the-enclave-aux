@@ -45,7 +45,7 @@ addons[]=
 	"ace_medical_treatment",
 	"ace_attach",
 	"ace_chemlights",
-	"enc_arsenal"
+	"tea_arsenal"
 };
 class AddonsMetaData
 {
@@ -150,7 +150,7 @@ class AddonsMetaData
 		};
 		class Item14
 		{
-			className="enc_arsenal";
+			className="tea_arsenal";
 			name="The Enclave - Arsenal";
 			author="The Enclave";
 			url="https://discord.gg/4MNdYYUvwK/";
@@ -503,8 +503,8 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="enc_common_Group_Preset";
-							expression="[_this, _value] call enc_common_fnc_initPlayer";
+							property="tea_common_Group_Preset";
+							expression="[_this, _value] call tea_common_fnc_initPlayer";
 							class Value
 							{
 								class data
@@ -562,7 +562,7 @@ class Mission
 			{
 			};
 			id=38;
-			type="enc_arsenal_common";
+			type="tea_arsenal_common";
 		};
 		class Item4
 		{
@@ -577,7 +577,7 @@ class Mission
 			{
 			};
 			id=39;
-			type="enc_arsenal_recon";
+			type="tea_arsenal_recon";
 		};
 	};
 	class Connections

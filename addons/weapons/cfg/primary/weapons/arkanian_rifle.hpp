@@ -6,7 +6,7 @@ class GWEAPON(arkanian_rifle): SFA_KOTOR_Arkanian_rifle {
 	scope = 2;
 	baseWeapon = QGWEAPON(arkanian_rifle);
 	author = AUTHOR;
-	displayName = "[ENC] Arkanian Rifle";
+	displayName = "[TEA] Arkanian Rifle";
 
 	magazines[] = {QGMAGAZINE(arkanian_rifle)};
 	magazineWell[] = {QGMAGWELL(arkanian_rifle)};

@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
-Function: enc_common_fnc_initPlayer
+Function: tea_common_fnc_initPlayer
 
 Description:
     Initializes player units with correct group names and radio presets
@@ -15,7 +15,7 @@ Return Value:
 
 Example:
     (begin example)
-        [player,1] call enc_common_fnc_initPlayer;
+        [player,1] call tea_common_fnc_initPlayer;
     (end)
 
 Author:

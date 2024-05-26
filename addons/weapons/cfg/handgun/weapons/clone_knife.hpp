@@ -6,7 +6,7 @@ class GWEAPON(clone_knife): mti_clone_knife {
 	scope = 2;
 	baseWeapon = QGWEAPON(clone_knife);
 	author = AUTHOR;
-	displayName = "[ENC] Clone Knife";
+	displayName = "[TEA] Clone Knife";
 
 	magazines[] = {"WBK_Cybercrystal"};
 	//modes[] = {"Single"};

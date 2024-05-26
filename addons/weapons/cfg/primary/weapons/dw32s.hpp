@@ -6,7 +6,7 @@ class GWEAPON(dw32s): MTI_DW32S {
 	scope = 2;
 	baseWeapon = QGWEAPON(dw32s);
 	author = AUTHOR;
-	displayName = "[ENC] DW-32S";
+	displayName = "[TEA] DW-32S";
 
 	magazines[] = {QGMAGAZINE(dw32s)};
 	magazineWell[] = {QGMAGWELL(dw32s)};

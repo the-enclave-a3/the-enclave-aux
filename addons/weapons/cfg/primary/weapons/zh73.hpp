@@ -6,7 +6,7 @@ class GWEAPON(zh73): MTI_ZH73 {
 	scope = 2;
 	baseWeapon = QGWEAPON(zh73);
 	author = AUTHOR;
-	displayName = "[ENC] ZH-73";
+	displayName = "[TEA] ZH-73";
 
 	magazines[] = {QGMAGAZINE(zh73)};
 	magazineWell[] = {QGMAGWELL(zh73)};

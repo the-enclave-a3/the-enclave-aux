@@ -6,7 +6,7 @@ class GWEAPON(z6_small): MTI_Z6_Small {
 	scope = 2;
 	baseWeapon = QGWEAPON(z6_small);
 	author = AUTHOR;
-	displayName = "[ENC] Z-6";
+	displayName = "[TEA] Z-6";
 
 	magazines[] = {QGMAGAZINE(z6_small)};
 	magazineWell[] = {QGMAGWELL(z6_small)};
