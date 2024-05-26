@@ -3,7 +3,12 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {
+            QGVAR(common),
+            QGVAR(assault),
+            QGVAR(heavyWeapons),
+            QGVAR(recon)
+        };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"enc_common"};
