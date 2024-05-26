@@ -46,8 +46,8 @@ class CfgAmmo {
     class SWLW_ammo_scatter_red;
     class GAMMO(shotgun): SWLW_ammo_scatter_red {
         author = AUTHOR;
-        hit = 17;
-        caliber = 1.2;
+        hit = 10;
+        caliber = 0.8;
         simulation = "shotSpread";
         fireSpreadAngle = 3;
     };
