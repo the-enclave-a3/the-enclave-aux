@@ -304,6 +304,8 @@ class Magazines {
     MACRO_WHITELIST(GMAGAZINE(rps6_at));
     MACRO_WHITELIST(GMAGAZINE(rps6_he));
     MACRO_WHITELIST(GMAGAZINE(rps6_d));
+
+    MACRO_WHITELIST(Laserbatteries);
 };
 
 class Uniforms {
