@@ -22,4 +22,23 @@ class CfgWeapons {
             };
         };
     };
+
+    class mti_drones_paap_aa_packed;
+    class GVAR(paap_packed): mti_drones_paap_aa_packed {
+        scope = 2;
+        author = AUTHOR;
+        displayName = "[TEA] PAAP (Packed)";
+
+        mti_drones_unpacksTo = QGVAR(paap);
+    };
+
+    class mti_drones_paap_at_packed;
+    class GVAR(patp_packed): mti_drones_paap_at_packed {
+        scope = 2;
+        author = AUTHOR;
+        displayName = "[TEA] PATP (Packed)";
+
+        mti_drones_unpacksTo = QGVAR(patp);
+    };
+
 };

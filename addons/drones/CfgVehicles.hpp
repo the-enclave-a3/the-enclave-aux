@@ -56,6 +56,41 @@ class CfgVehicles {
         };
     };
 
+    class mti_drones_paap_aa;
+    class GVAR(paap): mti_drones_paap_aa {
+        scope = 2;
+        author = AUTHOR;
+
+        displayName = "[TEA] PAAP";
+
+        faction = QUOTE(ADDON);
+        editorSubcategory = QEGVAR(edsubcat,drones);
+
+        side = 2;
+        crew = "I_UAV_AI";
+        typicalCargo[] = {"I_UAV_AI"};
+
+        mti_drones_packsTo = "mti_drones_paap_aa_packed";
+    };
+
+    class mti_drones_paap_at;
+    class GVAR(patp): mti_drones_paap_at {
+        scope = 2;
+        author = AUTHOR;
+
+        displayName = "[TEA] PATP";
+
+        faction = QUOTE(ADDON);
+        editorSubcategory = QEGVAR(edsubcat,drones);
+
+        side = 2;
+        crew = "I_UAV_AI";
+        typicalCargo[] = {"I_UAV_AI"};
+
+        mti_drones_packsTo = "mti_drones_paap_at_packed";
+    };
+
+
     MACRO_GH_PREAMBLE;
     MACRO_GH_ITEM(GVAR(prowler_packed),Prowler (Packed));
     MACRO_GH_ITEM(GVAR(adbm9_tube),AD-BM9 (Tube));

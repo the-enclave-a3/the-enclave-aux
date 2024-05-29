@@ -6,7 +6,10 @@ class Goggles: Goggles {};
 
 class Headgear: Headgear {};
 
-class Items: Items {};
+class Items: Items {
+    MACRO_WHITELIST(QEGVAR(drones,paap_packed));
+    MACRO_WHITELIST(QEGVAR(drones,patp_packed));
+};
 
 class Magazines: Magazines {};
 

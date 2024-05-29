@@ -5,7 +5,9 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             QGVAR(prowler),
-            QGVAR(adbm9)
+            QGVAR(adbm9),
+            QGVAR(paap),
+            QGVAR(patp)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
