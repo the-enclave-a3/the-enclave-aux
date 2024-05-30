@@ -6,6 +6,7 @@
 #define ARSENALTYPE_ASSAULT 2
 #define ARSENALTYPE_HEAVYWEAPONS 3
 #define ARSENALTYPE_RECON 4
+#define ARSENALTYPE_SIEGE 5
 
 // Equipment Macros
 #include "script_macros_equipment.hpp"

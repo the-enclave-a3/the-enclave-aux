@@ -25,10 +25,9 @@ class MTI_Arsenal_Whitelists {
         #include "Whitelists\Recon.hpp"
     };
 
-    // below not implemented
     class tea_siege: tea_common {
-        scope = 1;
-        type = ARSENALTYPE_NONE;
+        scope = 2;
+        type = ARSENALTYPE_SIEGE;
         #include "Whitelists\Siege.hpp"
     };
 };

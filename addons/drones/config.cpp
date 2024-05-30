@@ -7,7 +7,9 @@ class CfgPatches {
             QGVAR(prowler),
             QGVAR(adbm9),
             QGVAR(paap),
-            QGVAR(patp)
+            QGVAR(patp),
+            QGVAR(blasterturret),
+            QGVAR(autoturret)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -22,3 +24,4 @@ class CfgPatches {
 #include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
+#include "CfgMagazines.hpp"

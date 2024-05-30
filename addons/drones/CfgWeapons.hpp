@@ -41,4 +41,24 @@ class CfgWeapons {
         mti_drones_unpacksTo = QGVAR(patp);
     };
 
+    class mti_drones_blaster_turret_packed;
+    class GVAR(blasterturret_packed): mti_drones_blaster_turret_packed {
+        scope = 2;
+        author = AUTHOR;
+        displayName = "[TEA] Blaster Turret (Packed)";
+
+        mti_drones_unpacksTo = QGVAR(blasterturret);
+    };
+
+    class GrenadeLauncher;
+    class Throw: GrenadeLauncher {
+        muzzles[] += {
+            QGVAR(autoturret_packed_muzzle)
+        };
+
+        class ThrowMuzzle;
+        class GVAR(autoturret_packed_muzzle): ThrowMuzzle {
+            magazines[] = {QGVAR(autoturret_packed)};
+        };
+    };
 };

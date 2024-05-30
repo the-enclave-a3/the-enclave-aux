@@ -43,4 +43,10 @@ class CfgVehicles {
 
         GVAR(type) = ARSENALTYPE_RECON;
     };
+    class GVAR(siege): GVAR(base) {
+        scope = 2;
+        displayName = "Siege Warfare Arsenal";
+
+        GVAR(type) = ARSENALTYPE_SIEGE;
+    };
 };

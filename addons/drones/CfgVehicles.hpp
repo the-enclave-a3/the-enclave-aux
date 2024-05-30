@@ -70,7 +70,7 @@ class CfgVehicles {
         crew = "I_UAV_AI";
         typicalCargo[] = {"I_UAV_AI"};
 
-        mti_drones_packsTo = "mti_drones_paap_aa_packed";
+        mti_drones_packsTo = QGVAR(aa_packed);
     };
 
     class mti_drones_paap_at;
@@ -87,7 +87,39 @@ class CfgVehicles {
         crew = "I_UAV_AI";
         typicalCargo[] = {"I_UAV_AI"};
 
-        mti_drones_packsTo = "mti_drones_paap_at_packed";
+        mti_drones_packsTo = QGVAR(at_packed);
+    };
+
+    class MTI_BlasterTurret;
+    class GVAR(blasterturret): MTI_BlasterTurret {
+        scope = 2;
+        author = AUTHOR;
+
+        displayName = "[TEA] Blaster Turret";
+
+        faction = QUOTE(ADDON);
+        editorSubcategory = QEGVAR(edsubcat,drones);
+
+        side = 2;
+        crew = "I_UAV_AI";
+        typicalCargo[] = {"I_UAV_AI"};
+
+        mti_drones_packsTo = QGVAR(blasterturret_packed);
+    };
+
+    class MTI_UST_Turret;
+    class GVAR(autoturret): MTI_UST_Turret {
+        scope = 2;
+        author = AUTHOR;
+
+        displayName = "[TEA] Auto Turret";
+
+        faction = QUOTE(ADDON);
+        editorSubcategory = QEGVAR(edsubcat,drones);
+
+        side = 2;
+        crew = "I_UAV_AI";
+        typicalCargo[] = {"I_UAV_AI"};
     };
 
 
