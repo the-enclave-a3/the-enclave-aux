@@ -10,6 +10,7 @@ class CfgVehicles {
     class tgf_backpacks_JT12_LR;
     class tgf_backpacks_modular_pack;
     class tgf_backpacks_modular_pack_lr;
+    class tgf_backpacks_modular_pack_engi;
 
     #include "cfg\Backpacks.hpp"
 

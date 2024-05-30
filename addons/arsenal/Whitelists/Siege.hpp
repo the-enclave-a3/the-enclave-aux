@@ -1,6 +1,9 @@
 class Attachments: Attachments {};
 
-class Backpacks: Backpacks {};
+class Backpacks: Backpacks {
+    MACRO_WHITELIST(EGBACKPACK(equipment,base_siege));
+    MACRO_WHITELIST(EGBACKPACK(equipment,base_siege_lr));
+};
 
 class Goggles: Goggles {};
 
