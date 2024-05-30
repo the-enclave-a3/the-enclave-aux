@@ -1,19 +1,4 @@
 class CfgVehicles {
-    class Man;
-    class CAManBase: Man {
-        class ACE_SelfActions {
-            class ACE_Equipment {
-                class mti_drones_unpack {
-                    class Prowler500;
-                    class GVAR(prowler): Prowler500 {
-                        condition = QUOTE(QQGVAR(prowler_packed) in (items _player));
-                        statement = QUOTE([ARR_2(_player,QQGVAR(prowler_packed))] call mti_drones_fnc_unpack);
-                    };
-                };
-            };
-        };
-    };
-
     class MTI_Prowler_500;
     class GVAR(prowler): MTI_Prowler_500 {
         scope = 2;
