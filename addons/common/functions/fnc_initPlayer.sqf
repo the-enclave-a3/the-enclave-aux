@@ -31,7 +31,7 @@ if (_groupVal == 0) exitWith {};
 private _groupData = [_groupVal] call {
     params ["_groupVal"];
     // Haran
-    if (_groupVal == 1) exitWith { [[["399","310","320","330","340","350","360","333"], ["30","32","35","39","39","39","39","39","39"]], "Haran"] };
+    if (_groupVal == 1) exitWith { [[[GVAR(haranRadioSecret),"310","320","330","340","350","360","333"], ["30","32","35","39","39","39","39","39","39"]], "Haran"] };
     // Advisor
     if (_groupVal == 2) exitWith { [[["399","300","300","300","300","300","300","333"], ["30","32","35","39","39","39","39","39","39"]], "Advisor"] };
     // Clan1
@@ -50,10 +50,6 @@ private _groupData = [_groupVal] call {
     if (_groupVal == 9) exitWith { [[["300","300","300.1","300.2","300","300","300","333"], ["30","32","35","39","39","39","39","39","39"]], "Mando'ad"] };
     // Guest
     if (_groupVal == 10) exitWith { [[["100","100","100","100","100","100","100","333"], ["39","39","39","39","39","39","39","39","39"]], "Guest"] };
-};
-
-if ((getPlayerUID _unit) in ["76561198051988609","76561198120665981"]) then {
-    (_groupData select 0) set [0,GVAR(haranRadioSecret)];
 };
 
 _groupData params ["_freqs","_name"];
